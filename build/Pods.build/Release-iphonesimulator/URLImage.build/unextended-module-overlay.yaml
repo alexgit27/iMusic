@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/alexandr/Desktop/IMusic/build/Release-iphonesimulator/URLImage/URLImage.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/alexandr/Desktop/IMusic/build/Pods.build/Release-iphonesimulator/URLImage.build/unextended-module.modulemap",
+    }]
+  }]
+}

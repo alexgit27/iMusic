@@ -1,0 +1,366 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CoreDataModelDescription"
+provides-nominal:
+- "8URLImage24CoreDataModelDescriptionV"
+provides-member:
+- ["8URLImage24CoreDataModelDescriptionV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- "CoreDataEntityDescription"
+- "CoreDataModelDescription"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- "ManagedObject"
+- "NSEntityDescription"
+- "NSFetchIndexDescription"
+- "NSFetchIndexElementDescription"
+- "NSManagedObject"
+- "NSManagedObjectModel"
+- "NSPropertyDescription"
+- "String"
+- "StringLiteralType"
+- "UnicodeScalarType"
+- "assertionFailure"
+- !private "entity"
+depends-member:
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["SK", "init"]
+- !private ["SK", "map"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "compactMap"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "map"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "entities"]
+- !private ["s7CVarArgP", "indexes"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "managedObjectClassName"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "properties"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "values"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "init"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "values"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "map"]
+- !private ["8URLImage28CoreDataAttributeDescriptionV", "makeAttribute"]
+- !private ["8URLImage25CoreDataEntityDescriptionV", "attributes"]
+- !private ["8URLImage25CoreDataEntityDescriptionV", "indexes"]
+- !private ["8URLImage25CoreDataEntityDescriptionV", "managedObjectClassName"]
+- !private ["8URLImage25CoreDataEntityDescriptionV", "name"]
+- !private ["8URLImage29CoreDataFetchIndexDescriptionV", "elements"]
+- !private ["8URLImage29CoreDataFetchIndexDescriptionV", "name"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "Array"]
+- ["8URLImage24CoreDataModelDescriptionV", "CoreDataEntityDescription"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "NSEntityDescription"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "NSFetchIndexDescription"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "NSFetchIndexElementDescription"]
+- ["8URLImage24CoreDataModelDescriptionV", "NSManagedObjectModel"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "NSPropertyDescription"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "String"]
+- !private ["8URLImage24CoreDataModelDescriptionV", "assertionFailure"]
+- ["8URLImage24CoreDataModelDescriptionV", "entity"]
+- ["8URLImage24CoreDataModelDescriptionV", "init"]
+- ["8URLImage24CoreDataModelDescriptionV", "model"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "entities"]
+- !private ["s28CustomDebugStringConvertibleP", "indexes"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "managedObjectClassName"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "properties"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "values"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "values"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "entities"]
+- !private ["s23CustomStringConvertibleP", "indexes"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "managedObjectClassName"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "properties"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "values"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "map"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "values"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SD", "values"]
+- !private ["8URLImage29CoreDataFetchIndexDescriptionV7ElementV", "property"]
+- !private ["8URLImage29CoreDataFetchIndexDescriptionV7ElementV", "type"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "values"]
+- !private ["SQ", ""]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "entities"]
+- !private ["SQ", "indexes"]
+- !private ["SQ", "init"]
+- !private ["SQ", "managedObjectClassName"]
+- !private ["SQ", "map"]
+- !private ["SQ", "name"]
+- !private ["SQ", "properties"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "values"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "values"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "entities"]
+- !private ["SH", "indexes"]
+- !private ["SH", "init"]
+- !private ["SH", "managedObjectClassName"]
+- !private ["SH", "map"]
+- !private ["SH", "name"]
+- !private ["SH", "properties"]
+- !private ["SH", "subscript"]
+- !private ["SH", "values"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["SM", "init"]
+- !private ["SM", "map"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "map"]
+- !private ["So22NSAttributeDescriptionC", "name"]
+- !private ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "entities"]
+- !private ["So8NSCodingP", "indexes"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "managedObjectClassName"]
+- !private ["So8NSCodingP", "name"]
+- !private ["So8NSCodingP", "properties"]
+- !private ["So9NSCopyingP", "entities"]
+- !private ["So9NSCopyingP", "indexes"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "managedObjectClassName"]
+- !private ["So9NSCopyingP", "name"]
+- !private ["So9NSCopyingP", "properties"]
+- !private ["So19NSEntityDescriptionC", "indexes"]
+- !private ["So19NSEntityDescriptionC", "init"]
+- !private ["So19NSEntityDescriptionC", "managedObjectClassName"]
+- !private ["So19NSEntityDescriptionC", "name"]
+- !private ["So19NSEntityDescriptionC", "properties"]
+- !private ["So17NSFastEnumerationP", "entities"]
+- !private ["So17NSFastEnumerationP", "indexes"]
+- !private ["So17NSFastEnumerationP", "init"]
+- !private ["So17NSFastEnumerationP", "managedObjectClassName"]
+- !private ["So17NSFastEnumerationP", "name"]
+- !private ["So17NSFastEnumerationP", "properties"]
+- !private ["So23NSFetchIndexDescriptionC", "init"]
+- !private ["So30NSFetchIndexElementDescriptionC", "init"]
+- !private ["So20NSManagedObjectModelC", "entities"]
+- !private ["So20NSManagedObjectModelC", "init"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "entities"]
+- !private ["So8NSObjectC", "entitiesForConfiguration"]
+- !private ["So8NSObjectC", "indexes"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "managedObjectClassName"]
+- !private ["So8NSObjectC", "modelByMergingModels"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "properties"]
+- !private ["So8NSObjectP", "entities"]
+- !private ["So8NSObjectP", "entitiesForConfiguration"]
+- !private ["So8NSObjectP", "indexes"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "managedObjectClassName"]
+- !private ["So8NSObjectP", "modelByMergingModels"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "properties"]
+- ["So21NSPropertyDescriptionC", ""]
+- !private ["So21NSPropertyDescriptionC", "name"]
+- !private ["8URLImage29CoreDataFetchIndexDescriptionV7ElementV8PropertyO", "property"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "init"]
+- !private ["Sk", "map"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "init"]
+- !private ["Sm", "map"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["ST", "values"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "map"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "values"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "entities"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "indexes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "managedObjectClassName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "properties"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "entities"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "managedObjectClassName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "properties"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "values"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "8URLImage28CoreDataAttributeDescriptionV"
+- !private "8URLImage25CoreDataEntityDescriptionV"
+- !private "8URLImage29CoreDataFetchIndexDescriptionV"
+- "8URLImage24CoreDataModelDescriptionV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "8URLImage29CoreDataFetchIndexDescriptionV7ElementV"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So22NSAttributeDescriptionC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So19NSEntityDescriptionC"
+- !private "So17NSFastEnumerationP"
+- !private "So23NSFetchIndexDescriptionC"
+- !private "So30NSFetchIndexElementDescriptionC"
+- !private "So20NSManagedObjectModelC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "So21NSPropertyDescriptionC"
+- !private "8URLImage29CoreDataFetchIndexDescriptionV7ElementV8PropertyO"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/Pods/Target Support Files/URLImage/URLImage-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Pods.build/Debug-iphonesimulator/URLImage.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0c12f854c915b752b5d8e6efc5410555"

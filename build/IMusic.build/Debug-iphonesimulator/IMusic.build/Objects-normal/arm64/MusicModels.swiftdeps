@@ -1,0 +1,125 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Music"
+provides-nominal:
+- "6IMusic5MusicO"
+- "6IMusic5MusicO5ModelO"
+- "6IMusic5MusicO5ModelO7RequestV"
+- "6IMusic5MusicO5ModelO7RequestV0D4TypeO"
+- "6IMusic5MusicO5ModelO8ResponseV"
+- "6IMusic5MusicO5ModelO8ResponseV0D4TypeO"
+- "6IMusic5MusicO5ModelO04ViewC0V"
+- "6IMusic5MusicO5ModelO04ViewC0V0dC4DataO"
+provides-member:
+- ["6IMusic5MusicO", ""]
+- ["6IMusic5MusicO5ModelO", ""]
+- ["6IMusic5MusicO5ModelO7RequestV", ""]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", ""]
+- ["6IMusic5MusicO5ModelO8ResponseV", ""]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", ""]
+- ["6IMusic5MusicO5ModelO04ViewC0V", ""]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "Music"
+depends-member:
+- ["SQ", "=="]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SH", "=="]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["s6HasherV", "combine"]
+- ["6IMusic5MusicO5ModelO", "Request"]
+- ["6IMusic5MusicO5ModelO", "Response"]
+- ["6IMusic5MusicO5ModelO", "ViewModel"]
+- ["6IMusic5MusicO", "Model"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["6IMusic5MusicO5ModelO7RequestV", "RequestType"]
+- ["6IMusic5MusicO5ModelO7RequestV", "init"]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", "=="]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", ""]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", "__derived_enum_equals"]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", "_rawHashValue"]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", "hash"]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", "hashValue"]
+- ["6IMusic5MusicO5ModelO7RequestV0D4TypeO", "some"]
+- ["6IMusic5MusicO5ModelO8ResponseV", "ResponseType"]
+- ["6IMusic5MusicO5ModelO8ResponseV", "init"]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", "=="]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", ""]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", "__derived_enum_equals"]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", "_rawHashValue"]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", "hash"]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", "hashValue"]
+- ["6IMusic5MusicO5ModelO8ResponseV0D4TypeO", "some"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["6IMusic5MusicO5ModelO04ViewC0V", "ViewModelData"]
+- ["6IMusic5MusicO5ModelO04ViewC0V", "init"]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", "=="]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", ""]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", "__derived_enum_equals"]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", "_rawHashValue"]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", "hash"]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", "hashValue"]
+- ["6IMusic5MusicO5ModelO04ViewC0V0dC4DataO", "some"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+depends-nominal:
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "6IMusic5MusicO5ModelO"
+- "6IMusic5MusicO"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "6IMusic5MusicO5ModelO7RequestV"
+- "6IMusic5MusicO5ModelO7RequestV0D4TypeO"
+- "6IMusic5MusicO5ModelO8ResponseV"
+- "6IMusic5MusicO5ModelO8ResponseV0D4TypeO"
+- "So18UIFocusEnvironmentP"
+- "6IMusic5MusicO5ModelO04ViewC0V"
+- "6IMusic5MusicO5ModelO04ViewC0V0dC4DataO"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c8d02ea34f72a68fe1563dad60a21f34"

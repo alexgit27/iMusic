@@ -1,0 +1,549 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLSessionDelegate"
+provides-nominal:
+- "8URLImage18URLSessionDelegateC"
+provides-member:
+- ["8URLImage18URLSessionDelegateC", ""]
+provides-dynamic-lookup:
+- "dataTaskDidReceiveData"
+- "dataTaskDidReceiveResponse"
+- "downloadTaskDidFinishDownloadingTo"
+- "downloadTaskDidWriteData"
+- "onDataTaskDidReceiveData"
+- "onDataTaskDidReceiveResponse"
+- "onDownloadTaskDidFinishDownloadingTo"
+- "onDownloadTaskDidWriteData"
+- "onTaskDidCompleteWithError"
+- "taskDidCompleteWithError"
+- "urlSession"
+depends-top-level:
+- "AssignmentPrecedence"
+- "CachedURLResponse"
+- "Data"
+- "DataTaskDidReceiveData"
+- "DataTaskDidReceiveResponse"
+- "DownloadTaskDidFinishDownloadingTo"
+- "DownloadTaskDidWriteData"
+- "Error"
+- !private "FloatLiteralType"
+- "Foundation"
+- "Int64"
+- !private "IntegerLiteralType"
+- "NSObject"
+- "Self"
+- !private "String"
+- !private "StringLiteralType"
+- "TaskDidCompleteWithError"
+- "URL"
+- "URLResponse"
+- "URLSession"
+- "URLSessionDataDelegate"
+- "URLSessionDataTask"
+- "URLSessionDelegate"
+- "URLSessionDownloadDelegate"
+- "URLSessionDownloadTask"
+- "URLSessionTask"
+- "URLSessionTaskDelegate"
+- "Void"
+- !private "dataTaskDidReceiveData"
+- !private "dataTaskDidReceiveResponse"
+- !private "downloadTaskDidFinishDownloadingTo"
+- !private "downloadTaskDidWriteData"
+- !private "log_debug"
+- !private "log_detailed"
+- !private "taskDidCompleteWithError"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- ["s7CVarArgP", "ResponseDisposition"]
+- ["s7CVarArgP", "Self"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "URLSession"]
+- ["s7CVarArgP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "dataTaskDidReceiveData"]
+- !private ["s7CVarArgP", "dataTaskDidReceiveResponse"]
+- !private ["s7CVarArgP", "downloadTaskDidFinishDownloadingTo"]
+- !private ["s7CVarArgP", "downloadTaskDidWriteData"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "log_debug"]
+- !private ["s7CVarArgP", "log_detailed"]
+- !private ["s7CVarArgP", "originalRequest"]
+- !private ["s7CVarArgP", "taskDidCompleteWithError"]
+- ["s7CVarArgP", "urlSession"]
+- ["s7CVarArgP", "urlSessionDidFinishEvents"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["SL", ""]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "ResponseDisposition"]
+- ["s28CustomDebugStringConvertibleP", "Self"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "URLSession"]
+- ["s28CustomDebugStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataTaskDidReceiveData"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTaskDidReceiveResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadTaskDidFinishDownloadingTo"]
+- !private ["s28CustomDebugStringConvertibleP", "downloadTaskDidWriteData"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "log_debug"]
+- !private ["s28CustomDebugStringConvertibleP", "log_detailed"]
+- !private ["s28CustomDebugStringConvertibleP", "originalRequest"]
+- !private ["s28CustomDebugStringConvertibleP", "taskDidCompleteWithError"]
+- ["s28CustomDebugStringConvertibleP", "urlSession"]
+- ["s28CustomDebugStringConvertibleP", "urlSessionDidFinishEvents"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "ResponseDisposition"]
+- ["s23CustomStringConvertibleP", "Self"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "URLSession"]
+- ["s23CustomStringConvertibleP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "dataTaskDidReceiveData"]
+- !private ["s23CustomStringConvertibleP", "dataTaskDidReceiveResponse"]
+- !private ["s23CustomStringConvertibleP", "downloadTaskDidFinishDownloadingTo"]
+- !private ["s23CustomStringConvertibleP", "downloadTaskDidWriteData"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log_debug"]
+- !private ["s23CustomStringConvertibleP", "log_detailed"]
+- !private ["s23CustomStringConvertibleP", "originalRequest"]
+- !private ["s23CustomStringConvertibleP", "taskDidCompleteWithError"]
+- ["s23CustomStringConvertibleP", "urlSession"]
+- ["s23CustomStringConvertibleP", "urlSessionDidFinishEvents"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "init"]
+- ["SQ", "ResponseDisposition"]
+- ["SQ", "Self"]
+- !private ["SQ", "String"]
+- ["SQ", "URLSession"]
+- ["SQ", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["SQ", ""]
+- !private ["SQ", "dataTaskDidReceiveData"]
+- !private ["SQ", "dataTaskDidReceiveResponse"]
+- !private ["SQ", "downloadTaskDidFinishDownloadingTo"]
+- !private ["SQ", "downloadTaskDidWriteData"]
+- !private ["SQ", "init"]
+- !private ["SQ", "log_debug"]
+- !private ["SQ", "log_detailed"]
+- !private ["SQ", "originalRequest"]
+- !private ["SQ", "taskDidCompleteWithError"]
+- ["SQ", "urlSession"]
+- ["SQ", "urlSessionDidFinishEvents"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "ResponseDisposition"]
+- ["SH", "Self"]
+- !private ["SH", "String"]
+- ["SH", "URLSession"]
+- ["SH", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["SH", ""]
+- !private ["SH", "dataTaskDidReceiveData"]
+- !private ["SH", "dataTaskDidReceiveResponse"]
+- !private ["SH", "downloadTaskDidFinishDownloadingTo"]
+- !private ["SH", "downloadTaskDidWriteData"]
+- !private ["SH", "init"]
+- !private ["SH", "log_debug"]
+- !private ["SH", "log_detailed"]
+- !private ["SH", "originalRequest"]
+- !private ["SH", "taskDidCompleteWithError"]
+- ["SH", "urlSession"]
+- ["SH", "urlSessionDidFinishEvents"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "originalRequest"]
+- ["So8NSObjectC", "CachedURLResponse"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DataTaskDidReceiveData"]
+- ["So8NSObjectC", "DataTaskDidReceiveResponse"]
+- ["So8NSObjectC", "DownloadTaskDidFinishDownloadingTo"]
+- ["So8NSObjectC", "DownloadTaskDidWriteData"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "Int64"]
+- ["So8NSObjectC", "ResponseDisposition"]
+- ["So8NSObjectC", "Self"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TaskDidCompleteWithError"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "URLResponse"]
+- ["So8NSObjectC", "URLSession"]
+- ["So8NSObjectC", "URLSessionDataTask"]
+- ["So8NSObjectC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectC", "URLSessionDownloadTask"]
+- ["So8NSObjectC", "URLSessionTask"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "dataTaskDidReceiveData"]
+- ["So8NSObjectC", "dataTaskDidReceiveResponse"]
+- ["So8NSObjectC", "downloadTaskDidFinishDownloadingTo"]
+- ["So8NSObjectC", "downloadTaskDidWriteData"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "log_debug"]
+- !private ["So8NSObjectC", "log_detailed"]
+- ["So8NSObjectC", "onDataTaskDidReceiveData"]
+- ["So8NSObjectC", "onDataTaskDidReceiveResponse"]
+- ["So8NSObjectC", "onDownloadTaskDidFinishDownloadingTo"]
+- ["So8NSObjectC", "onDownloadTaskDidWriteData"]
+- ["So8NSObjectC", "onTaskDidCompleteWithError"]
+- !private ["So8NSObjectC", "originalRequest"]
+- ["So8NSObjectC", "taskDidCompleteWithError"]
+- ["So8NSObjectC", "urlSession"]
+- ["So8NSObjectC", "urlSessionDidFinishEvents"]
+- ["So8NSObjectP", "CachedURLResponse"]
+- ["So8NSObjectP", "Data"]
+- ["So8NSObjectP", "DataTaskDidReceiveData"]
+- ["So8NSObjectP", "DataTaskDidReceiveResponse"]
+- ["So8NSObjectP", "DownloadTaskDidFinishDownloadingTo"]
+- ["So8NSObjectP", "DownloadTaskDidWriteData"]
+- ["So8NSObjectP", "Error"]
+- ["So8NSObjectP", "Int64"]
+- ["So8NSObjectP", "ResponseDisposition"]
+- ["So8NSObjectP", "Self"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", "TaskDidCompleteWithError"]
+- ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", "URLResponse"]
+- ["So8NSObjectP", "URLSession"]
+- ["So8NSObjectP", "URLSessionDataTask"]
+- ["So8NSObjectP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So8NSObjectP", "URLSessionDownloadTask"]
+- ["So8NSObjectP", "URLSessionTask"]
+- ["So8NSObjectP", "Void"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "dataTaskDidReceiveData"]
+- ["So8NSObjectP", "dataTaskDidReceiveResponse"]
+- ["So8NSObjectP", "downloadTaskDidFinishDownloadingTo"]
+- ["So8NSObjectP", "downloadTaskDidWriteData"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "log_debug"]
+- !private ["So8NSObjectP", "log_detailed"]
+- ["So8NSObjectP", "onDataTaskDidReceiveData"]
+- ["So8NSObjectP", "onDataTaskDidReceiveResponse"]
+- ["So8NSObjectP", "onDownloadTaskDidFinishDownloadingTo"]
+- ["So8NSObjectP", "onDownloadTaskDidWriteData"]
+- ["So8NSObjectP", "onTaskDidCompleteWithError"]
+- !private ["So8NSObjectP", "originalRequest"]
+- ["So8NSObjectP", "taskDidCompleteWithError"]
+- ["So8NSObjectP", "urlSession"]
+- ["So8NSObjectP", "urlSessionDidFinishEvents"]
+- !private ["So19NSProgressReportingP", "originalRequest"]
+- !private ["Sm", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["So12NSURLSessionC", "ResponseDisposition"]
+- ["So24NSURLSessionDataDelegateP", "Self"]
+- !private ["So24NSURLSessionDataDelegateP", "String"]
+- ["So24NSURLSessionDataDelegateP", "URLSession"]
+- ["So24NSURLSessionDataDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So24NSURLSessionDataDelegateP", ""]
+- ["So24NSURLSessionDataDelegateP", "dataTaskDidReceiveData"]
+- ["So24NSURLSessionDataDelegateP", "dataTaskDidReceiveResponse"]
+- ["So24NSURLSessionDataDelegateP", "downloadTaskDidFinishDownloadingTo"]
+- ["So24NSURLSessionDataDelegateP", "downloadTaskDidWriteData"]
+- ["So24NSURLSessionDataDelegateP", "init"]
+- !private ["So24NSURLSessionDataDelegateP", "log_debug"]
+- !private ["So24NSURLSessionDataDelegateP", "log_detailed"]
+- ["So24NSURLSessionDataDelegateP", "onDataTaskDidReceiveData"]
+- ["So24NSURLSessionDataDelegateP", "onDataTaskDidReceiveResponse"]
+- ["So24NSURLSessionDataDelegateP", "onDownloadTaskDidFinishDownloadingTo"]
+- ["So24NSURLSessionDataDelegateP", "onDownloadTaskDidWriteData"]
+- ["So24NSURLSessionDataDelegateP", "onTaskDidCompleteWithError"]
+- ["So24NSURLSessionDataDelegateP", "taskDidCompleteWithError"]
+- ["So24NSURLSessionDataDelegateP", "urlSession"]
+- ["So24NSURLSessionDataDelegateP", "urlSessionDidFinishEvents"]
+- !private ["So20NSURLSessionDataTaskC", "originalRequest"]
+- ["8URLImage18URLSessionDelegateC", "CachedURLResponse"]
+- ["8URLImage18URLSessionDelegateC", "Data"]
+- ["8URLImage18URLSessionDelegateC", "DataTaskDidReceiveData"]
+- ["8URLImage18URLSessionDelegateC", "DataTaskDidReceiveResponse"]
+- ["8URLImage18URLSessionDelegateC", "DownloadTaskDidFinishDownloadingTo"]
+- ["8URLImage18URLSessionDelegateC", "DownloadTaskDidWriteData"]
+- ["8URLImage18URLSessionDelegateC", "Error"]
+- ["8URLImage18URLSessionDelegateC", "Int64"]
+- ["8URLImage18URLSessionDelegateC", "Self"]
+- ["So20NSURLSessionDelegateP", "Self"]
+- !private ["8URLImage18URLSessionDelegateC", "String"]
+- !private ["So20NSURLSessionDelegateP", "String"]
+- ["8URLImage18URLSessionDelegateC", "TaskDidCompleteWithError"]
+- ["8URLImage18URLSessionDelegateC", "URL"]
+- ["8URLImage18URLSessionDelegateC", "URLResponse"]
+- ["8URLImage18URLSessionDelegateC", "URLSession"]
+- ["So20NSURLSessionDelegateP", "URLSession"]
+- ["8URLImage18URLSessionDelegateC", "URLSessionDataTask"]
+- ["8URLImage18URLSessionDelegateC", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So20NSURLSessionDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["8URLImage18URLSessionDelegateC", "URLSessionDownloadTask"]
+- ["8URLImage18URLSessionDelegateC", "URLSessionTask"]
+- ["8URLImage18URLSessionDelegateC", "Void"]
+- ["8URLImage18URLSessionDelegateC", ""]
+- ["So20NSURLSessionDelegateP", ""]
+- ["So20NSURLSessionDelegateP", "dataTaskDidReceiveData"]
+- !private ["8URLImage18URLSessionDelegateC", "dataTaskDidReceiveData"]
+- ["So20NSURLSessionDelegateP", "dataTaskDidReceiveResponse"]
+- !private ["8URLImage18URLSessionDelegateC", "dataTaskDidReceiveResponse"]
+- ["8URLImage18URLSessionDelegateC", "deinit"]
+- ["So20NSURLSessionDelegateP", "downloadTaskDidFinishDownloadingTo"]
+- !private ["8URLImage18URLSessionDelegateC", "downloadTaskDidFinishDownloadingTo"]
+- ["So20NSURLSessionDelegateP", "downloadTaskDidWriteData"]
+- !private ["8URLImage18URLSessionDelegateC", "downloadTaskDidWriteData"]
+- ["8URLImage18URLSessionDelegateC", "init"]
+- ["So20NSURLSessionDelegateP", "init"]
+- !private ["8URLImage18URLSessionDelegateC", "log_debug"]
+- !private ["So20NSURLSessionDelegateP", "log_debug"]
+- !private ["8URLImage18URLSessionDelegateC", "log_detailed"]
+- !private ["So20NSURLSessionDelegateP", "log_detailed"]
+- ["8URLImage18URLSessionDelegateC", "onDataTaskDidReceiveData"]
+- ["So20NSURLSessionDelegateP", "onDataTaskDidReceiveData"]
+- ["8URLImage18URLSessionDelegateC", "onDataTaskDidReceiveResponse"]
+- ["So20NSURLSessionDelegateP", "onDataTaskDidReceiveResponse"]
+- ["8URLImage18URLSessionDelegateC", "onDownloadTaskDidFinishDownloadingTo"]
+- ["So20NSURLSessionDelegateP", "onDownloadTaskDidFinishDownloadingTo"]
+- ["8URLImage18URLSessionDelegateC", "onDownloadTaskDidWriteData"]
+- ["So20NSURLSessionDelegateP", "onDownloadTaskDidWriteData"]
+- ["8URLImage18URLSessionDelegateC", "onTaskDidCompleteWithError"]
+- ["So20NSURLSessionDelegateP", "onTaskDidCompleteWithError"]
+- ["So20NSURLSessionDelegateP", "taskDidCompleteWithError"]
+- !private ["8URLImage18URLSessionDelegateC", "taskDidCompleteWithError"]
+- ["8URLImage18URLSessionDelegateC", "urlSession"]
+- ["So20NSURLSessionDelegateP", "urlSession"]
+- ["8URLImage18URLSessionDelegateC", "urlSessionDidFinishEvents"]
+- ["So20NSURLSessionDelegateP", "urlSessionDidFinishEvents"]
+- ["So28NSURLSessionDownloadDelegateP", "Self"]
+- !private ["So28NSURLSessionDownloadDelegateP", "String"]
+- ["So28NSURLSessionDownloadDelegateP", "URLSession"]
+- ["So28NSURLSessionDownloadDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So28NSURLSessionDownloadDelegateP", ""]
+- ["So28NSURLSessionDownloadDelegateP", "dataTaskDidReceiveData"]
+- ["So28NSURLSessionDownloadDelegateP", "dataTaskDidReceiveResponse"]
+- ["So28NSURLSessionDownloadDelegateP", "downloadTaskDidFinishDownloadingTo"]
+- ["So28NSURLSessionDownloadDelegateP", "downloadTaskDidWriteData"]
+- ["So28NSURLSessionDownloadDelegateP", "init"]
+- !private ["So28NSURLSessionDownloadDelegateP", "log_debug"]
+- !private ["So28NSURLSessionDownloadDelegateP", "log_detailed"]
+- ["So28NSURLSessionDownloadDelegateP", "onDataTaskDidReceiveData"]
+- ["So28NSURLSessionDownloadDelegateP", "onDataTaskDidReceiveResponse"]
+- ["So28NSURLSessionDownloadDelegateP", "onDownloadTaskDidFinishDownloadingTo"]
+- ["So28NSURLSessionDownloadDelegateP", "onDownloadTaskDidWriteData"]
+- ["So28NSURLSessionDownloadDelegateP", "onTaskDidCompleteWithError"]
+- ["So28NSURLSessionDownloadDelegateP", "taskDidCompleteWithError"]
+- ["So28NSURLSessionDownloadDelegateP", "urlSession"]
+- ["So28NSURLSessionDownloadDelegateP", "urlSessionDidFinishEvents"]
+- !private ["So24NSURLSessionDownloadTaskC", "originalRequest"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "originalRequest"]
+- ["So24NSURLSessionTaskDelegateP", "Self"]
+- !private ["So24NSURLSessionTaskDelegateP", "String"]
+- ["So24NSURLSessionTaskDelegateP", "URLSession"]
+- ["So24NSURLSessionTaskDelegateP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["So24NSURLSessionTaskDelegateP", ""]
+- ["So24NSURLSessionTaskDelegateP", "dataTaskDidReceiveData"]
+- ["So24NSURLSessionTaskDelegateP", "dataTaskDidReceiveResponse"]
+- ["So24NSURLSessionTaskDelegateP", "downloadTaskDidFinishDownloadingTo"]
+- ["So24NSURLSessionTaskDelegateP", "downloadTaskDidWriteData"]
+- ["So24NSURLSessionTaskDelegateP", "init"]
+- !private ["So24NSURLSessionTaskDelegateP", "log_debug"]
+- !private ["So24NSURLSessionTaskDelegateP", "log_detailed"]
+- ["So24NSURLSessionTaskDelegateP", "onDataTaskDidReceiveData"]
+- ["So24NSURLSessionTaskDelegateP", "onDataTaskDidReceiveResponse"]
+- ["So24NSURLSessionTaskDelegateP", "onDownloadTaskDidFinishDownloadingTo"]
+- ["So24NSURLSessionTaskDelegateP", "onDownloadTaskDidWriteData"]
+- ["So24NSURLSessionTaskDelegateP", "onTaskDidCompleteWithError"]
+- ["So24NSURLSessionTaskDelegateP", "taskDidCompleteWithError"]
+- ["So24NSURLSessionTaskDelegateP", "urlSession"]
+- ["So24NSURLSessionTaskDelegateP", "urlSessionDidFinishEvents"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "ResponseDisposition"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Self"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTaskDidReceiveData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTaskDidReceiveResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadTaskDidFinishDownloadingTo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadTaskDidWriteData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log_debug"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "log_detailed"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "originalRequest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "taskDidCompleteWithError"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urlSessionDidFinishEvents"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ResponseDisposition"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Self"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSession"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URLSessionDidFinishEventsForBackgroundURLSession"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTaskDidReceiveData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTaskDidReceiveResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "downloadTaskDidFinishDownloadingTo"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "downloadTaskDidWriteData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "log_debug"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "log_detailed"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "originalRequest"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "taskDidCompleteWithError"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "urlSession"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "urlSessionDidFinishEvents"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So19NSProgressReportingP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So12NSURLSessionC"
+- "So24NSURLSessionDataDelegateP"
+- !private "So20NSURLSessionDataTaskC"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- !private "8URLImage18URLSessionDelegateC"
+- !private "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- !private "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- !private "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- !private "8URLImage18URLSessionDelegateC"
+- !private "So20NSURLSessionDelegateP"
+- !private "8URLImage18URLSessionDelegateC"
+- !private "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "8URLImage18URLSessionDelegateC"
+- "So20NSURLSessionDelegateP"
+- "So28NSURLSessionDownloadDelegateP"
+- !private "So24NSURLSessionDownloadTaskC"
+- "So16NSURLSessionTaskC"
+- "So24NSURLSessionTaskDelegateP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/Pods/Target Support Files/URLImage/URLImage-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Pods.build/Debug-iphonesimulator/URLImage.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "02763eadd78016654e4f800c729fbbef"

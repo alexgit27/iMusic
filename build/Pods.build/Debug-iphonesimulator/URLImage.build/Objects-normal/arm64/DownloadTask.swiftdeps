@@ -1,0 +1,435 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DownloadTask"
+provides-nominal:
+- "8URLImage12DownloadTaskC"
+- "8URLImage12DownloadTaskC8ObserverC"
+provides-member:
+- ["8URLImage12DownloadTaskC", ""]
+- ["8URLImage12DownloadTaskC8ObserverC", ""]
+provides-dynamic-lookup:
+- "buffer"
+- "complete"
+- "completion"
+- "description"
+- "download"
+- "downloadProgress"
+- "notifyCompletion"
+- "notifyReceiveData"
+- "notifyReceiveResponse"
+- "notifyReportProgress"
+- "observer"
+- "progress"
+- "receive"
+- "receiveData"
+- "receiveResponse"
+- "reportProgress"
+- "serialQueue"
+- "urlSessionTask"
+depends-top-level:
+- !private "+"
+- "=="
+- "AssignmentPrecedence"
+- "CustomStringConvertible"
+- "Data"
+- "DispatchQueue"
+- "Download"
+- "DownloadCompletion"
+- "DownloadError"
+- "DownloadProgress"
+- "DownloadReceiveData"
+- "DownloadReceiveResponse"
+- "DownloadReportProgress"
+- "DownloadResult"
+- "DownloadTask"
+- "Error"
+- "Float"
+- !private "FloatLiteralType"
+- "Int64"
+- !private "IntegerLiteralType"
+- "Observer"
+- "Result"
+- "String"
+- !private "StringLiteralType"
+- "URLError"
+- "URLResponse"
+- "URLSessionTask"
+- !private "UnicodeScalarType"
+- !private "Unmanaged"
+- !private "completion"
+- !private "download"
+- !private "receiveData"
+- !private "receiveResponse"
+- !private "reportProgress"
+- !private "serialQueue"
+depends-member:
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "init"]
+- !private ["10Foundation8URLErrorV4CodeV", "unknown"]
+- !private ["Sl", ""]
+- !private ["Sl", "_copyToContiguousArray"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "underestimatedCount"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["10Foundation13CustomNSErrorP", ""]
+- !private ["10Foundation13CustomNSErrorP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "Data"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "DownloadProgress"]
+- !private ["s23CustomStringConvertibleP", "DownloadResult"]
+- !private ["s23CustomStringConvertibleP", "URLError"]
+- !private ["s23CustomStringConvertibleP", "Unmanaged"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "buffer"]
+- !private ["s23CustomStringConvertibleP", "completion"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "download"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "observer"]
+- !private ["s23CustomStringConvertibleP", "progress"]
+- !private ["s23CustomStringConvertibleP", "receiveData"]
+- !private ["s23CustomStringConvertibleP", "receiveResponse"]
+- !private ["s23CustomStringConvertibleP", "reportProgress"]
+- !private ["s23CustomStringConvertibleP", "serialQueue"]
+- !private ["s23CustomStringConvertibleP", "urlSessionTask"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "append"]
+- !private ["Se", "destination"]
+- !private ["Se", "id"]
+- !private ["Se", "inMemory"]
+- !private ["Se", "init"]
+- !private ["Se", "onDisk"]
+- !private ["Se", "uuidString"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["8URLImage8DownloadV11DestinationO", "inMemory"]
+- !private ["8URLImage8DownloadV11DestinationO", "onDisk"]
+- ["So18OS_dispatch_objectC", ""]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- !private ["So18OS_dispatch_objectC", "sync"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- !private ["8URLImage8DownloadV", ""]
+- !private ["8URLImage8DownloadV", "destination"]
+- !private ["8URLImage8DownloadV", "id"]
+- !private ["8URLImage16DownloadProgressV", "init"]
+- !private ["8URLImage16DownloadProgressV", "percentage"]
+- !private ["8URLImage16DownloadProgressV", "totalBytesExpected"]
+- !private ["8URLImage16DownloadProgressV", "totalBytesReceived"]
+- !private ["8URLImage14DownloadResultO", "data"]
+- !private ["8URLImage14DownloadResultO", "file"]
+- ["8URLImage12DownloadTaskC", "Data"]
+- ["8URLImage12DownloadTaskC", "DispatchQueue"]
+- ["8URLImage12DownloadTaskC", "Download"]
+- ["8URLImage12DownloadTaskC", "DownloadCompletion"]
+- ["8URLImage12DownloadTaskC", "DownloadError"]
+- ["8URLImage12DownloadTaskC", "DownloadProgress"]
+- ["8URLImage12DownloadTaskC", "DownloadReceiveData"]
+- ["8URLImage12DownloadTaskC", "DownloadReceiveResponse"]
+- ["8URLImage12DownloadTaskC", "DownloadReportProgress"]
+- ["8URLImage12DownloadTaskC", "DownloadResult"]
+- ["8URLImage12DownloadTaskC", "Error"]
+- ["8URLImage12DownloadTaskC", "Float"]
+- ["8URLImage12DownloadTaskC", "Int64"]
+- ["8URLImage12DownloadTaskC", "Observer"]
+- ["8URLImage12DownloadTaskC", "Result"]
+- ["8URLImage12DownloadTaskC", "String"]
+- !private ["8URLImage12DownloadTaskC", "URLError"]
+- ["8URLImage12DownloadTaskC", "URLResponse"]
+- ["8URLImage12DownloadTaskC", "URLSessionTask"]
+- !private ["8URLImage12DownloadTaskC", "Unmanaged"]
+- ["8URLImage12DownloadTaskC", ""]
+- !private ["8URLImage12DownloadTaskC", "buffer"]
+- ["8URLImage12DownloadTaskC", "complete"]
+- !private ["8URLImage12DownloadTaskC", "completion"]
+- ["8URLImage12DownloadTaskC", "deinit"]
+- ["8URLImage12DownloadTaskC", "description"]
+- ["8URLImage12DownloadTaskC", "download"]
+- ["8URLImage12DownloadTaskC", "downloadProgress"]
+- ["8URLImage12DownloadTaskC", "init"]
+- ["8URLImage12DownloadTaskC", "observer"]
+- !private ["8URLImage12DownloadTaskC", "progress"]
+- ["8URLImage12DownloadTaskC", "receive"]
+- !private ["8URLImage12DownloadTaskC", "receiveData"]
+- !private ["8URLImage12DownloadTaskC", "receiveResponse"]
+- !private ["8URLImage12DownloadTaskC", "reportProgress"]
+- !private ["8URLImage12DownloadTaskC", "serialQueue"]
+- ["8URLImage12DownloadTaskC", "urlSessionTask"]
+- !private ["SE", "append"]
+- !private ["SE", "destination"]
+- !private ["SE", "id"]
+- !private ["SE", "inMemory"]
+- !private ["SE", "init"]
+- !private ["SE", "onDisk"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", ""]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "data"]
+- !private ["SQ", "destination"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "file"]
+- !private ["SQ", "id"]
+- !private ["SQ", "inMemory"]
+- !private ["SQ", "init"]
+- !private ["SQ", "onDisk"]
+- !private ["SQ", "success"]
+- !private ["SQ", "unknown"]
+- !private ["SQ", "uuidString"]
+- !private ["s5ErrorP", ""]
+- !private ["s5ErrorP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "data"]
+- !private ["SH", "destination"]
+- !private ["SH", "failure"]
+- !private ["SH", "file"]
+- !private ["SH", "id"]
+- !private ["SH", "inMemory"]
+- !private ["SH", "init"]
+- !private ["SH", "onDisk"]
+- !private ["SH", "success"]
+- !private ["SH", "unknown"]
+- !private ["SH", "uuidString"]
+- !private ["s12IdentifiableP", "destination"]
+- !private ["s12IdentifiableP", "id"]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "activate"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "setTarget"]
+- !private ["So8NSObjectC", "suspend"]
+- !private ["So8NSObjectC", "sync"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "activate"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "setTarget"]
+- !private ["So8NSObjectP", "suspend"]
+- !private ["So8NSObjectP", "sync"]
+- ["So9OS_objectC", ""]
+- !private ["So9OS_objectC", "activate"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "init"]
+- !private ["So9OS_objectC", "resume"]
+- !private ["So9OS_objectC", "setTarget"]
+- !private ["So9OS_objectC", "suspend"]
+- !private ["So9OS_objectC", "sync"]
+- ["8URLImage12DownloadTaskC8ObserverC", "Data"]
+- ["8URLImage12DownloadTaskC8ObserverC", "Download"]
+- ["8URLImage12DownloadTaskC8ObserverC", "DownloadCompletion"]
+- ["8URLImage12DownloadTaskC8ObserverC", "DownloadError"]
+- ["8URLImage12DownloadTaskC8ObserverC", "DownloadReceiveData"]
+- ["8URLImage12DownloadTaskC8ObserverC", "DownloadReceiveResponse"]
+- ["8URLImage12DownloadTaskC8ObserverC", "DownloadReportProgress"]
+- ["8URLImage12DownloadTaskC8ObserverC", "DownloadResult"]
+- ["8URLImage12DownloadTaskC8ObserverC", "Float"]
+- ["8URLImage12DownloadTaskC8ObserverC", "Result"]
+- !private ["8URLImage12DownloadTaskC8ObserverC", "completion"]
+- ["8URLImage12DownloadTaskC8ObserverC", "deinit"]
+- ["8URLImage12DownloadTaskC8ObserverC", "download"]
+- ["8URLImage12DownloadTaskC8ObserverC", "init"]
+- ["8URLImage12DownloadTaskC8ObserverC", "notifyCompletion"]
+- ["8URLImage12DownloadTaskC8ObserverC", "notifyReceiveData"]
+- ["8URLImage12DownloadTaskC8ObserverC", "notifyReceiveResponse"]
+- ["8URLImage12DownloadTaskC8ObserverC", "notifyReportProgress"]
+- !private ["8URLImage12DownloadTaskC8ObserverC", "receiveData"]
+- !private ["8URLImage12DownloadTaskC8ObserverC", "receiveResponse"]
+- !private ["8URLImage12DownloadTaskC8ObserverC", "reportProgress"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "_customRemoveLast"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "insert"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeAll"]
+- !private ["Sm", "removeFirst"]
+- !private ["Sm", "removeSubrange"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "unknown"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "init"]
+- !private ["ST", ""]
+- !private ["ST", "_copyContents"]
+- !private ["ST", "_copyToContiguousArray"]
+- !private ["ST", "_customContainsEquatableElement"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "underestimatedCount"]
+- !private ["ST", "withContiguousStorageIfAvailable"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["10Foundation8URLErrorV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s9UnmanagedV", "passUnretained"]
+- !private ["s9UnmanagedV", "toOpaque"]
+- !private ["10Foundation21_BridgedStoredNSErrorP", "init"]
+- !private ["10Foundation18_ErrorCodeProtocolP", "unknown"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", ""]
+- !private ["10Foundation26_ObjectiveCBridgeableErrorP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- !private "s7CVarArgP"
+- !private "10Foundation8URLErrorV4CodeV"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "10Foundation13CustomNSErrorP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "8URLImage8DownloadV11DestinationO"
+- "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8URLImage8DownloadV"
+- !private "8URLImage16DownloadProgressV"
+- !private "8URLImage14DownloadResultO"
+- "8URLImage12DownloadTaskC"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "SH"
+- !private "s12IdentifiableP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So9OS_objectC"
+- "8URLImage12DownloadTaskC8ObserverC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s6ResultO"
+- !private "7Combine9SchedulerP"
+- !private "ST"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "So18UIFocusEnvironmentP"
+- !private "10Foundation8URLErrorV"
+- !private "10Foundation4UUIDV"
+- !private "s9UnmanagedV"
+- !private "10Foundation21_BridgedStoredNSErrorP"
+- !private "10Foundation18_ErrorCodeProtocolP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "10Foundation26_ObjectiveCBridgeableErrorP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/Pods/Target Support Files/URLImage/URLImage-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Pods.build/Debug-iphonesimulator/URLImage.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "44a27bacc3a9fe96ad8444bd8329a333"

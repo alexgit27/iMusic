@@ -1,0 +1,491 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MusicDisplayLogic"
+- "MusicViewController"
+provides-nominal:
+- "6IMusic17MusicDisplayLogicP"
+- "6IMusic19MusicViewControllerC"
+provides-member:
+- ["6IMusic17MusicDisplayLogicP", ""]
+- ["6IMusic19MusicViewControllerC", ""]
+provides-dynamic-lookup:
+- "displayData"
+- "interactor"
+- "router"
+- "setup"
+- "viewDidLoad"
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Bundle"
+- "Music"
+- "MusicBusinessLogic"
+- "MusicDisplayLogic"
+- !private "MusicInteractor"
+- !private "MusicPresenter"
+- !private "MusicRouter"
+- "MusicRoutingLogic"
+- "MusicViewController"
+- "NSCoder"
+- "NSObjectProtocol"
+- "String"
+- "UIViewController"
+- !private "setup"
+depends-member:
+- ["SK", ""]
+- !private ["s7CVarArgP", "MusicInteractor"]
+- !private ["s7CVarArgP", "MusicPresenter"]
+- !private ["s7CVarArgP", "MusicRouter"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "displayData"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interactor"]
+- !private ["s7CVarArgP", "router"]
+- !private ["s7CVarArgP", "setup"]
+- !private ["s7CVarArgP", "viewController"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["Sl", ""]
+- ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "MusicInteractor"]
+- !private ["s28CustomDebugStringConvertibleP", "MusicPresenter"]
+- !private ["s28CustomDebugStringConvertibleP", "MusicRouter"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "displayData"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interactor"]
+- !private ["s28CustomDebugStringConvertibleP", "router"]
+- !private ["s28CustomDebugStringConvertibleP", "setup"]
+- !private ["s28CustomDebugStringConvertibleP", "viewController"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s23CustomStringConvertibleP", "MusicInteractor"]
+- !private ["s23CustomStringConvertibleP", "MusicPresenter"]
+- !private ["s23CustomStringConvertibleP", "MusicRouter"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "displayData"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interactor"]
+- !private ["s23CustomStringConvertibleP", "router"]
+- !private ["s23CustomStringConvertibleP", "setup"]
+- !private ["s23CustomStringConvertibleP", "viewController"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["SQ", "MusicInteractor"]
+- !private ["SQ", "MusicPresenter"]
+- !private ["SQ", "MusicRouter"]
+- ["SQ", ""]
+- ["SQ", "displayData"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interactor"]
+- !private ["SQ", "router"]
+- !private ["SQ", "setup"]
+- !private ["SQ", "viewController"]
+- !private ["SQ", "viewDidLoad"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", "MusicInteractor"]
+- !private ["SH", "MusicPresenter"]
+- !private ["SH", "MusicRouter"]
+- ["SH", ""]
+- ["SH", "displayData"]
+- !private ["SH", "init"]
+- !private ["SH", "interactor"]
+- !private ["SH", "router"]
+- !private ["SH", "setup"]
+- !private ["SH", "viewController"]
+- !private ["SH", "viewDidLoad"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["6IMusic5MusicO5ModelO", "ViewModel"]
+- ["6IMusic5MusicO", "Model"]
+- !private ["6IMusic18MusicBusinessLogicP", "init"]
+- !private ["6IMusic18MusicBusinessLogicP", "presenter"]
+- ["6IMusic17MusicDisplayLogicP", "Music"]
+- !private ["6IMusic17MusicDisplayLogicP", "MusicInteractor"]
+- !private ["6IMusic17MusicDisplayLogicP", "MusicPresenter"]
+- !private ["6IMusic17MusicDisplayLogicP", "MusicRouter"]
+- ["6IMusic17MusicDisplayLogicP", ""]
+- ["6IMusic17MusicDisplayLogicP", "displayData"]
+- !private ["6IMusic17MusicDisplayLogicP", "interactor"]
+- !private ["6IMusic17MusicDisplayLogicP", "router"]
+- !private ["6IMusic17MusicDisplayLogicP", "setup"]
+- !private ["6IMusic17MusicDisplayLogicP", "viewDidLoad"]
+- !private ["6IMusic15MusicInteractorC", ""]
+- !private ["6IMusic15MusicInteractorC", "init"]
+- !private ["6IMusic15MusicInteractorC", "presenter"]
+- !private ["6IMusic22MusicPresentationLogicP", "init"]
+- !private ["6IMusic22MusicPresentationLogicP", "viewController"]
+- !private ["6IMusic14MusicPresenterC", ""]
+- !private ["6IMusic14MusicPresenterC", "init"]
+- !private ["6IMusic14MusicPresenterC", "viewController"]
+- !private ["6IMusic11MusicRouterC", ""]
+- !private ["6IMusic11MusicRouterC", "init"]
+- !private ["6IMusic11MusicRouterC", "viewController"]
+- !private ["6IMusic17MusicRoutingLogicP", "init"]
+- !private ["6IMusic17MusicRoutingLogicP", "viewController"]
+- ["6IMusic19MusicViewControllerC", "Bundle"]
+- ["6IMusic19MusicViewControllerC", "Music"]
+- ["6IMusic19MusicViewControllerC", "MusicBusinessLogic"]
+- !private ["6IMusic19MusicViewControllerC", "MusicInteractor"]
+- !private ["6IMusic19MusicViewControllerC", "MusicPresenter"]
+- !private ["6IMusic19MusicViewControllerC", "MusicRouter"]
+- ["6IMusic19MusicViewControllerC", "MusicRoutingLogic"]
+- ["6IMusic19MusicViewControllerC", "NSCoder"]
+- ["6IMusic19MusicViewControllerC", "NSObjectProtocol"]
+- ["6IMusic19MusicViewControllerC", "String"]
+- ["6IMusic19MusicViewControllerC", ""]
+- ["6IMusic19MusicViewControllerC", "deinit"]
+- ["6IMusic19MusicViewControllerC", "displayData"]
+- ["6IMusic19MusicViewControllerC", "init"]
+- ["6IMusic19MusicViewControllerC", "interactor"]
+- ["6IMusic19MusicViewControllerC", "router"]
+- !private ["6IMusic19MusicViewControllerC", "setup"]
+- ["6IMusic19MusicViewControllerC", "viewDidLoad"]
+- ["So8NSCodingP", "Bundle"]
+- ["So8NSCodingP", "Music"]
+- ["So8NSCodingP", "MusicBusinessLogic"]
+- !private ["So8NSCodingP", "MusicInteractor"]
+- !private ["So8NSCodingP", "MusicPresenter"]
+- !private ["So8NSCodingP", "MusicRouter"]
+- ["So8NSCodingP", "MusicRoutingLogic"]
+- ["So8NSCodingP", "NSCoder"]
+- ["So8NSCodingP", "NSObjectProtocol"]
+- ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "displayData"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "interactor"]
+- ["So8NSCodingP", "router"]
+- ["So8NSCodingP", "setup"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Bundle"]
+- ["So26NSExtensionRequestHandlingP", "Music"]
+- ["So26NSExtensionRequestHandlingP", "MusicBusinessLogic"]
+- !private ["So26NSExtensionRequestHandlingP", "MusicInteractor"]
+- !private ["So26NSExtensionRequestHandlingP", "MusicPresenter"]
+- !private ["So26NSExtensionRequestHandlingP", "MusicRouter"]
+- ["So26NSExtensionRequestHandlingP", "MusicRoutingLogic"]
+- ["So26NSExtensionRequestHandlingP", "NSCoder"]
+- ["So26NSExtensionRequestHandlingP", "NSObjectProtocol"]
+- ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "displayData"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "interactor"]
+- ["So26NSExtensionRequestHandlingP", "router"]
+- ["So26NSExtensionRequestHandlingP", "setup"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "Music"]
+- ["So8NSObjectC", "MusicBusinessLogic"]
+- !private ["So8NSObjectC", "MusicInteractor"]
+- !private ["So8NSObjectC", "MusicPresenter"]
+- !private ["So8NSObjectC", "MusicRouter"]
+- ["So8NSObjectC", "MusicRoutingLogic"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "NSObjectProtocol"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "displayData"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interactor"]
+- ["So8NSObjectC", "router"]
+- ["So8NSObjectC", "setup"]
+- !private ["So8NSObjectC", "viewController"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Bundle"]
+- ["So8NSObjectP", "Music"]
+- ["So8NSObjectP", "MusicBusinessLogic"]
+- !private ["So8NSObjectP", "MusicInteractor"]
+- !private ["So8NSObjectP", "MusicPresenter"]
+- !private ["So8NSObjectP", "MusicRouter"]
+- ["So8NSObjectP", "MusicRoutingLogic"]
+- ["So8NSObjectP", "NSCoder"]
+- ["So8NSObjectP", "NSObjectProtocol"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "displayData"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "interactor"]
+- ["So8NSObjectP", "router"]
+- ["So8NSObjectP", "setup"]
+- !private ["So8NSObjectP", "viewController"]
+- ["So8NSObjectP", "viewDidLoad"]
+- ["ST", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So21UIAppearanceContainerP", "Bundle"]
+- ["So21UIAppearanceContainerP", "Music"]
+- ["So21UIAppearanceContainerP", "MusicBusinessLogic"]
+- !private ["So21UIAppearanceContainerP", "MusicInteractor"]
+- !private ["So21UIAppearanceContainerP", "MusicPresenter"]
+- !private ["So21UIAppearanceContainerP", "MusicRouter"]
+- ["So21UIAppearanceContainerP", "MusicRoutingLogic"]
+- ["So21UIAppearanceContainerP", "NSCoder"]
+- ["So21UIAppearanceContainerP", "NSObjectProtocol"]
+- ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "displayData"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "interactor"]
+- ["So21UIAppearanceContainerP", "router"]
+- ["So21UIAppearanceContainerP", "setup"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Bundle"]
+- ["So18UIContentContainerP", "Music"]
+- ["So18UIContentContainerP", "MusicBusinessLogic"]
+- !private ["So18UIContentContainerP", "MusicInteractor"]
+- !private ["So18UIContentContainerP", "MusicPresenter"]
+- !private ["So18UIContentContainerP", "MusicRouter"]
+- ["So18UIContentContainerP", "MusicRoutingLogic"]
+- ["So18UIContentContainerP", "NSCoder"]
+- ["So18UIContentContainerP", "NSObjectProtocol"]
+- ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "displayData"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "interactor"]
+- ["So18UIContentContainerP", "router"]
+- ["So18UIContentContainerP", "setup"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", "Bundle"]
+- ["So18UIFocusEnvironmentP", "Music"]
+- ["So18UIFocusEnvironmentP", "MusicBusinessLogic"]
+- !private ["So18UIFocusEnvironmentP", "MusicInteractor"]
+- !private ["So18UIFocusEnvironmentP", "MusicPresenter"]
+- !private ["So18UIFocusEnvironmentP", "MusicRouter"]
+- ["So18UIFocusEnvironmentP", "MusicRoutingLogic"]
+- ["So18UIFocusEnvironmentP", "NSCoder"]
+- ["So18UIFocusEnvironmentP", "NSObjectProtocol"]
+- ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "displayData"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "interactor"]
+- ["So18UIFocusEnvironmentP", "router"]
+- ["So18UIFocusEnvironmentP", "setup"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", "Bundle"]
+- ["So30UIPasteConfigurationSupportingP", "Music"]
+- ["So30UIPasteConfigurationSupportingP", "MusicBusinessLogic"]
+- !private ["So30UIPasteConfigurationSupportingP", "MusicInteractor"]
+- !private ["So30UIPasteConfigurationSupportingP", "MusicPresenter"]
+- !private ["So30UIPasteConfigurationSupportingP", "MusicRouter"]
+- ["So30UIPasteConfigurationSupportingP", "MusicRoutingLogic"]
+- ["So30UIPasteConfigurationSupportingP", "NSCoder"]
+- ["So30UIPasteConfigurationSupportingP", "NSObjectProtocol"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "displayData"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "interactor"]
+- ["So30UIPasteConfigurationSupportingP", "router"]
+- ["So30UIPasteConfigurationSupportingP", "setup"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bundle"]
+- ["So11UIResponderC", "Music"]
+- ["So11UIResponderC", "MusicBusinessLogic"]
+- !private ["So11UIResponderC", "MusicInteractor"]
+- !private ["So11UIResponderC", "MusicPresenter"]
+- !private ["So11UIResponderC", "MusicRouter"]
+- ["So11UIResponderC", "MusicRoutingLogic"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "NSObjectProtocol"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "displayData"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "interactor"]
+- ["So11UIResponderC", "router"]
+- ["So11UIResponderC", "setup"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Bundle"]
+- ["So30UIResponderStandardEditActionsP", "Music"]
+- ["So30UIResponderStandardEditActionsP", "MusicBusinessLogic"]
+- !private ["So30UIResponderStandardEditActionsP", "MusicInteractor"]
+- !private ["So30UIResponderStandardEditActionsP", "MusicPresenter"]
+- !private ["So30UIResponderStandardEditActionsP", "MusicRouter"]
+- ["So30UIResponderStandardEditActionsP", "MusicRoutingLogic"]
+- ["So30UIResponderStandardEditActionsP", "NSCoder"]
+- ["So30UIResponderStandardEditActionsP", "NSObjectProtocol"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "displayData"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "interactor"]
+- ["So30UIResponderStandardEditActionsP", "router"]
+- ["So30UIResponderStandardEditActionsP", "setup"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "Bundle"]
+- ["So16UIStateRestoringP", "Music"]
+- ["So16UIStateRestoringP", "MusicBusinessLogic"]
+- !private ["So16UIStateRestoringP", "MusicInteractor"]
+- !private ["So16UIStateRestoringP", "MusicPresenter"]
+- !private ["So16UIStateRestoringP", "MusicRouter"]
+- ["So16UIStateRestoringP", "MusicRoutingLogic"]
+- ["So16UIStateRestoringP", "NSCoder"]
+- ["So16UIStateRestoringP", "NSObjectProtocol"]
+- ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "displayData"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "interactor"]
+- ["So16UIStateRestoringP", "router"]
+- ["So16UIStateRestoringP", "setup"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "Bundle"]
+- ["So18UITraitEnvironmentP", "Music"]
+- ["So18UITraitEnvironmentP", "MusicBusinessLogic"]
+- !private ["So18UITraitEnvironmentP", "MusicInteractor"]
+- !private ["So18UITraitEnvironmentP", "MusicPresenter"]
+- !private ["So18UITraitEnvironmentP", "MusicRouter"]
+- ["So18UITraitEnvironmentP", "MusicRoutingLogic"]
+- ["So18UITraitEnvironmentP", "NSCoder"]
+- ["So18UITraitEnvironmentP", "NSObjectProtocol"]
+- ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "displayData"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "interactor"]
+- ["So18UITraitEnvironmentP", "router"]
+- ["So18UITraitEnvironmentP", "setup"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Bundle"]
+- ["So23UIUserActivityRestoringP", "Music"]
+- ["So23UIUserActivityRestoringP", "MusicBusinessLogic"]
+- !private ["So23UIUserActivityRestoringP", "MusicInteractor"]
+- !private ["So23UIUserActivityRestoringP", "MusicPresenter"]
+- !private ["So23UIUserActivityRestoringP", "MusicRouter"]
+- ["So23UIUserActivityRestoringP", "MusicRoutingLogic"]
+- ["So23UIUserActivityRestoringP", "NSCoder"]
+- ["So23UIUserActivityRestoringP", "NSObjectProtocol"]
+- ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "displayData"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "interactor"]
+- ["So23UIUserActivityRestoringP", "router"]
+- ["So23UIUserActivityRestoringP", "setup"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "Bundle"]
+- ["So16UIViewControllerC", "Music"]
+- ["So16UIViewControllerC", "MusicBusinessLogic"]
+- !private ["So16UIViewControllerC", "MusicInteractor"]
+- !private ["So16UIViewControllerC", "MusicPresenter"]
+- !private ["So16UIViewControllerC", "MusicRouter"]
+- ["So16UIViewControllerC", "MusicRoutingLogic"]
+- ["So16UIViewControllerC", "NSCoder"]
+- ["So16UIViewControllerC", "NSObjectProtocol"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "displayData"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "interactor"]
+- ["So16UIViewControllerC", "router"]
+- ["So16UIViewControllerC", "setup"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["6IMusic5MusicO5ModelO04ViewC0V", "ViewModelData"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MusicInteractor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MusicPresenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MusicRouter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "displayData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interactor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "router"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MusicInteractor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MusicPresenter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MusicRouter"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "displayData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interactor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "router"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setup"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewController"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+depends-nominal:
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "6IMusic5MusicO5ModelO"
+- "6IMusic5MusicO"
+- !private "6IMusic18MusicBusinessLogicP"
+- "6IMusic17MusicDisplayLogicP"
+- !private "6IMusic15MusicInteractorC"
+- !private "6IMusic22MusicPresentationLogicP"
+- !private "6IMusic14MusicPresenterC"
+- !private "6IMusic11MusicRouterC"
+- !private "6IMusic17MusicRoutingLogicP"
+- "6IMusic19MusicViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "6IMusic5MusicO5ModelO04ViewC0V"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3d7025f8f20049de5782254ed3a1206a"

@@ -1,0 +1,433 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RemoteContentViewLoadOptions"
+- "RemoteContentView"
+provides-nominal:
+- "8URLImage28RemoteContentViewLoadOptionsV"
+- "8URLImage17RemoteContentViewV"
+provides-member:
+- ["8URLImage28RemoteContentViewLoadOptionsV", ""]
+- ["8URLImage17RemoteContentViewV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "<<"
+- "=="
+- "AnyRemoteContent"
+- "AssignmentPrecedence"
+- "Content"
+- "Empty"
+- "Error"
+- "Failure"
+- "FloatLiteralType"
+- "InProgress"
+- "Int"
+- "IntegerLiteralType"
+- "ObservableObjectPublisher"
+- "ObservedObject"
+- "OptionSet"
+- "Progress"
+- "RemoteContent"
+- "RemoteContentView"
+- "RemoteContentViewLoadOptions"
+- "Value"
+- "View"
+- "Void"
+- !private "ZStack"
+- "content"
+- "empty"
+- "failure"
+- "inProgress"
+- "loadOptions"
+- "remoteContent"
+depends-member:
+- ["s18AdditiveArithmeticP", ""]
+- ["7SwiftUI10AnimatableP", ""]
+- ["8URLImage16AnyRemoteContentC", ""]
+- !private ["8URLImage16AnyRemoteContentC", "cancel"]
+- !private ["8URLImage16AnyRemoteContentC", "init"]
+- !private ["8URLImage16AnyRemoteContentC", "load"]
+- !private ["8URLImage16AnyRemoteContentC", "loadingState"]
+- ["SK", ""]
+- ["Sz", ""]
+- ["Sl", ""]
+- ["SL", ""]
+- ["s23CustomStringConvertibleP", ""]
+- ["7SwiftUI15DynamicPropertyP", "init"]
+- ["SQ", "=="]
+- ["SQ", "ArrayLiteralElement"]
+- ["SQ", "Default_ArrayLiteralElement"]
+- ["SQ", "Default_Element"]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "Element"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_ArrayLiteralElement"]
+- ["SQ", "_Default_Element"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "cancelOnDisappear"]
+- ["SQ", "contains"]
+- ["SQ", "formIntersection"]
+- ["SQ", "formSymmetricDifference"]
+- ["SQ", "formUnion"]
+- ["SQ", "init"]
+- ["SQ", "insert"]
+- ["SQ", "intersection"]
+- ["SQ", "isDisjoint"]
+- ["SQ", "isEmpty"]
+- ["SQ", "isSubset"]
+- ["SQ", "isSuperset"]
+- !private ["SQ", "loadImmediately"]
+- !private ["SQ", "loadOnAppear"]
+- ["SQ", "rawValue"]
+- ["SQ", "remove"]
+- ["SQ", "subtract"]
+- ["SQ", "subtracting"]
+- ["SQ", "symmetricDifference"]
+- ["SQ", "union"]
+- ["SQ", "update"]
+- ["s25ExpressibleByArrayLiteralP", "=="]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "Default_RawValue"]
+- ["s25ExpressibleByArrayLiteralP", "Element"]
+- ["s25ExpressibleByArrayLiteralP", "RawValue"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_Element"]
+- ["s25ExpressibleByArrayLiteralP", "_Default_RawValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "cancelOnDisappear"]
+- ["s25ExpressibleByArrayLiteralP", "contains"]
+- ["s25ExpressibleByArrayLiteralP", "formIntersection"]
+- ["s25ExpressibleByArrayLiteralP", "formSymmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "formUnion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "insert"]
+- ["s25ExpressibleByArrayLiteralP", "intersection"]
+- ["s25ExpressibleByArrayLiteralP", "isDisjoint"]
+- ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- ["s25ExpressibleByArrayLiteralP", "isSubset"]
+- ["s25ExpressibleByArrayLiteralP", "isSuperset"]
+- !private ["s25ExpressibleByArrayLiteralP", "loadImmediately"]
+- !private ["s25ExpressibleByArrayLiteralP", "loadOnAppear"]
+- ["s25ExpressibleByArrayLiteralP", "rawValue"]
+- ["s25ExpressibleByArrayLiteralP", "remove"]
+- ["s25ExpressibleByArrayLiteralP", "subtract"]
+- ["s25ExpressibleByArrayLiteralP", "subtracting"]
+- ["s25ExpressibleByArrayLiteralP", "symmetricDifference"]
+- ["s25ExpressibleByArrayLiteralP", "union"]
+- ["s25ExpressibleByArrayLiteralP", "update"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s27ExpressibleByIntegerLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["SH", ""]
+- ["s25LosslessStringConvertibleP", ""]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectP", ""]
+- ["Sj", ""]
+- !private ["7Combine16ObservableObjectP", "Failure"]
+- ["7Combine16ObservableObjectP", "ObjectWillChangePublisher"]
+- ["7Combine16ObservableObjectP", "Progress"]
+- ["7Combine16ObservableObjectP", "Value"]
+- ["7Combine16ObservableObjectP", ""]
+- !private ["7Combine16ObservableObjectP", "cancel"]
+- !private ["7Combine16ObservableObjectP", "init"]
+- !private ["7Combine16ObservableObjectP", "load"]
+- !private ["7Combine16ObservableObjectP", "loadingState"]
+- ["7SwiftUI14ObservedObjectV", "init"]
+- ["7SwiftUI14ObservedObjectV", "projectedValue"]
+- ["7SwiftUI14ObservedObjectV", "subscript"]
+- ["7SwiftUI14ObservedObjectV", "wrappedValue"]
+- ["s9OptionSetP", "=="]
+- ["s9OptionSetP", "ArrayLiteralElement"]
+- ["s9OptionSetP", "Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "Default_Element"]
+- ["s9OptionSetP", "Default_RawValue"]
+- ["s9OptionSetP", "Element"]
+- ["s9OptionSetP", "RawValue"]
+- ["s9OptionSetP", ""]
+- ["s9OptionSetP", "_Default_ArrayLiteralElement"]
+- ["s9OptionSetP", "_Default_Element"]
+- ["s9OptionSetP", "_Default_RawValue"]
+- !private ["s9OptionSetP", "cancelOnDisappear"]
+- ["s9OptionSetP", "contains"]
+- ["s9OptionSetP", "formIntersection"]
+- ["s9OptionSetP", "formSymmetricDifference"]
+- ["s9OptionSetP", "formUnion"]
+- ["s9OptionSetP", "init"]
+- ["s9OptionSetP", "insert"]
+- ["s9OptionSetP", "intersection"]
+- ["s9OptionSetP", "isDisjoint"]
+- ["s9OptionSetP", "isEmpty"]
+- ["s9OptionSetP", "isSubset"]
+- ["s9OptionSetP", "isSuperset"]
+- !private ["s9OptionSetP", "loadImmediately"]
+- !private ["s9OptionSetP", "loadOnAppear"]
+- ["s9OptionSetP", "rawValue"]
+- ["s9OptionSetP", "remove"]
+- ["s9OptionSetP", "subtract"]
+- ["s9OptionSetP", "subtracting"]
+- ["s9OptionSetP", "symmetricDifference"]
+- ["s9OptionSetP", "union"]
+- ["s9OptionSetP", "update"]
+- ["SY", "=="]
+- ["SY", "ArrayLiteralElement"]
+- ["SY", "Default_ArrayLiteralElement"]
+- ["SY", "Default_Element"]
+- ["SY", "Default_RawValue"]
+- ["SY", "Element"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_ArrayLiteralElement"]
+- ["SY", "_Default_Element"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "cancelOnDisappear"]
+- ["SY", "contains"]
+- ["SY", "formIntersection"]
+- ["SY", "formSymmetricDifference"]
+- ["SY", "formUnion"]
+- ["SY", "init"]
+- ["SY", "insert"]
+- ["SY", "intersection"]
+- ["SY", "isDisjoint"]
+- ["SY", "isEmpty"]
+- ["SY", "isSubset"]
+- ["SY", "isSuperset"]
+- !private ["SY", "loadImmediately"]
+- !private ["SY", "loadOnAppear"]
+- ["SY", "rawValue"]
+- ["SY", "remove"]
+- ["SY", "subtract"]
+- ["SY", "subtracting"]
+- ["SY", "symmetricDifference"]
+- ["SY", "union"]
+- ["SY", "update"]
+- ["8URLImage13RemoteContentP", "ObjectWillChangePublisher"]
+- ["8URLImage13RemoteContentP", "Progress"]
+- ["8URLImage13RemoteContentP", "Value"]
+- !private ["8URLImage13RemoteContentP", "cancel"]
+- !private ["8URLImage13RemoteContentP", "init"]
+- !private ["8URLImage13RemoteContentP", "load"]
+- !private ["8URLImage13RemoteContentP", "loadingState"]
+- !private ["8URLImage25RemoteContentLoadingStateO", "failure"]
+- !private ["8URLImage25RemoteContentLoadingStateO", "inProgress"]
+- !private ["8URLImage25RemoteContentLoadingStateO", "initial"]
+- !private ["8URLImage25RemoteContentLoadingStateO", "success"]
+- !private ["8URLImage17RemoteContentViewV", "$remoteContent"]
+- ["8URLImage17RemoteContentViewV", "AnyRemoteContent"]
+- ["8URLImage17RemoteContentViewV", "Body"]
+- ["8URLImage17RemoteContentViewV", "Default_Body"]
+- ["8URLImage17RemoteContentViewV", "Error"]
+- ["8URLImage17RemoteContentViewV", "ObservableObjectPublisher"]
+- ["8URLImage17RemoteContentViewV", "ObservedObject"]
+- ["8URLImage17RemoteContentViewV", "RemoteContent"]
+- ["8URLImage17RemoteContentViewV", "RemoteContentViewLoadOptions"]
+- ["8URLImage17RemoteContentViewV", "View"]
+- ["8URLImage17RemoteContentViewV", "Void"]
+- !private ["8URLImage17RemoteContentViewV", "ZStack"]
+- ["8URLImage17RemoteContentViewV", ""]
+- ["8URLImage17RemoteContentViewV", "_Default_Body"]
+- ["8URLImage17RemoteContentViewV", "_makeView"]
+- ["8URLImage17RemoteContentViewV", "_makeViewList"]
+- !private ["8URLImage17RemoteContentViewV", "_remoteContent"]
+- ["8URLImage17RemoteContentViewV", "_viewListCount"]
+- ["8URLImage17RemoteContentViewV", "body"]
+- ["8URLImage17RemoteContentViewV", "content"]
+- ["8URLImage17RemoteContentViewV", "empty"]
+- ["8URLImage17RemoteContentViewV", "failure"]
+- ["8URLImage17RemoteContentViewV", "inProgress"]
+- ["8URLImage17RemoteContentViewV", "init"]
+- ["8URLImage17RemoteContentViewV", "loadOptions"]
+- !private ["8URLImage17RemoteContentViewV", "remoteContent"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "=="]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "ArrayLiteralElement"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "Default_ArrayLiteralElement"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "Default_Element"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "Default_RawValue"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "Element"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "Int"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "RawValue"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "RemoteContentViewLoadOptions"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", ""]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "_Default_ArrayLiteralElement"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "_Default_Element"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "_Default_RawValue"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "cancelOnDisappear"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "contains"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "formIntersection"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "formSymmetricDifference"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "formUnion"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "init"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "insert"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "intersection"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "isDisjoint"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "isEmpty"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "isSubset"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "isSuperset"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "loadImmediately"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "loadOnAppear"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "rawValue"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "remove"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "subtract"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "subtracting"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "symmetricDifference"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "union"]
+- ["8URLImage28RemoteContentViewLoadOptionsV", "update"]
+- ["ST", "Element"]
+- ["ST", ""]
+- ["s10SetAlgebraP", "=="]
+- ["s10SetAlgebraP", "ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "Default_Element"]
+- ["s10SetAlgebraP", "Default_RawValue"]
+- ["s10SetAlgebraP", "Element"]
+- ["s10SetAlgebraP", "RawValue"]
+- ["s10SetAlgebraP", ""]
+- ["s10SetAlgebraP", "_Default_ArrayLiteralElement"]
+- ["s10SetAlgebraP", "_Default_Element"]
+- ["s10SetAlgebraP", "_Default_RawValue"]
+- !private ["s10SetAlgebraP", "cancelOnDisappear"]
+- ["s10SetAlgebraP", "contains"]
+- ["s10SetAlgebraP", "formIntersection"]
+- ["s10SetAlgebraP", "formSymmetricDifference"]
+- ["s10SetAlgebraP", "formUnion"]
+- ["s10SetAlgebraP", "init"]
+- ["s10SetAlgebraP", "insert"]
+- ["s10SetAlgebraP", "intersection"]
+- ["s10SetAlgebraP", "isDisjoint"]
+- ["s10SetAlgebraP", "isEmpty"]
+- ["s10SetAlgebraP", "isSubset"]
+- ["s10SetAlgebraP", "isSuperset"]
+- !private ["s10SetAlgebraP", "loadImmediately"]
+- !private ["s10SetAlgebraP", "loadOnAppear"]
+- ["s10SetAlgebraP", "rawValue"]
+- ["s10SetAlgebraP", "remove"]
+- ["s10SetAlgebraP", "subtract"]
+- ["s10SetAlgebraP", "subtracting"]
+- ["s10SetAlgebraP", "symmetricDifference"]
+- ["s10SetAlgebraP", "union"]
+- ["s10SetAlgebraP", "update"]
+- ["Sx", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["7SwiftUI4ViewP", "AnyRemoteContent"]
+- ["7SwiftUI4ViewP", "Body"]
+- ["7SwiftUI4ViewP", "Default_Body"]
+- ["7SwiftUI4ViewP", "ObservedObject"]
+- !private ["7SwiftUI4ViewP", "ZStack"]
+- ["7SwiftUI4ViewP", ""]
+- ["7SwiftUI4ViewP", "_Default_Body"]
+- ["7SwiftUI4ViewP", "_makeView"]
+- ["7SwiftUI4ViewP", "_makeViewList"]
+- ["7SwiftUI4ViewP", "_viewListCount"]
+- ["7SwiftUI4ViewP", "body"]
+- !private ["7SwiftUI4ViewP", "content"]
+- !private ["7SwiftUI4ViewP", "empty"]
+- !private ["7SwiftUI4ViewP", "failure"]
+- !private ["7SwiftUI4ViewP", "inProgress"]
+- !private ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "loadOptions"]
+- !private ["7SwiftUI4ViewP", "onAppear"]
+- !private ["7SwiftUI4ViewP", "onDisappear"]
+- !private ["7SwiftUI4ViewP", "remoteContent"]
+- !private ["7SwiftUI11ViewBuilderV", "buildBlock"]
+- !private ["7SwiftUI11ViewBuilderV", "buildEither"]
+- !private ["7SwiftUI11ViewBuilderV", "buildExpression"]
+- !private ["7SwiftUI11ViewBuilderV", "buildFinalResult"]
+- !private ["7SwiftUI11ViewBuilderV", "buildIf"]
+- !private ["7SwiftUI11ViewBuilderV", "buildOptional"]
+- !private ["7SwiftUI6ZStackV", "init"]
+- !private ["7SwiftUI6ZStackV", "onAppear"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+depends-nominal:
+- "s18AdditiveArithmeticP"
+- "7SwiftUI10AnimatableP"
+- "8URLImage16AnyRemoteContentC"
+- "SK"
+- "Sz"
+- "Sl"
+- "SL"
+- "s23CustomStringConvertibleP"
+- "7SwiftUI15DynamicPropertyP"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s25LosslessStringConvertibleP"
+- "So8NSCodingP"
+- "So8NSObjectP"
+- "Sj"
+- "7Combine16ObservableObjectP"
+- "7SwiftUI14ObservedObjectV"
+- "s9OptionSetP"
+- "SY"
+- "8URLImage13RemoteContentP"
+- !private "8URLImage25RemoteContentLoadingStateO"
+- "8URLImage17RemoteContentViewV"
+- "8URLImage28RemoteContentViewLoadOptionsV"
+- "ST"
+- "s10SetAlgebraP"
+- "Sx"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So18UIFocusEnvironmentP"
+- "7SwiftUI4ViewP"
+- !private "7SwiftUI11ViewBuilderV"
+- !private "7SwiftUI6ZStackV"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/Pods/Target Support Files/URLImage/URLImage-umbrella.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Pods.build/Debug-iphonesimulator/URLImage.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "00e8bf400d31db81ad0f3dce17024c58"

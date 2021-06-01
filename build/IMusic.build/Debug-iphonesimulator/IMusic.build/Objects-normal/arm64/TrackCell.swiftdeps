@@ -1,0 +1,1175 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TrackCellViewModel"
+- "TrackCell"
+provides-nominal:
+- "6IMusic18TrackCellViewModelP"
+- "6IMusic9TrackCellC"
+provides-member:
+- ["6IMusic18TrackCellViewModelP", ""]
+- ["6IMusic9TrackCellC", ""]
+provides-dynamic-lookup:
+- "addTrackAcion"
+- "addTrackButton"
+- "artistNameLabel"
+- "awakeFromNib"
+- "cell"
+- "collectionNameLabel"
+- "prepareForReuse"
+- "reuseId"
+- "set"
+- "trackImageView"
+- "trackNameLabel"
+depends-top-level:
+- !private "!="
+- "&&"
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- !private "NSKeyedArchiver"
+- "SearchViewModel"
+- "String"
+- "StringLiteralType"
+- "TrackCell"
+- "TrackCellViewModel"
+- "UIButton"
+- "UIImageView"
+- "UILabel"
+- "UITableViewCell"
+- !private "URL"
+- !private "UserDefaults"
+- !private "addTrackButton"
+- !private "artistNameLabel"
+- !private "cell"
+- !private "collectionNameLabel"
+- !private "trackImageView"
+- !private "trackNameLabel"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "firstIndex"]
+- !private ["Sa", "append"]
+- !private ["Sa", "firstIndex"]
+- !private ["SK", ""]
+- !private ["SK", "append"]
+- !private ["SK", "firstIndex"]
+- !private ["So15CALayerDelegateP", "NSKeyedArchiver"]
+- ["So15CALayerDelegateP", "SearchViewModel"]
+- ["So15CALayerDelegateP", "UIButton"]
+- ["So15CALayerDelegateP", "UIImageView"]
+- !private ["So15CALayerDelegateP", "URL"]
+- !private ["So15CALayerDelegateP", "UserDefaults"]
+- ["So15CALayerDelegateP", ""]
+- ["So15CALayerDelegateP", "addTrackAcion"]
+- ["So15CALayerDelegateP", "addTrackButton"]
+- ["So15CALayerDelegateP", "artistNameLabel"]
+- ["So15CALayerDelegateP", "awakeFromNib"]
+- ["So15CALayerDelegateP", "cell"]
+- ["So15CALayerDelegateP", "collectionNameLabel"]
+- !private ["So15CALayerDelegateP", "image"]
+- ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "isHidden"]
+- ["So15CALayerDelegateP", "prepareForReuse"]
+- ["So15CALayerDelegateP", "reuseId"]
+- !private ["So15CALayerDelegateP", "sd_setImage"]
+- !private ["So15CALayerDelegateP", "sd_setImageWithURL"]
+- ["So15CALayerDelegateP", "set"]
+- !private ["So15CALayerDelegateP", "text"]
+- ["So15CALayerDelegateP", "trackImageView"]
+- ["So15CALayerDelegateP", "trackNameLabel"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "append"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "firstIndex"]
+- ["s7CVarArgP", "Cell"]
+- !private ["s7CVarArgP", "NSKeyedArchiver"]
+- !private ["s7CVarArgP", "URL"]
+- !private ["s7CVarArgP", "UserDefaults"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTrackButton"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "archivedData"]
+- !private ["s7CVarArgP", "artistName"]
+- !private ["s7CVarArgP", "artistNameLabel"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "cell"]
+- !private ["s7CVarArgP", "collectionName"]
+- !private ["s7CVarArgP", "collectionNameLabel"]
+- !private ["s7CVarArgP", "favouriteTrackKey"]
+- !private ["s7CVarArgP", "firstIndex"]
+- !private ["s7CVarArgP", "getTracks"]
+- !private ["s7CVarArgP", "iconUrlString"]
+- !private ["s7CVarArgP", "image"]
+- !private ["s7CVarArgP", "isHidden"]
+- !private ["s7CVarArgP", "prepareForReuse"]
+- !private ["s7CVarArgP", "sd_setImage"]
+- !private ["s7CVarArgP", "setValue"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "trackImageView"]
+- !private ["s7CVarArgP", "trackName"]
+- !private ["s7CVarArgP", "trackNameLabel"]
+- !private ["6IMusic15SearchViewModelC4CellC", ""]
+- !private ["6IMusic15SearchViewModelC4CellC", "artistName"]
+- !private ["6IMusic15SearchViewModelC4CellC", "collectionName"]
+- !private ["6IMusic15SearchViewModelC4CellC", "iconUrlString"]
+- !private ["6IMusic15SearchViewModelC4CellC", "trackName"]
+- !private ["Sl", ""]
+- !private ["Sl", "append"]
+- !private ["Sl", "firstIndex"]
+- !private ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "firstIndex"]
+- ["s28CustomDebugStringConvertibleP", "Cell"]
+- !private ["s28CustomDebugStringConvertibleP", "NSKeyedArchiver"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- !private ["s28CustomDebugStringConvertibleP", "UserDefaults"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTrackButton"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "archivedData"]
+- !private ["s28CustomDebugStringConvertibleP", "artistName"]
+- !private ["s28CustomDebugStringConvertibleP", "artistNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "cell"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionName"]
+- !private ["s28CustomDebugStringConvertibleP", "collectionNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "favouriteTrackKey"]
+- !private ["s28CustomDebugStringConvertibleP", "firstIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "getTracks"]
+- !private ["s28CustomDebugStringConvertibleP", "iconUrlString"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isHidden"]
+- !private ["s28CustomDebugStringConvertibleP", "prepareForReuse"]
+- !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setValue"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "trackImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "trackName"]
+- !private ["s28CustomDebugStringConvertibleP", "trackNameLabel"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "firstIndex"]
+- !private ["s17CustomReflectableP", "image"]
+- !private ["s17CustomReflectableP", "isHidden"]
+- !private ["s17CustomReflectableP", "sd_setImage"]
+- !private ["s17CustomReflectableP", "text"]
+- ["s23CustomStringConvertibleP", "Cell"]
+- !private ["s23CustomStringConvertibleP", "NSKeyedArchiver"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- !private ["s23CustomStringConvertibleP", "UserDefaults"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTrackButton"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "archivedData"]
+- !private ["s23CustomStringConvertibleP", "artistName"]
+- !private ["s23CustomStringConvertibleP", "artistNameLabel"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "cell"]
+- !private ["s23CustomStringConvertibleP", "collectionName"]
+- !private ["s23CustomStringConvertibleP", "collectionNameLabel"]
+- !private ["s23CustomStringConvertibleP", "favouriteTrackKey"]
+- !private ["s23CustomStringConvertibleP", "firstIndex"]
+- !private ["s23CustomStringConvertibleP", "getTracks"]
+- !private ["s23CustomStringConvertibleP", "iconUrlString"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isHidden"]
+- !private ["s23CustomStringConvertibleP", "prepareForReuse"]
+- !private ["s23CustomStringConvertibleP", "sd_setImage"]
+- !private ["s23CustomStringConvertibleP", "setValue"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "trackImageView"]
+- !private ["s23CustomStringConvertibleP", "trackName"]
+- !private ["s23CustomStringConvertibleP", "trackNameLabel"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "firstIndex"]
+- !private ["Se", "append"]
+- !private ["Se", "firstIndex"]
+- !private ["Se", "image"]
+- !private ["Se", "init"]
+- !private ["Se", "isHidden"]
+- !private ["Se", "sd_setImage"]
+- !private ["Se", "text"]
+- !private ["SE", "append"]
+- !private ["SE", "firstIndex"]
+- !private ["SE", "image"]
+- !private ["SE", "init"]
+- !private ["SE", "isHidden"]
+- !private ["SE", "sd_setImage"]
+- !private ["SE", "text"]
+- ["SQ", "Cell"]
+- !private ["SQ", "NSKeyedArchiver"]
+- !private ["SQ", "URL"]
+- !private ["SQ", "UserDefaults"]
+- ["SQ", ""]
+- !private ["SQ", "addTrackButton"]
+- !private ["SQ", "append"]
+- !private ["SQ", "archivedData"]
+- !private ["SQ", "artistName"]
+- !private ["SQ", "artistNameLabel"]
+- !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "cell"]
+- !private ["SQ", "collectionName"]
+- !private ["SQ", "collectionNameLabel"]
+- !private ["SQ", "favouriteTrackKey"]
+- !private ["SQ", "firstIndex"]
+- !private ["SQ", "getTracks"]
+- !private ["SQ", "iconUrlString"]
+- !private ["SQ", "image"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isHidden"]
+- !private ["SQ", "prepareForReuse"]
+- !private ["SQ", "sd_setImage"]
+- !private ["SQ", "setValue"]
+- !private ["SQ", "standard"]
+- !private ["SQ", "text"]
+- !private ["SQ", "trackImageView"]
+- !private ["SQ", "trackName"]
+- !private ["SQ", "trackNameLabel"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "image"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "isHidden"]
+- !private ["s23ExpressibleByNilLiteralP", "sd_setImage"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["7SwiftUI7GestureP", "image"]
+- !private ["7SwiftUI7GestureP", "isHidden"]
+- !private ["7SwiftUI7GestureP", "sd_setImage"]
+- !private ["7SwiftUI7GestureP", "text"]
+- ["SH", "Cell"]
+- !private ["SH", "NSKeyedArchiver"]
+- !private ["SH", "URL"]
+- !private ["SH", "UserDefaults"]
+- ["SH", ""]
+- !private ["SH", "addTrackButton"]
+- !private ["SH", "append"]
+- !private ["SH", "archivedData"]
+- !private ["SH", "artistName"]
+- !private ["SH", "artistNameLabel"]
+- !private ["SH", "awakeFromNib"]
+- !private ["SH", "cell"]
+- !private ["SH", "collectionName"]
+- !private ["SH", "collectionNameLabel"]
+- !private ["SH", "favouriteTrackKey"]
+- !private ["SH", "firstIndex"]
+- !private ["SH", "getTracks"]
+- !private ["SH", "iconUrlString"]
+- !private ["SH", "image"]
+- !private ["SH", "init"]
+- !private ["SH", "isHidden"]
+- !private ["SH", "prepareForReuse"]
+- !private ["SH", "sd_setImage"]
+- !private ["SH", "setValue"]
+- !private ["SH", "standard"]
+- !private ["SH", "text"]
+- !private ["SH", "trackImageView"]
+- !private ["SH", "trackName"]
+- !private ["SH", "trackNameLabel"]
+- !private ["s12IdentifiableP", "artistName"]
+- !private ["s12IdentifiableP", "collectionName"]
+- !private ["s12IdentifiableP", "iconUrlString"]
+- !private ["s12IdentifiableP", "trackName"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "append"]
+- !private ["SM", "firstIndex"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "firstIndex"]
+- ["So7NSCoderC", ""]
+- !private ["So7NSCoderC", "archivedData"]
+- !private ["So7NSCoderC", "archivedDataWithRootObject"]
+- ["So8NSCodingP", "Cell"]
+- !private ["So8NSCodingP", "NSKeyedArchiver"]
+- ["So8NSCodingP", "SearchViewModel"]
+- ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", "UIImageView"]
+- !private ["So8NSCodingP", "URL"]
+- !private ["So8NSCodingP", "UserDefaults"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "addTrackAcion"]
+- ["So8NSCodingP", "addTrackButton"]
+- !private ["So8NSCodingP", "artistName"]
+- ["So8NSCodingP", "artistNameLabel"]
+- ["So8NSCodingP", "awakeFromNib"]
+- ["So8NSCodingP", "cell"]
+- !private ["So8NSCodingP", "collectionName"]
+- ["So8NSCodingP", "collectionNameLabel"]
+- !private ["So8NSCodingP", "iconUrlString"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "isHidden"]
+- ["So8NSCodingP", "prepareForReuse"]
+- ["So8NSCodingP", "reuseId"]
+- !private ["So8NSCodingP", "sd_setImage"]
+- !private ["So8NSCodingP", "sd_setImageWithURL"]
+- ["So8NSCodingP", "set"]
+- !private ["So8NSCodingP", "text"]
+- ["So8NSCodingP", "trackImageView"]
+- !private ["So8NSCodingP", "trackName"]
+- ["So8NSCodingP", "trackNameLabel"]
+- !private ["So15NSKeyedArchiverC", "archivedData"]
+- ["So8NSObjectC", "Cell"]
+- !private ["So8NSObjectC", "NSKeyedArchiver"]
+- ["So8NSObjectC", "SearchViewModel"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "URL"]
+- !private ["So8NSObjectC", "UserDefaults"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "addTrackAcion"]
+- ["So8NSObjectC", "addTrackButton"]
+- !private ["So8NSObjectC", "archivedData"]
+- !private ["So8NSObjectC", "archivedDataWithRootObject"]
+- !private ["So8NSObjectC", "artistName"]
+- ["So8NSObjectC", "artistNameLabel"]
+- ["So8NSObjectC", "awakeFromNib"]
+- ["So8NSObjectC", "cell"]
+- !private ["So8NSObjectC", "cgAffineTransform"]
+- !private ["So8NSObjectC", "cgPoint"]
+- !private ["So8NSObjectC", "cgRect"]
+- !private ["So8NSObjectC", "cgSize"]
+- !private ["So8NSObjectC", "cgVector"]
+- !private ["So8NSObjectC", "collectionName"]
+- ["So8NSObjectC", "collectionNameLabel"]
+- !private ["So8NSObjectC", "favouriteTrackKey"]
+- !private ["So8NSObjectC", "getTracks"]
+- !private ["So8NSObjectC", "iconUrlString"]
+- !private ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isHidden"]
+- !private ["So8NSObjectC", "nsDirectionalEdgeInsets"]
+- ["So8NSObjectC", "prepareForReuse"]
+- ["So8NSObjectC", "reuseId"]
+- !private ["So8NSObjectC", "sd_setImage"]
+- !private ["So8NSObjectC", "sd_setImageWithURL"]
+- ["So8NSObjectC", "set"]
+- !private ["So8NSObjectC", "setValue"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "trackImageView"]
+- !private ["So8NSObjectC", "trackName"]
+- ["So8NSObjectC", "trackNameLabel"]
+- !private ["So8NSObjectC", "uiEdgeInsets"]
+- !private ["So8NSObjectC", "uiOffset"]
+- ["So8NSObjectP", "Cell"]
+- !private ["So8NSObjectP", "NSKeyedArchiver"]
+- ["So8NSObjectP", "SearchViewModel"]
+- ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", "UIImageView"]
+- !private ["So8NSObjectP", "URL"]
+- !private ["So8NSObjectP", "UserDefaults"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addTrackAcion"]
+- ["So8NSObjectP", "addTrackButton"]
+- !private ["So8NSObjectP", "archivedData"]
+- !private ["So8NSObjectP", "archivedDataWithRootObject"]
+- !private ["So8NSObjectP", "artistName"]
+- ["So8NSObjectP", "artistNameLabel"]
+- ["So8NSObjectP", "awakeFromNib"]
+- ["So8NSObjectP", "cell"]
+- !private ["So8NSObjectP", "cgAffineTransform"]
+- !private ["So8NSObjectP", "cgPoint"]
+- !private ["So8NSObjectP", "cgRect"]
+- !private ["So8NSObjectP", "cgSize"]
+- !private ["So8NSObjectP", "cgVector"]
+- !private ["So8NSObjectP", "collectionName"]
+- ["So8NSObjectP", "collectionNameLabel"]
+- !private ["So8NSObjectP", "favouriteTrackKey"]
+- ["So8NSObjectP", "getTracks"]
+- !private ["So8NSObjectP", "iconUrlString"]
+- !private ["So8NSObjectP", "image"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isHidden"]
+- !private ["So8NSObjectP", "nsDirectionalEdgeInsets"]
+- ["So8NSObjectP", "prepareForReuse"]
+- ["So8NSObjectP", "reuseId"]
+- !private ["So8NSObjectP", "sd_setImage"]
+- !private ["So8NSObjectP", "sd_setImageWithURL"]
+- ["So8NSObjectP", "set"]
+- !private ["So8NSObjectP", "setValue"]
+- !private ["So8NSObjectP", "standard"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "text"]
+- ["So8NSObjectP", "trackImageView"]
+- !private ["So8NSObjectP", "trackName"]
+- ["So8NSObjectP", "trackNameLabel"]
+- !private ["So8NSObjectP", "uiEdgeInsets"]
+- !private ["So8NSObjectP", "uiOffset"]
+- !private ["Sq", "image"]
+- !private ["Sq", "isHidden"]
+- !private ["Sq", "sd_setImage"]
+- !private ["Sq", "text"]
+- !private ["Sk", ""]
+- !private ["Sk", "append"]
+- !private ["Sk", "firstIndex"]
+- !private ["Sm", ""]
+- !private ["Sm", "append"]
+- !private ["Sm", "firstIndex"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- ["6IMusic15SearchViewModelC", "Cell"]
+- !private ["ST", ""]
+- !private ["ST", "append"]
+- !private ["ST", "firstIndex"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["6IMusic9TrackCellC", "NSKeyedArchiver"]
+- ["6IMusic9TrackCellC", "SearchViewModel"]
+- ["6IMusic9TrackCellC", "UIButton"]
+- ["6IMusic9TrackCellC", "UIImageView"]
+- ["6IMusic9TrackCellC", "UILabel"]
+- !private ["6IMusic9TrackCellC", "URL"]
+- !private ["6IMusic9TrackCellC", "UserDefaults"]
+- ["6IMusic9TrackCellC", ""]
+- ["6IMusic9TrackCellC", "addTrackAcion"]
+- ["6IMusic9TrackCellC", "addTrackButton"]
+- ["6IMusic9TrackCellC", "artistNameLabel"]
+- ["6IMusic9TrackCellC", "awakeFromNib"]
+- ["6IMusic9TrackCellC", "cell"]
+- ["6IMusic9TrackCellC", "collectionNameLabel"]
+- ["6IMusic9TrackCellC", "deinit"]
+- ["6IMusic9TrackCellC", "init"]
+- ["6IMusic9TrackCellC", "prepareForReuse"]
+- ["6IMusic9TrackCellC", "reuseId"]
+- ["6IMusic9TrackCellC", "set"]
+- ["6IMusic9TrackCellC", "trackImageView"]
+- ["6IMusic9TrackCellC", "trackNameLabel"]
+- ["6IMusic18TrackCellViewModelP", "String"]
+- ["6IMusic18TrackCellViewModelP", "artistName"]
+- ["6IMusic18TrackCellViewModelP", "collectionName"]
+- ["6IMusic18TrackCellViewModelP", "iconUrlString"]
+- ["6IMusic18TrackCellViewModelP", "trackName"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "image"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "isHidden"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "NSKeyedArchiver"]
+- ["So29UIAccessibilityIdentificationP", "SearchViewModel"]
+- ["So29UIAccessibilityIdentificationP", "UIButton"]
+- ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "URL"]
+- !private ["So29UIAccessibilityIdentificationP", "UserDefaults"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- ["So29UIAccessibilityIdentificationP", "addTrackAcion"]
+- ["So29UIAccessibilityIdentificationP", "addTrackButton"]
+- ["So29UIAccessibilityIdentificationP", "artistNameLabel"]
+- ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- ["So29UIAccessibilityIdentificationP", "cell"]
+- ["So29UIAccessibilityIdentificationP", "collectionNameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "image"]
+- ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "isHidden"]
+- ["So29UIAccessibilityIdentificationP", "prepareForReuse"]
+- ["So29UIAccessibilityIdentificationP", "reuseId"]
+- !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "sd_setImageWithURL"]
+- ["So29UIAccessibilityIdentificationP", "set"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- ["So29UIAccessibilityIdentificationP", "trackImageView"]
+- ["So29UIAccessibilityIdentificationP", "trackNameLabel"]
+- !private ["So12UIAppearanceP", "NSKeyedArchiver"]
+- ["So12UIAppearanceP", "SearchViewModel"]
+- ["So12UIAppearanceP", "UIButton"]
+- ["So12UIAppearanceP", "UIImageView"]
+- !private ["So12UIAppearanceP", "URL"]
+- !private ["So12UIAppearanceP", "UserDefaults"]
+- ["So12UIAppearanceP", ""]
+- ["So12UIAppearanceP", "addTrackAcion"]
+- ["So12UIAppearanceP", "addTrackButton"]
+- ["So12UIAppearanceP", "artistNameLabel"]
+- ["So12UIAppearanceP", "awakeFromNib"]
+- ["So12UIAppearanceP", "cell"]
+- ["So12UIAppearanceP", "collectionNameLabel"]
+- !private ["So12UIAppearanceP", "image"]
+- ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "isHidden"]
+- ["So12UIAppearanceP", "prepareForReuse"]
+- ["So12UIAppearanceP", "reuseId"]
+- !private ["So12UIAppearanceP", "sd_setImage"]
+- !private ["So12UIAppearanceP", "sd_setImageWithURL"]
+- ["So12UIAppearanceP", "set"]
+- !private ["So12UIAppearanceP", "text"]
+- ["So12UIAppearanceP", "trackImageView"]
+- ["So12UIAppearanceP", "trackNameLabel"]
+- !private ["So21UIAppearanceContainerP", "NSKeyedArchiver"]
+- ["So21UIAppearanceContainerP", "SearchViewModel"]
+- ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", "UIImageView"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- !private ["So21UIAppearanceContainerP", "UserDefaults"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "addTrackAcion"]
+- ["So21UIAppearanceContainerP", "addTrackButton"]
+- ["So21UIAppearanceContainerP", "artistNameLabel"]
+- ["So21UIAppearanceContainerP", "awakeFromNib"]
+- ["So21UIAppearanceContainerP", "cell"]
+- ["So21UIAppearanceContainerP", "collectionNameLabel"]
+- !private ["So21UIAppearanceContainerP", "image"]
+- ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "isHidden"]
+- ["So21UIAppearanceContainerP", "prepareForReuse"]
+- ["So21UIAppearanceContainerP", "reuseId"]
+- !private ["So21UIAppearanceContainerP", "sd_setImage"]
+- !private ["So21UIAppearanceContainerP", "sd_setImageWithURL"]
+- ["So21UIAppearanceContainerP", "set"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- ["So21UIAppearanceContainerP", "trackImageView"]
+- ["So21UIAppearanceContainerP", "trackNameLabel"]
+- !private ["So8UIButtonC", "isHidden"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So32UIContextMenuInteractionDelegateP", "isHidden"]
+- ["So9UIControlC", ""]
+- !private ["So9UIControlC", "isHidden"]
+- !private ["So17UICoordinateSpaceP", "NSKeyedArchiver"]
+- ["So17UICoordinateSpaceP", "SearchViewModel"]
+- ["So17UICoordinateSpaceP", "UIButton"]
+- ["So17UICoordinateSpaceP", "UIImageView"]
+- !private ["So17UICoordinateSpaceP", "URL"]
+- !private ["So17UICoordinateSpaceP", "UserDefaults"]
+- ["So17UICoordinateSpaceP", ""]
+- ["So17UICoordinateSpaceP", "addTrackAcion"]
+- ["So17UICoordinateSpaceP", "addTrackButton"]
+- ["So17UICoordinateSpaceP", "artistNameLabel"]
+- ["So17UICoordinateSpaceP", "awakeFromNib"]
+- ["So17UICoordinateSpaceP", "cell"]
+- ["So17UICoordinateSpaceP", "collectionNameLabel"]
+- !private ["So17UICoordinateSpaceP", "image"]
+- ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "isHidden"]
+- ["So17UICoordinateSpaceP", "prepareForReuse"]
+- ["So17UICoordinateSpaceP", "reuseId"]
+- !private ["So17UICoordinateSpaceP", "sd_setImage"]
+- !private ["So17UICoordinateSpaceP", "sd_setImageWithURL"]
+- ["So17UICoordinateSpaceP", "set"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- ["So17UICoordinateSpaceP", "trackImageView"]
+- ["So17UICoordinateSpaceP", "trackNameLabel"]
+- !private ["So13UIDynamicItemP", "NSKeyedArchiver"]
+- ["So13UIDynamicItemP", "SearchViewModel"]
+- ["So13UIDynamicItemP", "UIButton"]
+- ["So13UIDynamicItemP", "UIImageView"]
+- !private ["So13UIDynamicItemP", "URL"]
+- !private ["So13UIDynamicItemP", "UserDefaults"]
+- ["So13UIDynamicItemP", ""]
+- ["So13UIDynamicItemP", "addTrackAcion"]
+- ["So13UIDynamicItemP", "addTrackButton"]
+- ["So13UIDynamicItemP", "artistNameLabel"]
+- ["So13UIDynamicItemP", "awakeFromNib"]
+- ["So13UIDynamicItemP", "cell"]
+- ["So13UIDynamicItemP", "collectionNameLabel"]
+- !private ["So13UIDynamicItemP", "image"]
+- ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "isHidden"]
+- ["So13UIDynamicItemP", "prepareForReuse"]
+- ["So13UIDynamicItemP", "reuseId"]
+- !private ["So13UIDynamicItemP", "sd_setImage"]
+- !private ["So13UIDynamicItemP", "sd_setImageWithURL"]
+- ["So13UIDynamicItemP", "set"]
+- !private ["So13UIDynamicItemP", "text"]
+- ["So13UIDynamicItemP", "trackImageView"]
+- ["So13UIDynamicItemP", "trackNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "NSKeyedArchiver"]
+- ["So18UIFocusEnvironmentP", "SearchViewModel"]
+- ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", "UIImageView"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- !private ["So18UIFocusEnvironmentP", "UserDefaults"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addTrackAcion"]
+- ["So18UIFocusEnvironmentP", "addTrackButton"]
+- ["So18UIFocusEnvironmentP", "artistNameLabel"]
+- ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- ["So18UIFocusEnvironmentP", "cell"]
+- ["So18UIFocusEnvironmentP", "collectionNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "image"]
+- ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "isHidden"]
+- ["So18UIFocusEnvironmentP", "prepareForReuse"]
+- ["So18UIFocusEnvironmentP", "reuseId"]
+- !private ["So18UIFocusEnvironmentP", "sd_setImage"]
+- !private ["So18UIFocusEnvironmentP", "sd_setImageWithURL"]
+- ["So18UIFocusEnvironmentP", "set"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- ["So18UIFocusEnvironmentP", "trackImageView"]
+- ["So18UIFocusEnvironmentP", "trackNameLabel"]
+- !private ["So11UIFocusItemP", "NSKeyedArchiver"]
+- ["So11UIFocusItemP", "SearchViewModel"]
+- ["So11UIFocusItemP", "UIButton"]
+- ["So11UIFocusItemP", "UIImageView"]
+- !private ["So11UIFocusItemP", "URL"]
+- !private ["So11UIFocusItemP", "UserDefaults"]
+- ["So11UIFocusItemP", ""]
+- ["So11UIFocusItemP", "addTrackAcion"]
+- ["So11UIFocusItemP", "addTrackButton"]
+- ["So11UIFocusItemP", "artistNameLabel"]
+- ["So11UIFocusItemP", "awakeFromNib"]
+- ["So11UIFocusItemP", "cell"]
+- ["So11UIFocusItemP", "collectionNameLabel"]
+- !private ["So11UIFocusItemP", "image"]
+- ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "isHidden"]
+- ["So11UIFocusItemP", "prepareForReuse"]
+- ["So11UIFocusItemP", "reuseId"]
+- !private ["So11UIFocusItemP", "sd_setImage"]
+- !private ["So11UIFocusItemP", "sd_setImageWithURL"]
+- ["So11UIFocusItemP", "set"]
+- !private ["So11UIFocusItemP", "text"]
+- ["So11UIFocusItemP", "trackImageView"]
+- ["So11UIFocusItemP", "trackNameLabel"]
+- !private ["So20UIFocusItemContainerP", "NSKeyedArchiver"]
+- ["So20UIFocusItemContainerP", "SearchViewModel"]
+- ["So20UIFocusItemContainerP", "UIButton"]
+- ["So20UIFocusItemContainerP", "UIImageView"]
+- !private ["So20UIFocusItemContainerP", "URL"]
+- !private ["So20UIFocusItemContainerP", "UserDefaults"]
+- ["So20UIFocusItemContainerP", ""]
+- ["So20UIFocusItemContainerP", "addTrackAcion"]
+- ["So20UIFocusItemContainerP", "addTrackButton"]
+- ["So20UIFocusItemContainerP", "artistNameLabel"]
+- ["So20UIFocusItemContainerP", "awakeFromNib"]
+- ["So20UIFocusItemContainerP", "cell"]
+- ["So20UIFocusItemContainerP", "collectionNameLabel"]
+- !private ["So20UIFocusItemContainerP", "image"]
+- ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "isHidden"]
+- ["So20UIFocusItemContainerP", "prepareForReuse"]
+- ["So20UIFocusItemContainerP", "reuseId"]
+- !private ["So20UIFocusItemContainerP", "sd_setImage"]
+- !private ["So20UIFocusItemContainerP", "sd_setImageWithURL"]
+- ["So20UIFocusItemContainerP", "set"]
+- !private ["So20UIFocusItemContainerP", "text"]
+- ["So20UIFocusItemContainerP", "trackImageView"]
+- ["So20UIFocusItemContainerP", "trackNameLabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "NSKeyedArchiver"]
+- ["So27UIGestureRecognizerDelegateP", "SearchViewModel"]
+- ["So27UIGestureRecognizerDelegateP", "UIButton"]
+- ["So27UIGestureRecognizerDelegateP", "UIImageView"]
+- ["So27UIGestureRecognizerDelegateP", "UILabel"]
+- !private ["So27UIGestureRecognizerDelegateP", "URL"]
+- !private ["So27UIGestureRecognizerDelegateP", "UserDefaults"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- ["So27UIGestureRecognizerDelegateP", "addTrackAcion"]
+- ["So27UIGestureRecognizerDelegateP", "addTrackButton"]
+- ["So27UIGestureRecognizerDelegateP", "artistNameLabel"]
+- ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- ["So27UIGestureRecognizerDelegateP", "cell"]
+- ["So27UIGestureRecognizerDelegateP", "collectionNameLabel"]
+- ["So27UIGestureRecognizerDelegateP", "init"]
+- ["So27UIGestureRecognizerDelegateP", "prepareForReuse"]
+- ["So27UIGestureRecognizerDelegateP", "reuseId"]
+- ["So27UIGestureRecognizerDelegateP", "set"]
+- ["So27UIGestureRecognizerDelegateP", "trackImageView"]
+- ["So27UIGestureRecognizerDelegateP", "trackNameLabel"]
+- !private ["So11UIImageViewC", "image"]
+- !private ["So11UIImageViewC", "sd_setImage"]
+- !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "NSKeyedArchiver"]
+- ["So24UILargeContentViewerItemP", "SearchViewModel"]
+- ["So24UILargeContentViewerItemP", "UIButton"]
+- ["So24UILargeContentViewerItemP", "UIImageView"]
+- !private ["So24UILargeContentViewerItemP", "URL"]
+- !private ["So24UILargeContentViewerItemP", "UserDefaults"]
+- ["So24UILargeContentViewerItemP", ""]
+- ["So24UILargeContentViewerItemP", "addTrackAcion"]
+- ["So24UILargeContentViewerItemP", "addTrackButton"]
+- ["So24UILargeContentViewerItemP", "artistNameLabel"]
+- ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- ["So24UILargeContentViewerItemP", "cell"]
+- ["So24UILargeContentViewerItemP", "collectionNameLabel"]
+- !private ["So24UILargeContentViewerItemP", "image"]
+- ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "isHidden"]
+- ["So24UILargeContentViewerItemP", "prepareForReuse"]
+- ["So24UILargeContentViewerItemP", "reuseId"]
+- !private ["So24UILargeContentViewerItemP", "sd_setImage"]
+- !private ["So24UILargeContentViewerItemP", "sd_setImageWithURL"]
+- ["So24UILargeContentViewerItemP", "set"]
+- !private ["So24UILargeContentViewerItemP", "text"]
+- ["So24UILargeContentViewerItemP", "trackImageView"]
+- ["So24UILargeContentViewerItemP", "trackNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSKeyedArchiver"]
+- ["So30UIPasteConfigurationSupportingP", "SearchViewModel"]
+- ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "addTrackAcion"]
+- ["So30UIPasteConfigurationSupportingP", "addTrackButton"]
+- ["So30UIPasteConfigurationSupportingP", "artistNameLabel"]
+- ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- ["So30UIPasteConfigurationSupportingP", "cell"]
+- ["So30UIPasteConfigurationSupportingP", "collectionNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "image"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "isHidden"]
+- ["So30UIPasteConfigurationSupportingP", "prepareForReuse"]
+- ["So30UIPasteConfigurationSupportingP", "reuseId"]
+- !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "sd_setImageWithURL"]
+- ["So30UIPasteConfigurationSupportingP", "set"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- ["So30UIPasteConfigurationSupportingP", "trackImageView"]
+- ["So30UIPasteConfigurationSupportingP", "trackNameLabel"]
+- !private ["So11UIResponderC", "NSKeyedArchiver"]
+- ["So11UIResponderC", "SearchViewModel"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "URL"]
+- !private ["So11UIResponderC", "UserDefaults"]
+- ["So11UIResponderC", ""]
+- ["So11UIResponderC", "addTrackAcion"]
+- ["So11UIResponderC", "addTrackButton"]
+- ["So11UIResponderC", "artistNameLabel"]
+- ["So11UIResponderC", "awakeFromNib"]
+- ["So11UIResponderC", "cell"]
+- ["So11UIResponderC", "collectionNameLabel"]
+- !private ["So11UIResponderC", "image"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "isHidden"]
+- ["So11UIResponderC", "prepareForReuse"]
+- ["So11UIResponderC", "reuseId"]
+- !private ["So11UIResponderC", "sd_setImage"]
+- !private ["So11UIResponderC", "sd_setImageWithURL"]
+- ["So11UIResponderC", "set"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "trackImageView"]
+- ["So11UIResponderC", "trackNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "NSKeyedArchiver"]
+- ["So30UIResponderStandardEditActionsP", "SearchViewModel"]
+- ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "addTrackAcion"]
+- ["So30UIResponderStandardEditActionsP", "addTrackButton"]
+- ["So30UIResponderStandardEditActionsP", "artistNameLabel"]
+- ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- ["So30UIResponderStandardEditActionsP", "cell"]
+- ["So30UIResponderStandardEditActionsP", "collectionNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "image"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "isHidden"]
+- ["So30UIResponderStandardEditActionsP", "prepareForReuse"]
+- ["So30UIResponderStandardEditActionsP", "reuseId"]
+- !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "sd_setImageWithURL"]
+- ["So30UIResponderStandardEditActionsP", "set"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- ["So30UIResponderStandardEditActionsP", "trackImageView"]
+- ["So30UIResponderStandardEditActionsP", "trackNameLabel"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "isHidden"]
+- !private ["So15UITableViewCellC", "NSKeyedArchiver"]
+- ["So15UITableViewCellC", "SearchViewModel"]
+- ["So15UITableViewCellC", "UIButton"]
+- ["So15UITableViewCellC", "UIImageView"]
+- ["So15UITableViewCellC", "UILabel"]
+- !private ["So15UITableViewCellC", "URL"]
+- !private ["So15UITableViewCellC", "UserDefaults"]
+- ["So15UITableViewCellC", ""]
+- ["So15UITableViewCellC", "addTrackAcion"]
+- ["So15UITableViewCellC", "addTrackButton"]
+- ["So15UITableViewCellC", "artistNameLabel"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- ["So15UITableViewCellC", "cell"]
+- ["So15UITableViewCellC", "collectionNameLabel"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "prepareForReuse"]
+- ["So15UITableViewCellC", "reuseId"]
+- ["So15UITableViewCellC", "set"]
+- ["So15UITableViewCellC", "trackImageView"]
+- ["So15UITableViewCellC", "trackNameLabel"]
+- !private ["So18UITraitEnvironmentP", "NSKeyedArchiver"]
+- ["So18UITraitEnvironmentP", "SearchViewModel"]
+- ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", "UIImageView"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- !private ["So18UITraitEnvironmentP", "UserDefaults"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "addTrackAcion"]
+- ["So18UITraitEnvironmentP", "addTrackButton"]
+- ["So18UITraitEnvironmentP", "artistNameLabel"]
+- ["So18UITraitEnvironmentP", "awakeFromNib"]
+- ["So18UITraitEnvironmentP", "cell"]
+- ["So18UITraitEnvironmentP", "collectionNameLabel"]
+- !private ["So18UITraitEnvironmentP", "image"]
+- ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "isHidden"]
+- ["So18UITraitEnvironmentP", "prepareForReuse"]
+- ["So18UITraitEnvironmentP", "reuseId"]
+- !private ["So18UITraitEnvironmentP", "sd_setImage"]
+- !private ["So18UITraitEnvironmentP", "sd_setImageWithURL"]
+- ["So18UITraitEnvironmentP", "set"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- ["So18UITraitEnvironmentP", "trackImageView"]
+- ["So18UITraitEnvironmentP", "trackNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "NSKeyedArchiver"]
+- ["So23UIUserActivityRestoringP", "SearchViewModel"]
+- ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", "UIImageView"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- !private ["So23UIUserActivityRestoringP", "UserDefaults"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "addTrackAcion"]
+- ["So23UIUserActivityRestoringP", "addTrackButton"]
+- ["So23UIUserActivityRestoringP", "artistNameLabel"]
+- ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- ["So23UIUserActivityRestoringP", "cell"]
+- ["So23UIUserActivityRestoringP", "collectionNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "image"]
+- ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "isHidden"]
+- ["So23UIUserActivityRestoringP", "prepareForReuse"]
+- ["So23UIUserActivityRestoringP", "reuseId"]
+- !private ["So23UIUserActivityRestoringP", "sd_setImage"]
+- !private ["So23UIUserActivityRestoringP", "sd_setImageWithURL"]
+- ["So23UIUserActivityRestoringP", "set"]
+- !private ["So23UIUserActivityRestoringP", "text"]
+- ["So23UIUserActivityRestoringP", "trackImageView"]
+- ["So23UIUserActivityRestoringP", "trackNameLabel"]
+- !private ["So6UIViewC", "NSKeyedArchiver"]
+- ["So6UIViewC", "SearchViewModel"]
+- ["So6UIViewC", "UIButton"]
+- ["So6UIViewC", "UIImageView"]
+- ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "URL"]
+- !private ["So6UIViewC", "UserDefaults"]
+- ["So6UIViewC", ""]
+- ["So6UIViewC", "addTrackAcion"]
+- ["So6UIViewC", "addTrackButton"]
+- ["So6UIViewC", "artistNameLabel"]
+- ["So6UIViewC", "awakeFromNib"]
+- ["So6UIViewC", "cell"]
+- ["So6UIViewC", "collectionNameLabel"]
+- !private ["So6UIViewC", "image"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "isHidden"]
+- ["So6UIViewC", "prepareForReuse"]
+- ["So6UIViewC", "reuseId"]
+- !private ["So6UIViewC", "sd_setImage"]
+- !private ["So6UIViewC", "sd_setImageWithURL"]
+- ["So6UIViewC", "set"]
+- !private ["So6UIViewC", "text"]
+- ["So6UIViewC", "trackImageView"]
+- ["So6UIViewC", "trackNameLabel"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So14NSUserDefaultsC", "favouriteTrackKey"]
+- !private ["So14NSUserDefaultsC", "getTracks"]
+- !private ["So14NSUserDefaultsC", "setValue"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["7SwiftUI4ViewP", "image"]
+- !private ["7SwiftUI4ViewP", "isHidden"]
+- !private ["7SwiftUI4ViewP", "sd_setImage"]
+- !private ["7SwiftUI4ViewP", "text"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "firstIndex"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "firstIndex"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "firstIndex"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "firstIndex"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Cell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSKeyedArchiver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UserDefaults"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTrackButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "archivedData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artistName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artistNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "collectionNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "favouriteTrackKey"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "iconUrlString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isHidden"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "prepareForReuse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trackImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trackName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trackNameLabel"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Cell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSKeyedArchiver"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UserDefaults"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addTrackButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "archivedData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "artistName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "artistNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "collectionName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "collectionNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "favouriteTrackKey"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getTracks"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "iconUrlString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "image"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isHidden"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "prepareForReuse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sd_setImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setValue"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trackImageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trackName"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trackNameLabel"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "firstIndex"]
+- !private ["s21_ObjectiveCBridgeableP", "image"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isHidden"]
+- !private ["s21_ObjectiveCBridgeableP", "sd_setImage"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "NSKeyedArchiver"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "URL"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UserDefaults"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addTrackButton"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "artistNameLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "cell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "collectionNameLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "image"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "isHidden"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "prepareForReuse"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trackImageView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trackNameLabel"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- "So15CALayerDelegateP"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "6IMusic15SearchViewModelC4CellC"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7SwiftUI7GestureP"
+- "SH"
+- !private "s12IdentifiableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So15NSKeyedArchiverC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- "6IMusic15SearchViewModelC"
+- !private "ST"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "6IMusic9TrackCellC"
+- "6IMusic18TrackCellViewModelP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So8UIButtonC"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So32UIContextMenuInteractionDelegateP"
+- "So9UIControlC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So27UIGestureRecognizerDelegateP"
+- !private "So11UIImageViewC"
+- !private "So7UILabelC"
+- "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So14NSUserDefaultsC"
+- !private "7SwiftUI4ViewP"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "51080a11f2ea5dd8308c42744d4684e9"
