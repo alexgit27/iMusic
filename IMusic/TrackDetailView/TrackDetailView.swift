@@ -9,10 +9,7 @@ import UIKit
 import SDWebImage
 import AVKit
 
-protocol TrackMmovingDelegate {
-    func moveBackTrack() -> SearchViewModel.Cell?
-    func moveForwardTrack() -> SearchViewModel.Cell?
-}
+
 
 class TrackDetailView: UIView {
     @IBOutlet weak var trackImageView: UIImageView!
@@ -32,9 +29,7 @@ class TrackDetailView: UIView {
     @IBOutlet weak var miniPlayPauseButton: UIButton!
     
     
-    // Delegates
-    var trackMovingDelegate: TrackMmovingDelegate?
-    weak var tabBarDelegate: MainTabBarControllerDelegate?
+
     
     let player: AVPlayer = {
         let avPlayer = AVPlayer()
@@ -57,6 +52,9 @@ class TrackDetailView: UIView {
         backgroundColor = .orange
     }
     
+    // Delegates
+    var trackMovingDelegate: TrackMmovingDelegate?
+    weak var tabBarDelegate: MainTabBarControllerDelegate?
     
     // MARK:  Setup
     
@@ -180,6 +178,8 @@ class TrackDetailView: UIView {
             let translation = gesture.translation(in: self.superview)
             maximizedStackView.transform = CGAffineTransform(translationX: 0, y: translation.y)
         case .ended:
+            
+            print(#function)
             let translation = gesture.translation(in: self.superview)
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseInOut, animations: {
                 self.maximizedStackView.transform = .identity
@@ -211,7 +211,6 @@ class TrackDetailView: UIView {
     @IBAction func dragDownButtonTapped(_ sender: Any) {
         
         self.tabBarDelegate?.minimazeTrackViewController()
-        self.removeFromSuperview()
     }
     
     @IBAction func handleCurrentTimeSlider(_ sender: Any) {

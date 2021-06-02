@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		4pQzV6fmLQAPvMjvvC/pZcE0Omw=
+		9Yzw/2lE8B9umnKvOMn7CuzC1O8=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		mfA7+vi1acPi2jNCoQTys4uQMAk=
+		mccIyOQU+zMS3GAq4m3P+w9r4IU=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		sCYFrHpn3UVhnNHuuJ2vSf4wbG4=
+		ECoE4+g2ZL6dLc2VBbU2Xu1oMi8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		d5VyVgh+ahwqGO+f3t/hlKqYHE4=
+		kjgdvuJJlBO8nBlF5PJrlPnIkHw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		zsHbqvqaVLvo9zTt8s1bGT8/YMc=
+		eu3K39jP9lEeC9ShrFY6FwuOpVQ=
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>LibraryMusicViewController.storyboardc/4e8-OJ-guC-view-l0C-ZM-RpR.nib</key>
 		<data>
-		OAIzTqQJxApleR+sJsmWheFQvFA=
+		j4pojDKMy20SuzOjW7Q/Ki64fPU=
 		</data>
 		<key>LibraryMusicViewController.storyboardc/Info.plist</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>LibraryMusicViewController.storyboardc/UIViewController-4e8-OJ-guC.nib</key>
 		<data>
-		Pk/nxxGWkf0QKk1A+jxtuC/aoT4=
+		tbBVvujIarJy0AjvqLT9UpeeDOY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>SearchViewController.storyboardc/JHW-EP-1HY-view-zKf-Cz-2h4.nib</key>
 		<data>
-		Hgo+MAYuRw3eTsZzLbQvFZDzZOg=
+		tRhekL3cGaakUHh+IRU62BVeu/8=
 		</data>
 		<key>SearchViewController.storyboardc/UIViewController-JHW-EP-1HY.nib</key>
 		<data>
-		LB3C1q8UrudeLT9kEeYkuJtXxdE=
+		Oj3M70GsXSwghKpLvwtn4j6bPVg=
 		</data>
 		<key>TrackCell.nib</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>TrackDetailView.nib</key>
 		<data>
-		GFH+LTwKEqqX2JbhOngaz7FeVfU=
+		9g8qtFKHggSUN5kSDjqt7WvWHNk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,14 +115,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N8JQqSiHdu++buZqN5nvVW3YjqlhBy5ifEBi/MlEYjg=
+			3YM/OKB1BwapRLn06uUW4KxjMdLfSGDQS8QHAwAt8J8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m0Lc06QQtI3c4ZmeTLly/5QTHUe5DfxIHvDTX7wSK+M=
+			byftmJ5u9kZ6wOhrX063Ms0GqgnzmGt43Y+/fm+DXi8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -136,14 +136,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dWE4wpKXjOZJQYRLeJ4zyTZx2MuObQv0V2seZq7q8fU=
+			yWCQXGGJDY4C2I+JvDKbdOAoPKrSxLJFVe3JED/QVSQ=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k2UtME2SVW4vpxlZcriJ/Ja9er/miC8xi+n9VmgWKRM=
+			rKIcDJcY7r7O3HtTHuPMmU/FO1w3ngYiFfoEQvRAWB8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -157,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rb+pe+x031skWu8SgerxNrKK/KtYMTCtk9+cGLiZzIQ=
+			89gIvTtac/pGvTT5jVnAqy22EmJVeCRehjk1eOTpTdw=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
@@ -227,7 +227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ASlj9VRGeyEB6Ix/s0m/ZWnGbsZNOvNz4WHGOSEzGc4=
+			95jZ26MvgpJLQnY3pZOIumL/KxUoCBtqG09quzCeJnI=
 			</data>
 		</dict>
 		<key>LibraryMusicViewController.storyboardc/Info.plist</key>
@@ -241,7 +241,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QwqoklpRx3RCOg24rg8LzznGBgcVc3lhfgORC8B++kk=
+			/M7s1SwcWwP7zw2o6gv5PAFijNCaA2xA9ghpyaBxWao=
 			</data>
 		</dict>
 		<key>SearchViewController.storyboardc/Info.plist</key>
@@ -255,14 +255,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lcdbHfsYAyZmzPY65m5LNJPME0ML9JJMNrBqxqt5KnQ=
+			4l+ygcI81iPFfB8ZjDU96AVbD0hGasyAi6CtGaBj0N4=
 			</data>
 		</dict>
 		<key>SearchViewController.storyboardc/UIViewController-JHW-EP-1HY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XO4WKeo84uu9OFHLWT+G87QD9x72wXYtL+uke4pqFLY=
+			89ib5Gtrf9e8v3ATmPOwsZV4iEx3tPEBCNkiGnYo528=
 			</data>
 		</dict>
 		<key>TrackCell.nib</key>
@@ -276,7 +276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z1IWinpWmAMwi9f9lUDEYGQtU0MbNxok39/A3bFVU/E=
+			sfzSrXMTvS5nlnqt9Yw8sEOjAdZmAVmTpRsV0iCejtM=
 			</data>
 		</dict>
 	</dict>

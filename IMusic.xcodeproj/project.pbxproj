@@ -21,7 +21,6 @@
 		A87BE38B2610966600469E93 /* UIViewController + Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BE38A2610966600469E93 /* UIViewController + Storyboard.swift */; };
 		A87BE3922610CB8300469E93 /* TrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A87BE3912610CB8300469E93 /* TrackCell.xib */; };
 		A87BE3952610CB9C00469E93 /* TrackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BE3942610CB9C00469E93 /* TrackCell.swift */; };
-		A8853917261487BC006EDBCE /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8853916261487BC006EDBCE /* Library.swift */; };
 		A885392B2614D35E006EDBCE /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A885392A2614D35E006EDBCE /* UserDefaults.swift */; };
 		A88C03B1260F40BA002E64B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C03B0260F40BA002E64B5 /* AppDelegate.swift */; };
 		A88C03B3260F40BA002E64B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88C03B2260F40BA002E64B5 /* SceneDelegate.swift */; };
@@ -39,6 +38,9 @@
 		A899DB9426665320004DC450 /* LibraryMusicInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A899DB8D26665320004DC450 /* LibraryMusicInteractor.swift */; };
 		A899DB9826665350004DC450 /* LibraryMusicViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A899DB9726665350004DC450 /* LibraryMusicViewController.storyboard */; };
 		A8ACB3FD26136A370047A4A8 /* Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACB3FC26136A370047A4A8 /* Nib.swift */; };
+		A8E7902D2667DCA000A6F74F /* MainTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7902C2667DCA000A6F74F /* MainTabBarControllerDelegate.swift */; };
+		A8E790332667DE8400A6F74F /* TrackMmovingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E790322667DE8400A6F74F /* TrackMmovingDelegate.swift */; };
+		A8E790372667E01400A6F74F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E790362667E01400A6F74F /* SearchViewModel.swift */; };
 		D54B399797222E5ED882C9D9 /* Pods_IMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD55FE83B727D30FD03B7429 /* Pods_IMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +61,6 @@
 		A87BE38A2610966600469E93 /* UIViewController + Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Storyboard.swift"; sourceTree = "<group>"; };
 		A87BE3912610CB8300469E93 /* TrackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackCell.xib; sourceTree = "<group>"; };
 		A87BE3942610CB9C00469E93 /* TrackCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCell.swift; sourceTree = "<group>"; };
-		A8853916261487BC006EDBCE /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		A885392A2614D35E006EDBCE /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		A88C03AD260F40BA002E64B5 /* IMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88C03B0260F40BA002E64B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +80,9 @@
 		A899DB8D26665320004DC450 /* LibraryMusicInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryMusicInteractor.swift; sourceTree = "<group>"; };
 		A899DB9726665350004DC450 /* LibraryMusicViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LibraryMusicViewController.storyboard; sourceTree = "<group>"; };
 		A8ACB3FC26136A370047A4A8 /* Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nib.swift; sourceTree = "<group>"; };
+		A8E7902C2667DCA000A6F74F /* MainTabBarControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		A8E790322667DE8400A6F74F /* TrackMmovingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackMmovingDelegate.swift; sourceTree = "<group>"; };
+		A8E790362667E01400A6F74F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		DD55FE83B727D30FD03B7429 /* Pods_IMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,7 +107,7 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		A82439C02667C8DE00FD8D73 /* SearchViewController */ = {
+		A82439C02667C8DE00FD8D73 /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				A87BE386261093F300469E93 /* SearchViewController.storyboard */,
@@ -114,10 +118,10 @@
 				A8710858260F9625003B5651 /* SearchRouter.swift */,
 				A8710859260F9625003B5651 /* SearchModels.swift */,
 			);
-			path = SearchViewController;
+			path = Search;
 			sourceTree = "<group>";
 		};
-		A82439C12667C90700FD8D73 /* LibraryViewController */ = {
+		A82439C12667C90700FD8D73 /* Library */ = {
 			isa = PBXGroup;
 			children = (
 				A899DB9726665350004DC450 /* LibraryMusicViewController.storyboard */,
@@ -128,7 +132,7 @@
 				A899DB8926665320004DC450 /* LibraryMusicWorker.swift */,
 				A899DB8A26665320004DC450 /* LibraryMusicRouter.swift */,
 			);
-			path = LibraryViewController;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		A862B8092611E87E00AC6F9F /* Footer View */ = {
@@ -148,14 +152,14 @@
 			path = TrackDetailView;
 			sourceTree = "<group>";
 		};
-		A87BE38D2610966D00469E93 /* Helpers */ = {
+		A87BE38D2610966D00469E93 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				A87BE38A2610966600469E93 /* UIViewController + Storyboard.swift */,
 				A862B827261226F000AC6F9F /* CMTime + Extension.swift */,
 				A8ACB3FC26136A370047A4A8 /* Nib.swift */,
 			);
-			path = Helpers;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		A87BE3902610CB7000469E93 /* Cell */ = {
@@ -163,7 +167,6 @@
 			children = (
 				A87BE3912610CB8300469E93 /* TrackCell.xib */,
 				A87BE3942610CB9C00469E93 /* TrackCell.swift */,
-				A885392A2614D35E006EDBCE /* UserDefaults.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 		A87BE39A2610D29000469E93 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A885392A2614D35E006EDBCE /* UserDefaults.swift */,
 				A88C03D7260F8D55002E64B5 /* NetworkService.swift */,
 			);
 			path = Services;
@@ -180,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				A88C03D1260F5DD3002E64B5 /* SearchResponse.swift */,
+				A8E790362667E01400A6F74F /* SearchViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,24 +210,49 @@
 		A88C03AF260F40BA002E64B5 /* IMusic */ = {
 			isa = PBXGroup;
 			children = (
+				A88C03B2260F40BA002E64B5 /* SceneDelegate.swift */,
+				A88C03B0260F40BA002E64B5 /* AppDelegate.swift */,
+				A82439C02667C8DE00FD8D73 /* Search */,
+				A82439C12667C90700FD8D73 /* Library */,
 				A87BE3902610CB7000469E93 /* Cell */,
-				A87BE39A2610D29000469E93 /* Services */,
-				A87BE39B2610D2A000469E93 /* Model */,
 				A862B8092611E87E00AC6F9F /* Footer View */,
 				A862B8122611F33900AC6F9F /* TrackDetailView */,
-				A82439C02667C8DE00FD8D73 /* SearchViewController */,
-				A82439C12667C90700FD8D73 /* LibraryViewController */,
-				A88C03B0260F40BA002E64B5 /* AppDelegate.swift */,
-				A88C03B2260F40BA002E64B5 /* SceneDelegate.swift */,
-				A88C03C5260F40EA002E64B5 /* MainTabBarController.swift */,
-				A8853916261487BC006EDBCE /* Library.swift */,
-				A87BE38D2610966D00469E93 /* Helpers */,
-				A88C03B6260F40BA002E64B5 /* Main.storyboard */,
+				A8E790282667DC3D00A6F74F /* TabBarController */,
+				A8E7902B2667DC8700A6F74F /* Protocols */,
+				A87BE39A2610D29000469E93 /* Services */,
+				A87BE39B2610D2A000469E93 /* Model */,
+				A8E7902A2667DC7300A6F74F /* Storyboards */,
+				A87BE38D2610966D00469E93 /* Extensions */,
 				A88C03B9260F40BB002E64B5 /* Assets.xcassets */,
-				A88C03BB260F40BB002E64B5 /* LaunchScreen.storyboard */,
 				A88C03BE260F40BB002E64B5 /* Info.plist */,
 			);
 			path = IMusic;
+			sourceTree = "<group>";
+		};
+		A8E790282667DC3D00A6F74F /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A88C03C5260F40EA002E64B5 /* MainTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		A8E7902A2667DC7300A6F74F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A88C03BB260F40BB002E64B5 /* LaunchScreen.storyboard */,
+				A88C03B6260F40BA002E64B5 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A8E7902B2667DC8700A6F74F /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7902C2667DCA000A6F74F /* MainTabBarControllerDelegate.swift */,
+				A8E790322667DE8400A6F74F /* TrackMmovingDelegate.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		DC5A19143B1377B7AE6DE1ED /* Frameworks */ = {
@@ -360,20 +390,22 @@
 				A862B80B2611E88F00AC6F9F /* FooterView.swift in Sources */,
 				A862B828261226F100AC6F9F /* CMTime + Extension.swift in Sources */,
 				A87BE3952610CB9C00469E93 /* TrackCell.swift in Sources */,
+				A8E7902D2667DCA000A6F74F /* MainTabBarControllerDelegate.swift in Sources */,
 				A8ACB3FD26136A370047A4A8 /* Nib.swift in Sources */,
 				A899DB9126665320004DC450 /* LibraryMusicRouter.swift in Sources */,
 				A88C03B1260F40BA002E64B5 /* AppDelegate.swift in Sources */,
 				A88C03C6260F40EA002E64B5 /* MainTabBarController.swift in Sources */,
+				A8E790332667DE8400A6F74F /* TrackMmovingDelegate.swift in Sources */,
 				A871085E260F9625003B5651 /* SearchWorker.swift in Sources */,
 				A8710861260F9625003B5651 /* SearchViewController.swift in Sources */,
 				A871085F260F9625003B5651 /* SearchRouter.swift in Sources */,
 				A8710860260F9625003B5651 /* SearchModels.swift in Sources */,
 				A88C03B3260F40BA002E64B5 /* SceneDelegate.swift in Sources */,
 				A871085D260F9625003B5651 /* SearchPresenter.swift in Sources */,
-				A8853917261487BC006EDBCE /* Library.swift in Sources */,
 				A862B8172611F37300AC6F9F /* TrackDetailView.swift in Sources */,
 				A899DB8F26665320004DC450 /* LibraryMusicPresenter.swift in Sources */,
 				A899DB9026665320004DC450 /* LibraryMusicWorker.swift in Sources */,
+				A8E790372667E01400A6F74F /* SearchViewModel.swift in Sources */,
 				A899DB9426665320004DC450 /* LibraryMusicInteractor.swift in Sources */,
 				A88C03D8260F8D55002E64B5 /* NetworkService.swift in Sources */,
 			);

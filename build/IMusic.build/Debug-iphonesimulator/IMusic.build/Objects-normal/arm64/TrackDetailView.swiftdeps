@@ -1,12 +1,9 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "TrackMmovingDelegate"
 - "TrackDetailView"
 provides-nominal:
-- "6IMusic20TrackMmovingDelegateP"
 - "6IMusic15TrackDetailViewC"
 provides-member:
-- ["6IMusic20TrackMmovingDelegateP", ""]
 - ["6IMusic15TrackDetailViewC", ""]
 provides-dynamic-lookup:
 - "authorTitleLAbel"
@@ -203,7 +200,6 @@ depends-member:
 - ["So15CALayerDelegateP", "previousTrack"]
 - !private ["So15CALayerDelegateP", "print"]
 - ["So15CALayerDelegateP", "reduceTarckImageView"]
-- !private ["So15CALayerDelegateP", "removeFromSuperview"]
 - !private ["So15CALayerDelegateP", "sd_setImage"]
 - !private ["So15CALayerDelegateP", "sd_setImageWithURL"]
 - ["So15CALayerDelegateP", "set"]
@@ -288,7 +284,6 @@ depends-member:
 - !private ["s7CVarArgP", "previewUrl"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "reduceTarckImageView"]
-- !private ["s7CVarArgP", "removeFromSuperview"]
 - !private ["s7CVarArgP", "replaceCurrentItem"]
 - !private ["s7CVarArgP", "replacingOccurrences"]
 - !private ["s7CVarArgP", "sd_setImage"]
@@ -388,7 +383,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "previewUrl"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "reduceTarckImageView"]
-- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
 - !private ["s28CustomDebugStringConvertibleP", "replaceCurrentItem"]
 - !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
 - !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
@@ -491,7 +485,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "previewUrl"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "reduceTarckImageView"]
-- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
 - !private ["s23CustomStringConvertibleP", "replaceCurrentItem"]
 - !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
 - !private ["s23CustomStringConvertibleP", "sd_setImage"]
@@ -624,7 +617,6 @@ depends-member:
 - !private ["SQ", "previewUrl"]
 - !private ["SQ", "print"]
 - !private ["SQ", "reduceTarckImageView"]
-- !private ["SQ", "removeFromSuperview"]
 - !private ["SQ", "replaceCurrentItem"]
 - !private ["SQ", "replacingOccurrences"]
 - !private ["SQ", "sd_setImage"]
@@ -819,7 +811,6 @@ depends-member:
 - !private ["SH", "previewUrl"]
 - !private ["SH", "print"]
 - !private ["SH", "reduceTarckImageView"]
-- !private ["SH", "removeFromSuperview"]
 - !private ["SH", "replaceCurrentItem"]
 - !private ["SH", "replacingOccurrences"]
 - !private ["SH", "sd_setImage"]
@@ -920,7 +911,6 @@ depends-member:
 - ["So8NSCodingP", "previousTrack"]
 - !private ["So8NSCodingP", "print"]
 - ["So8NSCodingP", "reduceTarckImageView"]
-- !private ["So8NSCodingP", "removeFromSuperview"]
 - !private ["So8NSCodingP", "replacingOccurrences"]
 - !private ["So8NSCodingP", "sd_setImage"]
 - !private ["So8NSCodingP", "sd_setImageWithURL"]
@@ -1031,7 +1021,6 @@ depends-member:
 - ["So8NSObjectC", "previousTrack"]
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "reduceTarckImageView"]
-- !private ["So8NSObjectC", "removeFromSuperview"]
 - !private ["So8NSObjectC", "replaceCurrentItem"]
 - !private ["So8NSObjectC", "replaceCurrentItemWithPlayerItem"]
 - !private ["So8NSObjectC", "replacingOccurrences"]
@@ -1166,7 +1155,6 @@ depends-member:
 - ["So8NSObjectP", "previousTrack"]
 - !private ["So8NSObjectP", "print"]
 - ["So8NSObjectP", "reduceTarckImageView"]
-- !private ["So8NSObjectP", "removeFromSuperview"]
 - !private ["So8NSObjectP", "replaceCurrentItem"]
 - !private ["So8NSObjectP", "replaceCurrentItemWithPlayerItem"]
 - !private ["So8NSObjectP", "replacingOccurrences"]
@@ -1350,7 +1338,6 @@ depends-member:
 - ["6IMusic15TrackDetailViewC", "previousTrack"]
 - !private ["6IMusic15TrackDetailViewC", "print"]
 - !private ["6IMusic15TrackDetailViewC", "reduceTarckImageView"]
-- !private ["6IMusic15TrackDetailViewC", "removeFromSuperview"]
 - ["6IMusic15TrackDetailViewC", "set"]
 - !private ["6IMusic15TrackDetailViewC", "setupGetures"]
 - !private ["6IMusic15TrackDetailViewC", "superview"]
@@ -1361,9 +1348,8 @@ depends-member:
 - !private ["6IMusic15TrackDetailViewC", "transform"]
 - !private ["6IMusic15TrackDetailViewC", "updateCurrentTimeSlider"]
 - ["6IMusic15TrackDetailViewC", "voluemSlider"]
-- ["6IMusic20TrackMmovingDelegateP", "SearchViewModel"]
-- ["6IMusic20TrackMmovingDelegateP", "moveBackTrack"]
-- ["6IMusic20TrackMmovingDelegateP", "moveForwardTrack"]
+- !private ["6IMusic20TrackMmovingDelegateP", "moveBackTrack"]
+- !private ["6IMusic20TrackMmovingDelegateP", "moveForwardTrack"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "imageEdgeInsets"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
@@ -1430,7 +1416,6 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "previousTrack"]
 - !private ["So29UIAccessibilityIdentificationP", "print"]
 - ["So29UIAccessibilityIdentificationP", "reduceTarckImageView"]
-- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
 - !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "sd_setImageWithURL"]
 - ["So29UIAccessibilityIdentificationP", "set"]
@@ -1507,7 +1492,6 @@ depends-member:
 - ["So12UIAppearanceP", "previousTrack"]
 - !private ["So12UIAppearanceP", "print"]
 - ["So12UIAppearanceP", "reduceTarckImageView"]
-- !private ["So12UIAppearanceP", "removeFromSuperview"]
 - !private ["So12UIAppearanceP", "sd_setImage"]
 - !private ["So12UIAppearanceP", "sd_setImageWithURL"]
 - ["So12UIAppearanceP", "set"]
@@ -1584,7 +1568,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "previousTrack"]
 - !private ["So21UIAppearanceContainerP", "print"]
 - ["So21UIAppearanceContainerP", "reduceTarckImageView"]
-- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
 - !private ["So21UIAppearanceContainerP", "sd_setImage"]
 - !private ["So21UIAppearanceContainerP", "sd_setImageWithURL"]
 - ["So21UIAppearanceContainerP", "set"]
@@ -1673,7 +1656,6 @@ depends-member:
 - ["So17UICoordinateSpaceP", "previousTrack"]
 - !private ["So17UICoordinateSpaceP", "print"]
 - ["So17UICoordinateSpaceP", "reduceTarckImageView"]
-- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
 - !private ["So17UICoordinateSpaceP", "sd_setImage"]
 - !private ["So17UICoordinateSpaceP", "sd_setImageWithURL"]
 - ["So17UICoordinateSpaceP", "set"]
@@ -1750,7 +1732,6 @@ depends-member:
 - ["So13UIDynamicItemP", "previousTrack"]
 - !private ["So13UIDynamicItemP", "print"]
 - ["So13UIDynamicItemP", "reduceTarckImageView"]
-- !private ["So13UIDynamicItemP", "removeFromSuperview"]
 - !private ["So13UIDynamicItemP", "sd_setImage"]
 - !private ["So13UIDynamicItemP", "sd_setImageWithURL"]
 - ["So13UIDynamicItemP", "set"]
@@ -1828,7 +1809,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "previousTrack"]
 - !private ["So18UIFocusEnvironmentP", "print"]
 - ["So18UIFocusEnvironmentP", "reduceTarckImageView"]
-- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
 - !private ["So18UIFocusEnvironmentP", "sd_setImage"]
 - !private ["So18UIFocusEnvironmentP", "sd_setImageWithURL"]
 - ["So18UIFocusEnvironmentP", "set"]
@@ -1905,7 +1885,6 @@ depends-member:
 - ["So11UIFocusItemP", "previousTrack"]
 - !private ["So11UIFocusItemP", "print"]
 - ["So11UIFocusItemP", "reduceTarckImageView"]
-- !private ["So11UIFocusItemP", "removeFromSuperview"]
 - !private ["So11UIFocusItemP", "sd_setImage"]
 - !private ["So11UIFocusItemP", "sd_setImageWithURL"]
 - ["So11UIFocusItemP", "set"]
@@ -1982,7 +1961,6 @@ depends-member:
 - ["So20UIFocusItemContainerP", "previousTrack"]
 - !private ["So20UIFocusItemContainerP", "print"]
 - ["So20UIFocusItemContainerP", "reduceTarckImageView"]
-- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
 - !private ["So20UIFocusItemContainerP", "sd_setImage"]
 - !private ["So20UIFocusItemContainerP", "sd_setImageWithURL"]
 - ["So20UIFocusItemContainerP", "set"]
@@ -2070,7 +2048,6 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "previousTrack"]
 - !private ["So24UILargeContentViewerItemP", "print"]
 - ["So24UILargeContentViewerItemP", "reduceTarckImageView"]
-- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
 - !private ["So24UILargeContentViewerItemP", "sd_setImage"]
 - !private ["So24UILargeContentViewerItemP", "sd_setImageWithURL"]
 - ["So24UILargeContentViewerItemP", "set"]
@@ -2152,7 +2129,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "previousTrack"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - ["So30UIPasteConfigurationSupportingP", "reduceTarckImageView"]
-- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
 - !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "sd_setImageWithURL"]
 - ["So30UIPasteConfigurationSupportingP", "set"]
@@ -2230,7 +2206,6 @@ depends-member:
 - ["So11UIResponderC", "previousTrack"]
 - !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "reduceTarckImageView"]
-- !private ["So11UIResponderC", "removeFromSuperview"]
 - !private ["So11UIResponderC", "sd_setImage"]
 - !private ["So11UIResponderC", "sd_setImageWithURL"]
 - ["So11UIResponderC", "set"]
@@ -2308,7 +2283,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "previousTrack"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "reduceTarckImageView"]
-- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
 - !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
 - !private ["So30UIResponderStandardEditActionsP", "sd_setImageWithURL"]
 - ["So30UIResponderStandardEditActionsP", "set"]
@@ -2391,7 +2365,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "previousTrack"]
 - !private ["So18UITraitEnvironmentP", "print"]
 - ["So18UITraitEnvironmentP", "reduceTarckImageView"]
-- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
 - !private ["So18UITraitEnvironmentP", "sd_setImage"]
 - !private ["So18UITraitEnvironmentP", "sd_setImageWithURL"]
 - ["So18UITraitEnvironmentP", "set"]
@@ -2469,7 +2442,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "previousTrack"]
 - !private ["So23UIUserActivityRestoringP", "print"]
 - ["So23UIUserActivityRestoringP", "reduceTarckImageView"]
-- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
 - !private ["So23UIUserActivityRestoringP", "sd_setImage"]
 - !private ["So23UIUserActivityRestoringP", "sd_setImageWithURL"]
 - ["So23UIUserActivityRestoringP", "set"]
@@ -2546,7 +2518,6 @@ depends-member:
 - ["So6UIViewC", "previousTrack"]
 - !private ["So6UIViewC", "print"]
 - ["So6UIViewC", "reduceTarckImageView"]
-- !private ["So6UIViewC", "removeFromSuperview"]
 - !private ["So6UIViewC", "sd_setImage"]
 - !private ["So6UIViewC", "sd_setImageWithURL"]
 - ["So6UIViewC", "set"]
@@ -2660,7 +2631,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "previewUrl"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reduceTarckImageView"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceCurrentItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
@@ -2746,7 +2716,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "previewUrl"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reduceTarckImageView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replaceCurrentItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replacingOccurrences"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sd_setImage"]
@@ -2839,7 +2808,6 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "player"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "print"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "reduceTarckImageView"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "set"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setImage"]
@@ -2932,7 +2900,7 @@ depends-nominal:
 - "s20TextOutputStreamableP"
 - !private "So25AVPlayerTimeControlStatusV"
 - "6IMusic15TrackDetailViewC"
-- "6IMusic20TrackMmovingDelegateP"
+- !private "6IMusic20TrackMmovingDelegateP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
@@ -2995,7 +2963,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -3017,7 +2984,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
@@ -3075,13 +3041,11 @@ depends-external:
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
@@ -3109,4 +3073,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d7fd968fb4c99f7f0e292b4a27ca98fa"
+interface-hash: "0573b7cbabd406751bfa2ba0f593742d"

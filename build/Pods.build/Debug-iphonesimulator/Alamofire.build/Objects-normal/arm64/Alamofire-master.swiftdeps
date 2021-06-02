@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "ac25efa9b821fb32790ac68e7f0df27e"
-build_time: [1622642975, 120354000]
+build_time: [1622648097, 299483000]
 inputs:
   "/Users/alexandr/Desktop/IMusic/Pods/Alamofire/Source/AFError.swift": [1616847129, 161097586]
   "/Users/alexandr/Desktop/IMusic/Pods/Alamofire/Source/Alamofire.swift": [1616847129, 163008497]

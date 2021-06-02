@@ -5,18 +5,15 @@ provides-member:
 - ["So14NSUserDefaultsC", ""]
 - ["So14NSUserDefaultsC", "favouriteTrackKey"]
 - ["So14NSUserDefaultsC", "getTracks"]
-- ["So14NSUserDefaultsC", "getTracksInTrackType"]
 provides-dynamic-lookup:
 - "favouriteTrackKey"
 - "getTracks"
-- "getTracksInTrackType"
 depends-top-level:
 - "CastingPrecedence"
 - "Data"
 - !private "NSKeyedUnarchiver"
 - "SearchViewModel"
 - "StringLiteralType"
-- "Track"
 - "UserDefaults"
 - !private "print"
 depends-member:
@@ -82,7 +79,6 @@ depends-member:
 - !private ["So8NSObjectC", "Data"]
 - !private ["So8NSObjectC", "NSKeyedUnarchiver"]
 - ["So8NSObjectC", "SearchViewModel"]
-- ["So8NSObjectC", "Track"]
 - !private ["So8NSObjectC", "UserDefaults"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "cgAffineTransform"]
@@ -92,7 +88,6 @@ depends-member:
 - !private ["So8NSObjectC", "cgVector"]
 - ["So8NSObjectC", "favouriteTrackKey"]
 - ["So8NSObjectC", "getTracks"]
-- ["So8NSObjectC", "getTracksInTrackType"]
 - !private ["So8NSObjectC", "nsDirectionalEdgeInsets"]
 - !private ["So8NSObjectC", "object"]
 - !private ["So8NSObjectC", "objectForKey"]
@@ -107,7 +102,6 @@ depends-member:
 - !private ["So8NSObjectP", "Data"]
 - !private ["So8NSObjectP", "NSKeyedUnarchiver"]
 - ["So8NSObjectP", "SearchViewModel"]
-- ["So8NSObjectP", "Track"]
 - !private ["So8NSObjectP", "UserDefaults"]
 - !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "cgAffineTransform"]
@@ -117,7 +111,6 @@ depends-member:
 - !private ["So8NSObjectP", "cgVector"]
 - ["So8NSObjectP", "favouriteTrackKey"]
 - ["So8NSObjectP", "getTracks"]
-- ["So8NSObjectP", "getTracksInTrackType"]
 - !private ["So8NSObjectP", "nsDirectionalEdgeInsets"]
 - !private ["So8NSObjectP", "object"]
 - !private ["So8NSObjectP", "objectForKey"]
@@ -135,12 +128,10 @@ depends-member:
 - !private ["So14NSUserDefaultsC", "Data"]
 - !private ["So14NSUserDefaultsC", "NSKeyedUnarchiver"]
 - ["So14NSUserDefaultsC", "SearchViewModel"]
-- ["So14NSUserDefaultsC", "Track"]
 - !private ["So14NSUserDefaultsC", "UserDefaults"]
 - ["So14NSUserDefaultsC", ""]
 - ["So14NSUserDefaultsC", "favouriteTrackKey"]
 - ["So14NSUserDefaultsC", "getTracks"]
-- ["So14NSUserDefaultsC", "getTracksInTrackType"]
 - !private ["So14NSUserDefaultsC", "object"]
 - !private ["So14NSUserDefaultsC", "print"]
 - !private ["So14NSUserDefaultsC", "standard"]
@@ -201,7 +192,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -223,7 +213,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
@@ -281,13 +270,11 @@ depends-external:
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
@@ -315,4 +302,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "211807bd82612062dc89cb214b1de7d5"
+interface-hash: "1b8df53f6a16298ef67b5498fc4138a9"

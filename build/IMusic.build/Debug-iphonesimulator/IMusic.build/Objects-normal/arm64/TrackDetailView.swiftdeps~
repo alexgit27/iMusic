@@ -1,12 +1,9 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
-- "TrackMmovingDelegate"
 - "TrackDetailView"
 provides-nominal:
-- "6IMusic20TrackMmovingDelegateP"
 - "6IMusic15TrackDetailViewC"
 provides-member:
-- ["6IMusic20TrackMmovingDelegateP", ""]
 - ["6IMusic15TrackDetailViewC", ""]
 provides-dynamic-lookup:
 - "authorTitleLAbel"
@@ -90,6 +87,7 @@ depends-top-level:
 - !private "_ImageLiteralType"
 - !private "addGestureRecognizer"
 - !private "authorTitleLAbel"
+- !private "backgroundColor"
 - !private "currentTimeSlider"
 - !private "enlargeTrackImageView"
 - !private "handleDissmsalPan"
@@ -170,6 +168,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "animate"]
 - ["So15CALayerDelegateP", "authorTitleLAbel"]
 - ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
 - ["So15CALayerDelegateP", "currentTimeLabel"]
 - ["So15CALayerDelegateP", "currentTimeSlider"]
 - ["So15CALayerDelegateP", "dragDownButtonTapped"]
@@ -201,7 +200,6 @@ depends-member:
 - ["So15CALayerDelegateP", "previousTrack"]
 - !private ["So15CALayerDelegateP", "print"]
 - ["So15CALayerDelegateP", "reduceTarckImageView"]
-- !private ["So15CALayerDelegateP", "removeFromSuperview"]
 - !private ["So15CALayerDelegateP", "sd_setImage"]
 - !private ["So15CALayerDelegateP", "sd_setImageWithURL"]
 - ["So15CALayerDelegateP", "set"]
@@ -248,6 +246,7 @@ depends-member:
 - !private ["s7CVarArgP", "authorTitleLAbel"]
 - ["s7CVarArgP", "automaticallyWaitsToMinimizeStalling"]
 - !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "backgroundColor"]
 - !private ["s7CVarArgP", "cornerRadius"]
 - !private ["s7CVarArgP", "currentItem"]
 - !private ["s7CVarArgP", "currentTime"]
@@ -275,6 +274,7 @@ depends-member:
 - !private ["s7CVarArgP", "miniTrackTitleLabel"]
 - !private ["s7CVarArgP", "monitorStartTime"]
 - !private ["s7CVarArgP", "obeservePlayerCurrentTime"]
+- !private ["s7CVarArgP", "orange"]
 - !private ["s7CVarArgP", "pause"]
 - !private ["s7CVarArgP", "play"]
 - !private ["s7CVarArgP", "playPauseAction"]
@@ -284,7 +284,6 @@ depends-member:
 - !private ["s7CVarArgP", "previewUrl"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "reduceTarckImageView"]
-- !private ["s7CVarArgP", "removeFromSuperview"]
 - !private ["s7CVarArgP", "replaceCurrentItem"]
 - !private ["s7CVarArgP", "replacingOccurrences"]
 - !private ["s7CVarArgP", "sd_setImage"]
@@ -346,6 +345,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "authorTitleLAbel"]
 - ["s28CustomDebugStringConvertibleP", "automaticallyWaitsToMinimizeStalling"]
 - !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
 - !private ["s28CustomDebugStringConvertibleP", "cornerRadius"]
 - !private ["s28CustomDebugStringConvertibleP", "currentItem"]
 - !private ["s28CustomDebugStringConvertibleP", "currentTime"]
@@ -373,6 +373,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "miniTrackTitleLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "monitorStartTime"]
 - !private ["s28CustomDebugStringConvertibleP", "obeservePlayerCurrentTime"]
+- !private ["s28CustomDebugStringConvertibleP", "orange"]
 - !private ["s28CustomDebugStringConvertibleP", "pause"]
 - !private ["s28CustomDebugStringConvertibleP", "play"]
 - !private ["s28CustomDebugStringConvertibleP", "playPauseAction"]
@@ -382,7 +383,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "previewUrl"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "reduceTarckImageView"]
-- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
 - !private ["s28CustomDebugStringConvertibleP", "replaceCurrentItem"]
 - !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
 - !private ["s28CustomDebugStringConvertibleP", "sd_setImage"]
@@ -413,6 +413,7 @@ depends-member:
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "layer"]
 - !private ["s17CustomReflectableP", "main"]
+- !private ["s17CustomReflectableP", "orange"]
 - !private ["s17CustomReflectableP", "replacingOccurrences"]
 - !private ["s17CustomReflectableP", "sd_setImage"]
 - !private ["s17CustomReflectableP", "setImage"]
@@ -446,6 +447,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "authorTitleLAbel"]
 - ["s23CustomStringConvertibleP", "automaticallyWaitsToMinimizeStalling"]
 - !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
 - !private ["s23CustomStringConvertibleP", "cornerRadius"]
 - !private ["s23CustomStringConvertibleP", "currentItem"]
 - !private ["s23CustomStringConvertibleP", "currentTime"]
@@ -473,6 +475,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "miniTrackTitleLabel"]
 - !private ["s23CustomStringConvertibleP", "monitorStartTime"]
 - !private ["s23CustomStringConvertibleP", "obeservePlayerCurrentTime"]
+- !private ["s23CustomStringConvertibleP", "orange"]
 - !private ["s23CustomStringConvertibleP", "pause"]
 - !private ["s23CustomStringConvertibleP", "play"]
 - !private ["s23CustomStringConvertibleP", "playPauseAction"]
@@ -482,7 +485,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "previewUrl"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "reduceTarckImageView"]
-- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
 - !private ["s23CustomStringConvertibleP", "replaceCurrentItem"]
 - !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
 - !private ["s23CustomStringConvertibleP", "sd_setImage"]
@@ -513,6 +515,7 @@ depends-member:
 - !private ["Se", "init"]
 - !private ["Se", "layer"]
 - !private ["Se", "main"]
+- !private ["Se", "orange"]
 - !private ["Se", "replacingOccurrences"]
 - !private ["Se", "sd_setImage"]
 - !private ["Se", "setImage"]
@@ -534,6 +537,7 @@ depends-member:
 - !private ["SE", "init"]
 - !private ["SE", "layer"]
 - !private ["SE", "main"]
+- !private ["SE", "orange"]
 - !private ["SE", "replacingOccurrences"]
 - !private ["SE", "sd_setImage"]
 - !private ["SE", "setImage"]
@@ -567,6 +571,7 @@ depends-member:
 - !private ["SQ", "authorTitleLAbel"]
 - ["SQ", "automaticallyWaitsToMinimizeStalling"]
 - !private ["SQ", "awakeFromNib"]
+- !private ["SQ", "backgroundColor"]
 - ["SQ", "began"]
 - ["SQ", "changed"]
 - !private ["SQ", "cornerRadius"]
@@ -601,6 +606,7 @@ depends-member:
 - !private ["SQ", "monitorStartTime"]
 - !private ["SQ", "normal"]
 - !private ["SQ", "obeservePlayerCurrentTime"]
+- !private ["SQ", "orange"]
 - !private ["SQ", "pause"]
 - !private ["SQ", "paused"]
 - !private ["SQ", "play"]
@@ -611,7 +617,6 @@ depends-member:
 - !private ["SQ", "previewUrl"]
 - !private ["SQ", "print"]
 - !private ["SQ", "reduceTarckImageView"]
-- !private ["SQ", "removeFromSuperview"]
 - !private ["SQ", "replaceCurrentItem"]
 - !private ["SQ", "replacingOccurrences"]
 - !private ["SQ", "sd_setImage"]
@@ -655,6 +660,7 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "imageEdgeInsets"]
 - !private ["s23ExpressibleByNilLiteralP", "layer"]
 - !private ["s23ExpressibleByNilLiteralP", "main"]
+- !private ["s23ExpressibleByNilLiteralP", "orange"]
 - !private ["s23ExpressibleByNilLiteralP", "sd_setImage"]
 - !private ["s23ExpressibleByNilLiteralP", "setImage"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
@@ -731,6 +737,7 @@ depends-member:
 - !private ["7SwiftUI7GestureP", "imageEdgeInsets"]
 - !private ["7SwiftUI7GestureP", "layer"]
 - !private ["7SwiftUI7GestureP", "main"]
+- !private ["7SwiftUI7GestureP", "orange"]
 - !private ["7SwiftUI7GestureP", "sd_setImage"]
 - !private ["7SwiftUI7GestureP", "setImage"]
 - !private ["7SwiftUI7GestureP", "text"]
@@ -762,6 +769,7 @@ depends-member:
 - !private ["SH", "authorTitleLAbel"]
 - ["SH", "automaticallyWaitsToMinimizeStalling"]
 - !private ["SH", "awakeFromNib"]
+- !private ["SH", "backgroundColor"]
 - ["SH", "began"]
 - ["SH", "changed"]
 - !private ["SH", "cornerRadius"]
@@ -792,6 +800,7 @@ depends-member:
 - !private ["SH", "miniTrackTitleLabel"]
 - !private ["SH", "monitorStartTime"]
 - !private ["SH", "obeservePlayerCurrentTime"]
+- !private ["SH", "orange"]
 - !private ["SH", "pause"]
 - !private ["SH", "paused"]
 - !private ["SH", "play"]
@@ -802,7 +811,6 @@ depends-member:
 - !private ["SH", "previewUrl"]
 - !private ["SH", "print"]
 - !private ["SH", "reduceTarckImageView"]
-- !private ["SH", "removeFromSuperview"]
 - !private ["SH", "replaceCurrentItem"]
 - !private ["SH", "replacingOccurrences"]
 - !private ["SH", "sd_setImage"]
@@ -867,6 +875,7 @@ depends-member:
 - !private ["So8NSCodingP", "artistName"]
 - ["So8NSCodingP", "authorTitleLAbel"]
 - ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "backgroundColor"]
 - !private ["So8NSCodingP", "cornerRadius"]
 - ["So8NSCodingP", "currentTimeLabel"]
 - ["So8NSCodingP", "currentTimeSlider"]
@@ -893,6 +902,7 @@ depends-member:
 - ["So8NSCodingP", "monitorStartTime"]
 - ["So8NSCodingP", "nextTrack"]
 - ["So8NSCodingP", "obeservePlayerCurrentTime"]
+- !private ["So8NSCodingP", "orange"]
 - ["So8NSCodingP", "playPauseAction"]
 - ["So8NSCodingP", "playPauseButton"]
 - ["So8NSCodingP", "playTrack"]
@@ -901,7 +911,6 @@ depends-member:
 - ["So8NSCodingP", "previousTrack"]
 - !private ["So8NSCodingP", "print"]
 - ["So8NSCodingP", "reduceTarckImageView"]
-- !private ["So8NSCodingP", "removeFromSuperview"]
 - !private ["So8NSCodingP", "replacingOccurrences"]
 - !private ["So8NSCodingP", "sd_setImage"]
 - !private ["So8NSCodingP", "sd_setImageWithURL"]
@@ -921,8 +930,11 @@ depends-member:
 - ["So8NSCodingP", "voluemSlider"]
 - !private ["So9NSCopyingP", "duration"]
 - !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "orange"]
 - !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderReadingP", "orange"]
 - !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- !private ["So21NSItemProviderWritingP", "orange"]
 - !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
 - !private ["So16NSMutableCopyingP", "replacingOccurrences"]
 - ["So8NSObjectC", "AVPlayer"]
@@ -963,6 +975,7 @@ depends-member:
 - ["So8NSObjectC", "authorTitleLAbel"]
 - ["So8NSObjectC", "automaticallyWaitsToMinimizeStalling"]
 - ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "backgroundColor"]
 - !private ["So8NSObjectC", "cornerRadius"]
 - !private ["So8NSObjectC", "currentItem"]
 - !private ["So8NSObjectC", "currentTime"]
@@ -993,6 +1006,7 @@ depends-member:
 - ["So8NSObjectC", "monitorStartTime"]
 - ["So8NSObjectC", "nextTrack"]
 - ["So8NSObjectC", "obeservePlayerCurrentTime"]
+- !private ["So8NSObjectC", "orange"]
 - !private ["So8NSObjectC", "pause"]
 - !private ["So8NSObjectC", "play"]
 - ["So8NSObjectC", "playPauseAction"]
@@ -1007,7 +1021,6 @@ depends-member:
 - ["So8NSObjectC", "previousTrack"]
 - !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "reduceTarckImageView"]
-- !private ["So8NSObjectC", "removeFromSuperview"]
 - !private ["So8NSObjectC", "replaceCurrentItem"]
 - !private ["So8NSObjectC", "replaceCurrentItemWithPlayerItem"]
 - !private ["So8NSObjectC", "replacingOccurrences"]
@@ -1071,7 +1084,6 @@ depends-member:
 - ["So8NSObjectP", "MainTabBarControllerDelegate"]
 - !private ["So8NSObjectP", "NSValue"]
 - ["So8NSObjectP", "SearchViewModel"]
-- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "TrackMmovingDelegate"]
 - ["So8NSObjectP", "UIButton"]
 - ["So8NSObjectP", "UIImageView"]
@@ -1096,6 +1108,7 @@ depends-member:
 - ["So8NSObjectP", "authorTitleLAbel"]
 - ["So8NSObjectP", "automaticallyWaitsToMinimizeStalling"]
 - ["So8NSObjectP", "awakeFromNib"]
+- !private ["So8NSObjectP", "backgroundColor"]
 - !private ["So8NSObjectP", "cornerRadius"]
 - !private ["So8NSObjectP", "currentItem"]
 - !private ["So8NSObjectP", "currentTime"]
@@ -1126,6 +1139,7 @@ depends-member:
 - ["So8NSObjectP", "monitorStartTime"]
 - ["So8NSObjectP", "nextTrack"]
 - ["So8NSObjectP", "obeservePlayerCurrentTime"]
+- !private ["So8NSObjectP", "orange"]
 - !private ["So8NSObjectP", "pause"]
 - !private ["So8NSObjectP", "play"]
 - ["So8NSObjectP", "playPauseAction"]
@@ -1140,7 +1154,6 @@ depends-member:
 - ["So8NSObjectP", "previousTrack"]
 - !private ["So8NSObjectP", "print"]
 - ["So8NSObjectP", "reduceTarckImageView"]
-- !private ["So8NSObjectP", "removeFromSuperview"]
 - !private ["So8NSObjectP", "replaceCurrentItem"]
 - !private ["So8NSObjectP", "replaceCurrentItemWithPlayerItem"]
 - !private ["So8NSObjectP", "replacingOccurrences"]
@@ -1193,6 +1206,7 @@ depends-member:
 - !private ["So8NSObjectP", "volume"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
 - !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "orange"]
 - !private ["So14NSSecureCodingP", "replacingOccurrences"]
 - !private ["So8NSStringC", "replacingOccurrences"]
 - !private ["So7NSValueC", "init"]
@@ -1214,6 +1228,7 @@ depends-member:
 - !private ["Sq", "imageEdgeInsets"]
 - !private ["Sq", "layer"]
 - !private ["Sq", "main"]
+- !private ["Sq", "orange"]
 - !private ["Sq", "sd_setImage"]
 - !private ["Sq", "setImage"]
 - !private ["Sq", "text"]
@@ -1291,6 +1306,7 @@ depends-member:
 - !private ["6IMusic15TrackDetailViewC", "addGestureRecognizer"]
 - ["6IMusic15TrackDetailViewC", "authorTitleLAbel"]
 - ["6IMusic15TrackDetailViewC", "awakeFromNib"]
+- !private ["6IMusic15TrackDetailViewC", "backgroundColor"]
 - ["6IMusic15TrackDetailViewC", "currentTimeLabel"]
 - ["6IMusic15TrackDetailViewC", "currentTimeSlider"]
 - ["6IMusic15TrackDetailViewC", "deinit"]
@@ -1321,7 +1337,6 @@ depends-member:
 - ["6IMusic15TrackDetailViewC", "previousTrack"]
 - !private ["6IMusic15TrackDetailViewC", "print"]
 - !private ["6IMusic15TrackDetailViewC", "reduceTarckImageView"]
-- !private ["6IMusic15TrackDetailViewC", "removeFromSuperview"]
 - ["6IMusic15TrackDetailViewC", "set"]
 - !private ["6IMusic15TrackDetailViewC", "setupGetures"]
 - !private ["6IMusic15TrackDetailViewC", "superview"]
@@ -1332,9 +1347,8 @@ depends-member:
 - !private ["6IMusic15TrackDetailViewC", "transform"]
 - !private ["6IMusic15TrackDetailViewC", "updateCurrentTimeSlider"]
 - ["6IMusic15TrackDetailViewC", "voluemSlider"]
-- ["6IMusic20TrackMmovingDelegateP", "SearchViewModel"]
-- ["6IMusic20TrackMmovingDelegateP", "moveBackTrack"]
-- ["6IMusic20TrackMmovingDelegateP", "moveForwardTrack"]
+- !private ["6IMusic20TrackMmovingDelegateP", "moveBackTrack"]
+- !private ["6IMusic20TrackMmovingDelegateP", "moveForwardTrack"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "imageEdgeInsets"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "layer"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImage"]
@@ -1369,6 +1383,7 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "animate"]
 - ["So29UIAccessibilityIdentificationP", "authorTitleLAbel"]
 - ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - ["So29UIAccessibilityIdentificationP", "currentTimeLabel"]
 - ["So29UIAccessibilityIdentificationP", "currentTimeSlider"]
 - ["So29UIAccessibilityIdentificationP", "dragDownButtonTapped"]
@@ -1400,7 +1415,6 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "previousTrack"]
 - !private ["So29UIAccessibilityIdentificationP", "print"]
 - ["So29UIAccessibilityIdentificationP", "reduceTarckImageView"]
-- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
 - !private ["So29UIAccessibilityIdentificationP", "sd_setImage"]
 - !private ["So29UIAccessibilityIdentificationP", "sd_setImageWithURL"]
 - ["So29UIAccessibilityIdentificationP", "set"]
@@ -1445,6 +1459,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "animate"]
 - ["So12UIAppearanceP", "authorTitleLAbel"]
 - ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
 - ["So12UIAppearanceP", "currentTimeLabel"]
 - ["So12UIAppearanceP", "currentTimeSlider"]
 - ["So12UIAppearanceP", "dragDownButtonTapped"]
@@ -1476,7 +1491,6 @@ depends-member:
 - ["So12UIAppearanceP", "previousTrack"]
 - !private ["So12UIAppearanceP", "print"]
 - ["So12UIAppearanceP", "reduceTarckImageView"]
-- !private ["So12UIAppearanceP", "removeFromSuperview"]
 - !private ["So12UIAppearanceP", "sd_setImage"]
 - !private ["So12UIAppearanceP", "sd_setImageWithURL"]
 - ["So12UIAppearanceP", "set"]
@@ -1521,6 +1535,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "animate"]
 - ["So21UIAppearanceContainerP", "authorTitleLAbel"]
 - ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
 - ["So21UIAppearanceContainerP", "currentTimeLabel"]
 - ["So21UIAppearanceContainerP", "currentTimeSlider"]
 - ["So21UIAppearanceContainerP", "dragDownButtonTapped"]
@@ -1552,7 +1567,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "previousTrack"]
 - !private ["So21UIAppearanceContainerP", "print"]
 - ["So21UIAppearanceContainerP", "reduceTarckImageView"]
-- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
 - !private ["So21UIAppearanceContainerP", "sd_setImage"]
 - !private ["So21UIAppearanceContainerP", "sd_setImageWithURL"]
 - ["So21UIAppearanceContainerP", "set"]
@@ -1570,6 +1584,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "voluemSlider"]
 - !private ["So8UIButtonC", "imageEdgeInsets"]
 - !private ["So8UIButtonC", "setImage"]
+- !private ["So7UIColorC", "orange"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So32UIContextMenuInteractionDelegateP", ""]
 - !private ["So32UIContextMenuInteractionDelegateP", "imageEdgeInsets"]
@@ -1608,6 +1623,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "animate"]
 - ["So17UICoordinateSpaceP", "authorTitleLAbel"]
 - ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - ["So17UICoordinateSpaceP", "currentTimeLabel"]
 - ["So17UICoordinateSpaceP", "currentTimeSlider"]
 - ["So17UICoordinateSpaceP", "dragDownButtonTapped"]
@@ -1639,7 +1655,6 @@ depends-member:
 - ["So17UICoordinateSpaceP", "previousTrack"]
 - !private ["So17UICoordinateSpaceP", "print"]
 - ["So17UICoordinateSpaceP", "reduceTarckImageView"]
-- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
 - !private ["So17UICoordinateSpaceP", "sd_setImage"]
 - !private ["So17UICoordinateSpaceP", "sd_setImageWithURL"]
 - ["So17UICoordinateSpaceP", "set"]
@@ -1684,6 +1699,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "animate"]
 - ["So13UIDynamicItemP", "authorTitleLAbel"]
 - ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
 - ["So13UIDynamicItemP", "currentTimeLabel"]
 - ["So13UIDynamicItemP", "currentTimeSlider"]
 - ["So13UIDynamicItemP", "dragDownButtonTapped"]
@@ -1715,7 +1731,6 @@ depends-member:
 - ["So13UIDynamicItemP", "previousTrack"]
 - !private ["So13UIDynamicItemP", "print"]
 - ["So13UIDynamicItemP", "reduceTarckImageView"]
-- !private ["So13UIDynamicItemP", "removeFromSuperview"]
 - !private ["So13UIDynamicItemP", "sd_setImage"]
 - !private ["So13UIDynamicItemP", "sd_setImageWithURL"]
 - ["So13UIDynamicItemP", "set"]
@@ -1761,6 +1776,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "animate"]
 - ["So18UIFocusEnvironmentP", "authorTitleLAbel"]
 - ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
 - ["So18UIFocusEnvironmentP", "currentTimeLabel"]
 - ["So18UIFocusEnvironmentP", "currentTimeSlider"]
 - ["So18UIFocusEnvironmentP", "dragDownButtonTapped"]
@@ -1792,7 +1808,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "previousTrack"]
 - !private ["So18UIFocusEnvironmentP", "print"]
 - ["So18UIFocusEnvironmentP", "reduceTarckImageView"]
-- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
 - !private ["So18UIFocusEnvironmentP", "sd_setImage"]
 - !private ["So18UIFocusEnvironmentP", "sd_setImageWithURL"]
 - ["So18UIFocusEnvironmentP", "set"]
@@ -1837,6 +1852,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "animate"]
 - ["So11UIFocusItemP", "authorTitleLAbel"]
 - ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
 - ["So11UIFocusItemP", "currentTimeLabel"]
 - ["So11UIFocusItemP", "currentTimeSlider"]
 - ["So11UIFocusItemP", "dragDownButtonTapped"]
@@ -1868,7 +1884,6 @@ depends-member:
 - ["So11UIFocusItemP", "previousTrack"]
 - !private ["So11UIFocusItemP", "print"]
 - ["So11UIFocusItemP", "reduceTarckImageView"]
-- !private ["So11UIFocusItemP", "removeFromSuperview"]
 - !private ["So11UIFocusItemP", "sd_setImage"]
 - !private ["So11UIFocusItemP", "sd_setImageWithURL"]
 - ["So11UIFocusItemP", "set"]
@@ -1913,6 +1928,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "animate"]
 - ["So20UIFocusItemContainerP", "authorTitleLAbel"]
 - ["So20UIFocusItemContainerP", "awakeFromNib"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
 - ["So20UIFocusItemContainerP", "currentTimeLabel"]
 - ["So20UIFocusItemContainerP", "currentTimeSlider"]
 - ["So20UIFocusItemContainerP", "dragDownButtonTapped"]
@@ -1944,7 +1960,6 @@ depends-member:
 - ["So20UIFocusItemContainerP", "previousTrack"]
 - !private ["So20UIFocusItemContainerP", "print"]
 - ["So20UIFocusItemContainerP", "reduceTarckImageView"]
-- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
 - !private ["So20UIFocusItemContainerP", "sd_setImage"]
 - !private ["So20UIFocusItemContainerP", "sd_setImageWithURL"]
 - ["So20UIFocusItemContainerP", "set"]
@@ -2000,6 +2015,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "animate"]
 - ["So24UILargeContentViewerItemP", "authorTitleLAbel"]
 - ["So24UILargeContentViewerItemP", "awakeFromNib"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - ["So24UILargeContentViewerItemP", "currentTimeLabel"]
 - ["So24UILargeContentViewerItemP", "currentTimeSlider"]
 - ["So24UILargeContentViewerItemP", "dragDownButtonTapped"]
@@ -2031,7 +2047,6 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "previousTrack"]
 - !private ["So24UILargeContentViewerItemP", "print"]
 - ["So24UILargeContentViewerItemP", "reduceTarckImageView"]
-- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
 - !private ["So24UILargeContentViewerItemP", "sd_setImage"]
 - !private ["So24UILargeContentViewerItemP", "sd_setImageWithURL"]
 - ["So24UILargeContentViewerItemP", "set"]
@@ -2081,6 +2096,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "animateWithDuration"]
 - ["So30UIPasteConfigurationSupportingP", "authorTitleLAbel"]
 - ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
 - ["So30UIPasteConfigurationSupportingP", "currentTimeLabel"]
 - ["So30UIPasteConfigurationSupportingP", "currentTimeSlider"]
 - ["So30UIPasteConfigurationSupportingP", "dragDownButtonTapped"]
@@ -2112,7 +2128,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "previousTrack"]
 - !private ["So30UIPasteConfigurationSupportingP", "print"]
 - ["So30UIPasteConfigurationSupportingP", "reduceTarckImageView"]
-- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
 - !private ["So30UIPasteConfigurationSupportingP", "sd_setImage"]
 - !private ["So30UIPasteConfigurationSupportingP", "sd_setImageWithURL"]
 - ["So30UIPasteConfigurationSupportingP", "set"]
@@ -2158,6 +2173,7 @@ depends-member:
 - !private ["So11UIResponderC", "animateWithDuration"]
 - ["So11UIResponderC", "authorTitleLAbel"]
 - ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "backgroundColor"]
 - ["So11UIResponderC", "currentTimeLabel"]
 - ["So11UIResponderC", "currentTimeSlider"]
 - ["So11UIResponderC", "dragDownButtonTapped"]
@@ -2189,7 +2205,6 @@ depends-member:
 - ["So11UIResponderC", "previousTrack"]
 - !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "reduceTarckImageView"]
-- !private ["So11UIResponderC", "removeFromSuperview"]
 - !private ["So11UIResponderC", "sd_setImage"]
 - !private ["So11UIResponderC", "sd_setImageWithURL"]
 - ["So11UIResponderC", "set"]
@@ -2235,6 +2250,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "animateWithDuration"]
 - ["So30UIResponderStandardEditActionsP", "authorTitleLAbel"]
 - ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
 - ["So30UIResponderStandardEditActionsP", "currentTimeLabel"]
 - ["So30UIResponderStandardEditActionsP", "currentTimeSlider"]
 - ["So30UIResponderStandardEditActionsP", "dragDownButtonTapped"]
@@ -2266,7 +2282,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "previousTrack"]
 - !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "reduceTarckImageView"]
-- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
 - !private ["So30UIResponderStandardEditActionsP", "sd_setImage"]
 - !private ["So30UIResponderStandardEditActionsP", "sd_setImageWithURL"]
 - ["So30UIResponderStandardEditActionsP", "set"]
@@ -2317,6 +2332,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "animate"]
 - ["So18UITraitEnvironmentP", "authorTitleLAbel"]
 - ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
 - ["So18UITraitEnvironmentP", "currentTimeLabel"]
 - ["So18UITraitEnvironmentP", "currentTimeSlider"]
 - ["So18UITraitEnvironmentP", "dragDownButtonTapped"]
@@ -2348,7 +2364,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "previousTrack"]
 - !private ["So18UITraitEnvironmentP", "print"]
 - ["So18UITraitEnvironmentP", "reduceTarckImageView"]
-- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
 - !private ["So18UITraitEnvironmentP", "sd_setImage"]
 - !private ["So18UITraitEnvironmentP", "sd_setImageWithURL"]
 - ["So18UITraitEnvironmentP", "set"]
@@ -2394,6 +2409,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "animateWithDuration"]
 - ["So23UIUserActivityRestoringP", "authorTitleLAbel"]
 - ["So23UIUserActivityRestoringP", "awakeFromNib"]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
 - ["So23UIUserActivityRestoringP", "currentTimeLabel"]
 - ["So23UIUserActivityRestoringP", "currentTimeSlider"]
 - ["So23UIUserActivityRestoringP", "dragDownButtonTapped"]
@@ -2425,7 +2441,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "previousTrack"]
 - !private ["So23UIUserActivityRestoringP", "print"]
 - ["So23UIUserActivityRestoringP", "reduceTarckImageView"]
-- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
 - !private ["So23UIUserActivityRestoringP", "sd_setImage"]
 - !private ["So23UIUserActivityRestoringP", "sd_setImageWithURL"]
 - ["So23UIUserActivityRestoringP", "set"]
@@ -2470,6 +2485,7 @@ depends-member:
 - !private ["So6UIViewC", "animate"]
 - ["So6UIViewC", "authorTitleLAbel"]
 - ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "backgroundColor"]
 - ["So6UIViewC", "currentTimeLabel"]
 - ["So6UIViewC", "currentTimeSlider"]
 - ["So6UIViewC", "dragDownButtonTapped"]
@@ -2501,7 +2517,6 @@ depends-member:
 - ["So6UIViewC", "previousTrack"]
 - !private ["So6UIViewC", "print"]
 - ["So6UIViewC", "reduceTarckImageView"]
-- !private ["So6UIViewC", "removeFromSuperview"]
 - !private ["So6UIViewC", "sd_setImage"]
 - !private ["So6UIViewC", "sd_setImageWithURL"]
 - ["So6UIViewC", "set"]
@@ -2526,6 +2541,7 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "imageEdgeInsets"]
 - !private ["7SwiftUI4ViewP", "layer"]
 - !private ["7SwiftUI4ViewP", "main"]
+- !private ["7SwiftUI4ViewP", "orange"]
 - !private ["7SwiftUI4ViewP", "sd_setImage"]
 - !private ["7SwiftUI4ViewP", "setImage"]
 - !private ["7SwiftUI4ViewP", "text"]
@@ -2545,6 +2561,7 @@ depends-member:
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s26_ExpressibleByColorLiteralP", "orange"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["7SwiftUI18_FormatSpecifiableP", "init"]
@@ -2575,6 +2592,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "authorTitleLAbel"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "automaticallyWaitsToMinimizeStalling"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cornerRadius"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currentItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currentTime"]
@@ -2602,6 +2620,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "miniTrackTitleLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "monitorStartTime"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "obeservePlayerCurrentTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "orange"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pause"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "play"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "playPauseAction"]
@@ -2611,7 +2630,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "previewUrl"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reduceTarckImageView"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceCurrentItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImage"]
@@ -2659,6 +2677,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "authorTitleLAbel"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "automaticallyWaitsToMinimizeStalling"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "awakeFromNib"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cornerRadius"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currentTime"]
@@ -2686,6 +2705,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "miniTrackTitleLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "monitorStartTime"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "obeservePlayerCurrentTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "orange"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pause"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "play"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "playPauseAction"]
@@ -2695,7 +2715,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "previewUrl"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reduceTarckImageView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replaceCurrentItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "replacingOccurrences"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sd_setImage"]
@@ -2732,6 +2751,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "layer"]
 - !private ["s21_ObjectiveCBridgeableP", "main"]
+- !private ["s21_ObjectiveCBridgeableP", "orange"]
 - !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
 - !private ["s21_ObjectiveCBridgeableP", "sd_setImage"]
 - !private ["s21_ObjectiveCBridgeableP", "setImage"]
@@ -2760,6 +2780,7 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "animate"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "authorTitleLAbel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "currentTimeLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "currentTimeSlider"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dragDownButtonTapped"]
@@ -2786,7 +2807,6 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "player"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "print"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "reduceTarckImageView"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sd_setImage"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "set"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setImage"]
@@ -2879,12 +2899,13 @@ depends-nominal:
 - "s20TextOutputStreamableP"
 - !private "So25AVPlayerTimeControlStatusV"
 - "6IMusic15TrackDetailViewC"
-- "6IMusic20TrackMmovingDelegateP"
+- !private "6IMusic20TrackMmovingDelegateP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - !private "So8UIButtonC"
+- !private "So7UIColorC"
 - !private "So30UIContentSizeCategoryAdjustingP"
 - !private "So32UIContextMenuInteractionDelegateP"
 - "So9UIControlC"
@@ -2922,6 +2943,7 @@ depends-nominal:
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "7SwiftUI18_FormatSpecifiableP"
@@ -2940,7 +2962,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -2962,7 +2983,6 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
@@ -3020,13 +3040,11 @@ depends-external:
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
@@ -3054,4 +3072,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d7fd968fb4c99f7f0e292b4a27ca98fa"
+interface-hash: "0573b7cbabd406751bfa2ba0f593742d"

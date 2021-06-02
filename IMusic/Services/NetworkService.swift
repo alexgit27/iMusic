@@ -31,11 +31,4 @@ class NetworkService {
             }
         })
     }
-    
-//    func fetch(completion: (SearchResponse?) -> Void) {
-//        URLSession.shared.dataTask(with: URL(string: "")!) { _, _, _ in
-//            completion(SearchResponse(resultCount: 5, results: [Track(trackName: "test", artistName: "test", collectionName: "test", artworkUrl100: "test")]))
-//        }
-//
-//    }
 }
