@@ -53,7 +53,7 @@ struct Library: View {
                                                                     $0.activationState == .foregroundActive
                                                                 }).map({$0 as? UIWindowScene}).compactMap({$0}).first?.windows.filter({$0.isKeyWindow}).first
                                                                 let tabBarVC = keyWindow?.rootViewController as? MainTabBarController
-                                                                tabBarVC?.trackDetailView.delegate = self
+                                                                tabBarVC?.trackDetailView.trackMovingDelegate = self
                                                                 self.track = track
                                                                 self.tabBarDelegate?.maximazeTrackViewController(viewModel: self.track)
                                                             })))

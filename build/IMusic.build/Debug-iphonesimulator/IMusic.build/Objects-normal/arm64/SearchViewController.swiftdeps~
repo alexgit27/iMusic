@@ -107,7 +107,7 @@ depends-member:
 - !private ["Sa", "first"]
 - !private ["Sa", "map"]
 - !private ["Sa", "subscript"]
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["SK", "compactMap"]
 - !private ["SK", "count"]
 - !private ["SK", "filter"]
@@ -117,6 +117,7 @@ depends-member:
 - !private ["SK", "row"]
 - !private ["SK", "section"]
 - !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "delegate"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
@@ -142,6 +143,7 @@ depends-member:
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["So15CALayerDelegateP", "textAlignment"]
 - !private ["So15CALayerDelegateP", "trackImageView"]
+- !private ["So15CALayerDelegateP", "trackMovingDelegate"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "compactMap"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "count"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "filter"]
@@ -250,12 +252,13 @@ depends-member:
 - !private ["s7CVarArgP", "timer"]
 - !private ["s7CVarArgP", "trackDetailView"]
 - !private ["s7CVarArgP", "trackImageView"]
+- !private ["s7CVarArgP", "trackMovingDelegate"]
 - !private ["s7CVarArgP", "viewController"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - !private ["s7CVarArgP", "windows"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - !private ["Sl", "compactMap"]
 - !private ["Sl", "count"]
 - !private ["Sl", "filter"]
@@ -265,7 +268,7 @@ depends-member:
 - !private ["Sl", "row"]
 - !private ["Sl", "section"]
 - !private ["Sl", "subscript"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["SL", "init"]
 - !private ["SL", "row"]
 - !private ["SL", "section"]
@@ -380,6 +383,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "timer"]
 - !private ["s28CustomDebugStringConvertibleP", "trackDetailView"]
 - !private ["s28CustomDebugStringConvertibleP", "trackImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "trackMovingDelegate"]
 - !private ["s28CustomDebugStringConvertibleP", "viewController"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
@@ -507,6 +511,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "timer"]
 - !private ["s23CustomStringConvertibleP", "trackDetailView"]
 - !private ["s23CustomStringConvertibleP", "trackImageView"]
+- !private ["s23CustomStringConvertibleP", "trackMovingDelegate"]
 - !private ["s23CustomStringConvertibleP", "viewController"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
@@ -665,6 +670,7 @@ depends-member:
 - !private ["SQ", "timer"]
 - !private ["SQ", "trackDetailView"]
 - !private ["SQ", "trackImageView"]
+- !private ["SQ", "trackMovingDelegate"]
 - !private ["SQ", "viewController"]
 - !private ["SQ", "viewDidLoad"]
 - ["SQ", "viewForZooming"]
@@ -680,7 +686,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "section"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
@@ -695,9 +701,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "row"]
 - !private ["s23ExpressibleByNilLiteralP", "selectRow"]
 - !private ["s23ExpressibleByNilLiteralP", "tableFooterView"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - ["6IMusic10FooterViewC", ""]
 - !private ["6IMusic10FooterViewC", "hideLoader"]
@@ -823,6 +829,7 @@ depends-member:
 - !private ["SH", "timer"]
 - !private ["SH", "trackDetailView"]
 - !private ["SH", "trackImageView"]
+- !private ["SH", "trackMovingDelegate"]
 - !private ["SH", "viewController"]
 - !private ["SH", "viewDidLoad"]
 - ["SH", "viewForZooming"]
@@ -831,7 +838,7 @@ depends-member:
 - !private ["10Foundation9IndexPathV", "init"]
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["10Foundation9IndexPathV", "section"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["6IMusic20MainTabBarControllerC", "trackDetailView"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "maximazeTrackViewController"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "trackDetailView"]
@@ -870,6 +877,7 @@ depends-member:
 - !private ["So8NSCodingP", "SearchRouter"]
 - ["So8NSCodingP", "SearchRoutingLogic"]
 - ["So8NSCodingP", "SearchViewModel"]
+- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "Timer"]
 - !private ["So8NSCodingP", "TrackCell"]
 - !private ["So8NSCodingP", "UIApplication"]
@@ -880,6 +888,7 @@ depends-member:
 - ["So8NSCodingP", "UISearchController"]
 - ["So8NSCodingP", "UITableView"]
 - ["So8NSCodingP", "UITableViewCell"]
+- ["So8NSCodingP", "UIView"]
 - !private ["So8NSCodingP", "UIWindowScene"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__lazy_storage_$_footerView"]
@@ -962,6 +971,7 @@ depends-member:
 - ["So8NSCodingP", "timer"]
 - !private ["So8NSCodingP", "trackDetailView"]
 - !private ["So8NSCodingP", "trackImageView"]
+- !private ["So8NSCodingP", "trackMovingDelegate"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewForZooming"]
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
@@ -983,6 +993,7 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "SearchRouter"]
 - ["So26NSExtensionRequestHandlingP", "SearchRoutingLogic"]
 - ["So26NSExtensionRequestHandlingP", "SearchViewModel"]
+- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", "Timer"]
 - !private ["So26NSExtensionRequestHandlingP", "TrackCell"]
 - !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
@@ -993,6 +1004,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "UISearchController"]
 - ["So26NSExtensionRequestHandlingP", "UITableView"]
 - ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
+- ["So26NSExtensionRequestHandlingP", "UIView"]
 - !private ["So26NSExtensionRequestHandlingP", "UIWindowScene"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_footerView"]
@@ -1174,6 +1186,7 @@ depends-member:
 - ["So8NSObjectC", "timer"]
 - !private ["So8NSObjectC", "trackDetailView"]
 - !private ["So8NSObjectC", "trackImageView"]
+- !private ["So8NSObjectC", "trackMovingDelegate"]
 - !private ["So8NSObjectC", "viewController"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewForZooming"]
@@ -1196,6 +1209,7 @@ depends-member:
 - !private ["So8NSObjectP", "SearchRouter"]
 - ["So8NSObjectP", "SearchRoutingLogic"]
 - ["So8NSObjectP", "SearchViewModel"]
+- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "Timer"]
 - !private ["So8NSObjectP", "TrackCell"]
 - !private ["So8NSObjectP", "UIApplication"]
@@ -1206,6 +1220,7 @@ depends-member:
 - ["So8NSObjectP", "UISearchController"]
 - ["So8NSObjectP", "UITableView"]
 - ["So8NSObjectP", "UITableViewCell"]
+- ["So8NSObjectP", "UIView"]
 - !private ["So8NSObjectP", "UIWindowScene"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_footerView"]
@@ -1298,6 +1313,7 @@ depends-member:
 - ["So8NSObjectP", "timer"]
 - !private ["So8NSObjectP", "trackDetailView"]
 - !private ["So8NSObjectP", "trackImageView"]
+- !private ["So8NSObjectP", "trackMovingDelegate"]
 - !private ["So8NSObjectP", "viewController"]
 - ["So8NSObjectP", "viewDidLoad"]
 - ["So8NSObjectP", "viewForZooming"]
@@ -1518,7 +1534,7 @@ depends-member:
 - ["6IMusic15SearchViewModelC", ""]
 - !private ["6IMusic15SearchViewModelC", "cells"]
 - ["6IMusic15SearchViewModelC", "init"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "compactMap"]
 - !private ["ST", "count"]
 - !private ["ST", "filter"]
@@ -1534,14 +1550,14 @@ depends-member:
 - !private ["s10SetAlgebraP", "map"]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
-- !private ["s16TextOutputStreamP", ""]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["So7NSTimerC", "invalidate"]
 - !private ["So7NSTimerC", "scheduledTimer"]
 - !private ["6IMusic9TrackCellC", "reuseId"]
 - !private ["6IMusic9TrackCellC", "set"]
 - !private ["6IMusic9TrackCellC", "trackImageView"]
-- !private ["6IMusic15TrackDetailViewC", "delegate"]
+- !private ["6IMusic15TrackDetailViewC", "trackMovingDelegate"]
 - ["6IMusic20TrackMmovingDelegateP", "FooterView"]
 - !private ["6IMusic20TrackMmovingDelegateP", "IndexPath"]
 - !private ["6IMusic20TrackMmovingDelegateP", "Search"]
@@ -1609,6 +1625,7 @@ depends-member:
 - ["6IMusic20TrackMmovingDelegateP", "viewForZooming"]
 - ["6IMusic20TrackMmovingDelegateP", "viewForZoomingInScrollView"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
@@ -1634,6 +1651,8 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
 - !private ["So29UIAccessibilityIdentificationP", "trackImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "trackMovingDelegate"]
+- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "delegate"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
@@ -1659,6 +1678,7 @@ depends-member:
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So12UIAppearanceP", "textAlignment"]
 - !private ["So12UIAppearanceP", "trackImageView"]
+- !private ["So12UIAppearanceP", "trackMovingDelegate"]
 - ["So21UIAppearanceContainerP", "$__lazy_storage_$_footerView"]
 - ["So21UIAppearanceContainerP", "Bool"]
 - ["So21UIAppearanceContainerP", "CGFloat"]
@@ -1675,6 +1695,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "SearchRouter"]
 - ["So21UIAppearanceContainerP", "SearchRoutingLogic"]
 - ["So21UIAppearanceContainerP", "SearchViewModel"]
+- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "Timer"]
 - !private ["So21UIAppearanceContainerP", "TrackCell"]
 - !private ["So21UIAppearanceContainerP", "UIApplication"]
@@ -1685,6 +1706,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "UISearchController"]
 - ["So21UIAppearanceContainerP", "UITableView"]
 - ["So21UIAppearanceContainerP", "UITableViewCell"]
+- ["So21UIAppearanceContainerP", "UIView"]
 - !private ["So21UIAppearanceContainerP", "UIWindowScene"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_footerView"]
@@ -1764,6 +1786,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "timer"]
 - !private ["So21UIAppearanceContainerP", "trackDetailView"]
 - !private ["So21UIAppearanceContainerP", "trackImageView"]
+- !private ["So21UIAppearanceContainerP", "trackMovingDelegate"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
@@ -1856,6 +1879,7 @@ depends-member:
 - !private ["So18UIContentContainerP", "SearchRouter"]
 - ["So18UIContentContainerP", "SearchRoutingLogic"]
 - ["So18UIContentContainerP", "SearchViewModel"]
+- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", "Timer"]
 - !private ["So18UIContentContainerP", "TrackCell"]
 - !private ["So18UIContentContainerP", "UIApplication"]
@@ -1866,6 +1890,7 @@ depends-member:
 - ["So18UIContentContainerP", "UISearchController"]
 - ["So18UIContentContainerP", "UITableView"]
 - ["So18UIContentContainerP", "UITableViewCell"]
+- ["So18UIContentContainerP", "UIView"]
 - !private ["So18UIContentContainerP", "UIWindowScene"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "__lazy_storage_$_footerView"]
@@ -1929,6 +1954,7 @@ depends-member:
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
 - ["So33UIContextMenuInteractionAnimatingP", ""]
+- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "delegate"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
@@ -1954,6 +1980,7 @@ depends-member:
 - !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So17UICoordinateSpaceP", "textAlignment"]
 - !private ["So17UICoordinateSpaceP", "trackImageView"]
+- !private ["So17UICoordinateSpaceP", "trackMovingDelegate"]
 - !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
 - !private ["So23UIDataSourceTranslatingP", "deselectRow"]
 - !private ["So23UIDataSourceTranslatingP", "indexPathForSelectedRow"]
@@ -1961,6 +1988,7 @@ depends-member:
 - !private ["So23UIDataSourceTranslatingP", "reloadData"]
 - !private ["So23UIDataSourceTranslatingP", "selectRow"]
 - !private ["So23UIDataSourceTranslatingP", "tableFooterView"]
+- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
 - !private ["So13UIDynamicItemP", "delegate"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
@@ -1986,6 +2014,7 @@ depends-member:
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So13UIDynamicItemP", "textAlignment"]
 - !private ["So13UIDynamicItemP", "trackImageView"]
+- !private ["So13UIDynamicItemP", "trackMovingDelegate"]
 - ["So18UIFocusEnvironmentP", "$__lazy_storage_$_footerView"]
 - ["So18UIFocusEnvironmentP", "Bool"]
 - ["So18UIFocusEnvironmentP", "CGFloat"]
@@ -2002,6 +2031,7 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "SearchRouter"]
 - ["So18UIFocusEnvironmentP", "SearchRoutingLogic"]
 - ["So18UIFocusEnvironmentP", "SearchViewModel"]
+- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "Timer"]
 - !private ["So18UIFocusEnvironmentP", "TrackCell"]
 - !private ["So18UIFocusEnvironmentP", "UIApplication"]
@@ -2012,6 +2042,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "UISearchController"]
 - ["So18UIFocusEnvironmentP", "UITableView"]
 - ["So18UIFocusEnvironmentP", "UITableViewCell"]
+- ["So18UIFocusEnvironmentP", "UIView"]
 - !private ["So18UIFocusEnvironmentP", "UIWindowScene"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_footerView"]
@@ -2091,9 +2122,11 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "timer"]
 - !private ["So18UIFocusEnvironmentP", "trackDetailView"]
 - !private ["So18UIFocusEnvironmentP", "trackImageView"]
+- !private ["So18UIFocusEnvironmentP", "trackMovingDelegate"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
+- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "delegate"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
@@ -2119,6 +2152,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "textAlignment"]
 - !private ["So11UIFocusItemP", "trackImageView"]
+- !private ["So11UIFocusItemP", "trackMovingDelegate"]
 - ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "backgroundColor"]
 - !private ["So20UIFocusItemContainerP", "delegate"]
@@ -2145,6 +2179,7 @@ depends-member:
 - !private ["So20UIFocusItemContainerP", "text"]
 - !private ["So20UIFocusItemContainerP", "textAlignment"]
 - !private ["So20UIFocusItemContainerP", "trackImageView"]
+- !private ["So20UIFocusItemContainerP", "trackMovingDelegate"]
 - !private ["So30UIFocusItemScrollableContainerP", ""]
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCellWithIdentifier"]
@@ -2167,6 +2202,7 @@ depends-member:
 - !private ["So7UILabelC", "init"]
 - !private ["So7UILabelC", "text"]
 - !private ["So7UILabelC", "textAlignment"]
+- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - !private ["So24UILargeContentViewerItemP", "delegate"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
@@ -2192,6 +2228,7 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "text"]
 - !private ["So24UILargeContentViewerItemP", "textAlignment"]
 - !private ["So24UILargeContentViewerItemP", "trackImageView"]
+- !private ["So24UILargeContentViewerItemP", "trackMovingDelegate"]
 - !private ["So16UINavigationItemC", "hidesSearchBarWhenScrolling"]
 - !private ["So16UINavigationItemC", "searchController"]
 - !private ["So5UINibC", "init"]
@@ -2211,6 +2248,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "SearchRouter"]
 - ["So30UIPasteConfigurationSupportingP", "SearchRoutingLogic"]
 - ["So30UIPasteConfigurationSupportingP", "SearchViewModel"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "Timer"]
 - !private ["So30UIPasteConfigurationSupportingP", "TrackCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
@@ -2221,6 +2259,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "UISearchController"]
 - ["So30UIPasteConfigurationSupportingP", "UITableView"]
 - ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
+- ["So30UIPasteConfigurationSupportingP", "UIView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIWindowScene"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_footerView"]
@@ -2303,6 +2342,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "timer"]
 - !private ["So30UIPasteConfigurationSupportingP", "trackDetailView"]
 - !private ["So30UIPasteConfigurationSupportingP", "trackImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "trackMovingDelegate"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
@@ -2417,6 +2457,7 @@ depends-member:
 - ["So11UIResponderC", "timer"]
 - !private ["So11UIResponderC", "trackDetailView"]
 - !private ["So11UIResponderC", "trackImageView"]
+- !private ["So11UIResponderC", "trackMovingDelegate"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
@@ -2437,6 +2478,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "SearchRouter"]
 - ["So30UIResponderStandardEditActionsP", "SearchRoutingLogic"]
 - ["So30UIResponderStandardEditActionsP", "SearchViewModel"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "Timer"]
 - !private ["So30UIResponderStandardEditActionsP", "TrackCell"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
@@ -2447,6 +2489,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "UISearchController"]
 - ["So30UIResponderStandardEditActionsP", "UITableView"]
 - ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
+- ["So30UIResponderStandardEditActionsP", "UIView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIWindowScene"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_footerView"]
@@ -2529,6 +2572,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "timer"]
 - !private ["So30UIResponderStandardEditActionsP", "trackDetailView"]
 - !private ["So30UIResponderStandardEditActionsP", "trackImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "trackMovingDelegate"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
@@ -2714,6 +2758,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "SearchRouter"]
 - ["So16UIStateRestoringP", "SearchRoutingLogic"]
 - ["So16UIStateRestoringP", "SearchViewModel"]
+- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", "Timer"]
 - !private ["So16UIStateRestoringP", "TrackCell"]
 - !private ["So16UIStateRestoringP", "UIApplication"]
@@ -2724,6 +2769,7 @@ depends-member:
 - ["So16UIStateRestoringP", "UISearchController"]
 - ["So16UIStateRestoringP", "UITableView"]
 - ["So16UIStateRestoringP", "UITableViewCell"]
+- ["So16UIStateRestoringP", "UIView"]
 - !private ["So16UIStateRestoringP", "UIWindowScene"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "__lazy_storage_$_footerView"]
@@ -2951,6 +2997,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "SearchRouter"]
 - ["So18UITraitEnvironmentP", "SearchRoutingLogic"]
 - ["So18UITraitEnvironmentP", "SearchViewModel"]
+- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "Timer"]
 - !private ["So18UITraitEnvironmentP", "TrackCell"]
 - !private ["So18UITraitEnvironmentP", "UIApplication"]
@@ -2961,6 +3008,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "UISearchController"]
 - ["So18UITraitEnvironmentP", "UITableView"]
 - ["So18UITraitEnvironmentP", "UITableViewCell"]
+- ["So18UITraitEnvironmentP", "UIView"]
 - !private ["So18UITraitEnvironmentP", "UIWindowScene"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_footerView"]
@@ -3040,6 +3088,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "timer"]
 - !private ["So18UITraitEnvironmentP", "trackDetailView"]
 - !private ["So18UITraitEnvironmentP", "trackImageView"]
+- !private ["So18UITraitEnvironmentP", "trackMovingDelegate"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
@@ -3059,6 +3108,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "SearchRouter"]
 - ["So23UIUserActivityRestoringP", "SearchRoutingLogic"]
 - ["So23UIUserActivityRestoringP", "SearchViewModel"]
+- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "Timer"]
 - !private ["So23UIUserActivityRestoringP", "TrackCell"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
@@ -3069,6 +3119,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "UISearchController"]
 - ["So23UIUserActivityRestoringP", "UITableView"]
 - ["So23UIUserActivityRestoringP", "UITableViewCell"]
+- ["So23UIUserActivityRestoringP", "UIView"]
 - !private ["So23UIUserActivityRestoringP", "UIWindowScene"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_footerView"]
@@ -3151,6 +3202,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "timer"]
 - !private ["So23UIUserActivityRestoringP", "trackDetailView"]
 - !private ["So23UIUserActivityRestoringP", "trackImageView"]
+- !private ["So23UIUserActivityRestoringP", "trackMovingDelegate"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "viewForZooming"]
 - ["So23UIUserActivityRestoringP", "viewForZoomingInScrollView"]
@@ -3181,6 +3233,7 @@ depends-member:
 - !private ["So6UIViewC", "text"]
 - !private ["So6UIViewC", "textAlignment"]
 - !private ["So6UIViewC", "trackImageView"]
+- !private ["So6UIViewC", "trackMovingDelegate"]
 - ["So16UIViewControllerC", "$__lazy_storage_$_footerView"]
 - ["So16UIViewControllerC", "Bool"]
 - ["So16UIViewControllerC", "CGFloat"]
@@ -3303,11 +3356,11 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "map"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "red"]
 - !private ["s19_HasContiguousBytesP", "compactMap"]
 - !private ["s19_HasContiguousBytesP", "count"]
@@ -3419,6 +3472,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "timer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "trackDetailView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "trackImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "trackMovingDelegate"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
@@ -3520,6 +3574,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timer"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trackDetailView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trackImageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "trackMovingDelegate"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewController"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
@@ -3567,17 +3622,18 @@ depends-member:
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "textAlignment"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trackImageView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "trackMovingDelegate"]
 depends-nominal:
 - !private "So22UISceneActivationStateV"
 - !private "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
 - !private "Sa"
-- !private "SK"
+- "SK"
 - "So15CALayerDelegateP"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- !private "Sl"
-- !private "SL"
+- "Sl"
+- "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -3587,19 +3643,19 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "6IMusic10FooterViewC"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "10Foundation9IndexPathV"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "6IMusic20MainTabBarControllerC"
 - !private "6IMusic28MainTabBarControllerDelegateP"
 - "6IMusic6SearchO5ModelO"
@@ -3633,13 +3689,13 @@ depends-nominal:
 - !private "6IMusic18SearchRoutingLogicP"
 - "6IMusic20SearchViewControllerC"
 - "6IMusic15SearchViewModelC"
-- !private "ST"
+- "ST"
 - !private "Sh"
 - !private "s10SetAlgebraP"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - !private "So7NSTimerC"
 - !private "6IMusic9TrackCellC"
 - !private "6IMusic15TrackDetailViewC"
@@ -3702,11 +3758,11 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"

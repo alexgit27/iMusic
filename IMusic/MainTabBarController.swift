@@ -16,7 +16,6 @@ protocol MainTabBarControllerDelegate: class {
 class MainTabBarController: UITabBarController {
     let searchVC: SearchViewController = SearchViewController.loadFromStoryboard()
     let trackDetailView: TrackDetailView = TrackDetailView.loadFromNib()
-    let libraryVC: LibraryVC = LibraryVC.loadFromStoryboard()
     let libraryMusicVC: LibraryMusicViewController = LibraryMusicViewController.loadFromStoryboard()
     
     var minimizedTopAnchorConstraints: NSLayoutConstraint!
@@ -39,17 +38,7 @@ class MainTabBarController: UITabBarController {
         let hostingVC = UIHostingController(rootView: library)
         hostingVC.tabBarItem.image = #imageLiteral(resourceName: "library")
         hostingVC.tabBarItem.title = "Library"
-        
-//        viewControllers = [
-//            generateViewController(rootViewController: searchVC, image: UIImage(named: "search")!, title: "Search"),
-//            hostingVC
-//        ]
-        
-//        viewControllers = [
-//            generateViewController(rootViewController: searchVC, image: UIImage(named: "search")!, title: "Search"),
-//           generateViewController(rootViewController: libraryVC, image: UIImage(named: "library")!, title: "Library")
-//        ]
-        
+
         viewControllers = [
             generateViewController(rootViewController: searchVC, image: UIImage(named: "search")!, title: "Search"),
            generateViewController(rootViewController: libraryMusicVC, image: UIImage(named: "library")!, title: "Library")
@@ -70,7 +59,7 @@ class MainTabBarController: UITabBarController {
 
         trackDetailView.backgroundColor = .white
         trackDetailView.tabBarDelegate = self
-        trackDetailView.delegate = searchVC
+        trackDetailView.trackMovingDelegate = searchVC
         view.insertSubview(trackDetailView, belowSubview: tabBar)
         trackDetailView.translatesAutoresizingMaskIntoConstraints = false
         

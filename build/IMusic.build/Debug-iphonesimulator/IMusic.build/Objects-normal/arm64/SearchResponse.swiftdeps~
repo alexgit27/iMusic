@@ -86,8 +86,6 @@ depends-member:
 - !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decode"]
 - !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
 - ["6IMusic14SearchResponseV", "CodingKeys"]
 - ["6IMusic14SearchResponseV", "Int"]
 - ["6IMusic14SearchResponseV", "Track"]
@@ -117,8 +115,6 @@ depends-nominal:
 - !private "s6HasherV"
 - !private "s22KeyedDecodingContainerV"
 - !private "s30KeyedDecodingContainerProtocolP"
-- "So8NSCodingP"
-- "So8NSObjectP"
 - "6IMusic14SearchResponseV"
 - "6IMusic5TrackV"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"

@@ -270,29 +270,6 @@ SWIFT_CLASS("_TtC6IMusic26LibraryMusicViewController")
 @end
 
 
-SWIFT_CLASS("_TtC6IMusic9LibraryVC")
-@interface LibraryVC : UIViewController
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified refreshButton;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-@interface LibraryVC (SWIFT_EXTENSION(IMusic)) <UITableViewDelegate>
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-@interface LibraryVC (SWIFT_EXTENSION(IMusic)) <UITableViewDataSource>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@end
-
-
 SWIFT_CLASS("_TtC6IMusic20MainTabBarController")
 @interface MainTabBarController : UITabBarController
 - (void)viewDidLoad;
@@ -317,23 +294,6 @@ SWIFT_CLASS("_TtC6IMusic13SceneDelegate")
 @end
 
 
-SWIFT_CLASS("_TtC6IMusic25SearchMusicViewController")
-@interface SearchMusicViewController : UITableViewController
-- (void)viewDidLoad;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UISearchBar;
-
-@interface SearchMusicViewController (SWIFT_EXTENSION(IMusic)) <UISearchBarDelegate>
-- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
-@end
-
-
 SWIFT_CLASS("_TtC6IMusic12SearchRouter")
 @interface SearchRouter : NSObject
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -348,6 +308,7 @@ SWIFT_CLASS("_TtC6IMusic20SearchViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UISearchBar;
 
 @interface SearchViewController (SWIFT_EXTENSION(IMusic)) <UISearchBarDelegate>
 - (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
@@ -431,14 +392,6 @@ SWIFT_CLASS("_TtC6IMusic15TrackDetailView")
 
 
 
-
-
-SWIFT_CLASS("_TtC6IMusic14ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

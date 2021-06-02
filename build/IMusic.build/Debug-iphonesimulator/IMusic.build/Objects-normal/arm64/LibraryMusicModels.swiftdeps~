@@ -26,14 +26,18 @@ depends-top-level:
 - !private "IntegerLiteralType"
 - "LibraryMusic"
 - "SearchViewModel"
-- "Track"
 depends-member:
+- ["s7CVarArgP", "Cell"]
+- ["s28CustomDebugStringConvertibleP", "Cell"]
+- ["s23CustomStringConvertibleP", "Cell"]
 - ["SQ", "=="]
+- ["SQ", "Cell"]
 - ["SQ", ""]
 - ["SQ", "_rawHashValue"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SH", "=="]
+- ["SH", "Cell"]
 - ["SH", ""]
 - ["SH", "_rawHashValue"]
 - ["SH", "hash"]
@@ -41,14 +45,13 @@ depends-member:
 - !private ["s6HasherV", "combine"]
 - ["6IMusic12LibraryMusicO", "Model"]
 - ["6IMusic12LibraryMusicO", "SearchViewModel"]
-- ["6IMusic12LibraryMusicO", "Track"]
 - ["6IMusic12LibraryMusicO5ModelO", "Request"]
 - ["6IMusic12LibraryMusicO5ModelO", "Response"]
 - ["6IMusic12LibraryMusicO5ModelO", "SearchViewModel"]
-- ["6IMusic12LibraryMusicO5ModelO", "Track"]
 - ["6IMusic12LibraryMusicO5ModelO", "ViewModel"]
-- ["So8NSCodingP", ""]
-- ["So8NSObjectP", ""]
+- ["So8NSCodingP", "Cell"]
+- ["So8NSObjectC", "Cell"]
+- ["So8NSObjectP", "Cell"]
 - ["6IMusic12LibraryMusicO5ModelO7RequestV", "RequestType"]
 - ["6IMusic12LibraryMusicO5ModelO7RequestV", "init"]
 - ["6IMusic12LibraryMusicO5ModelO7RequestV0E4TypeO", "=="]
@@ -59,31 +62,41 @@ depends-member:
 - ["6IMusic12LibraryMusicO5ModelO7RequestV0E4TypeO", "hash"]
 - ["6IMusic12LibraryMusicO5ModelO7RequestV0E4TypeO", "hashValue"]
 - ["6IMusic12LibraryMusicO5ModelO8ResponseV", "ResponseType"]
-- ["6IMusic12LibraryMusicO5ModelO8ResponseV", "Track"]
+- ["6IMusic12LibraryMusicO5ModelO8ResponseV", "SearchViewModel"]
 - ["6IMusic12LibraryMusicO5ModelO8ResponseV", "init"]
-- ["6IMusic12LibraryMusicO5ModelO8ResponseV0E4TypeO", "Track"]
+- ["6IMusic12LibraryMusicO5ModelO8ResponseV0E4TypeO", "SearchViewModel"]
 - ["6IMusic12LibraryMusicO5ModelO8ResponseV0E4TypeO", "presentTracks"]
+- ["6IMusic15SearchViewModelC", "Cell"]
 - ["6IMusic12LibraryMusicO5ModelO04ViewD0V", "SearchViewModel"]
 - ["6IMusic12LibraryMusicO5ModelO04ViewD0V", "ViewModelData"]
 - ["6IMusic12LibraryMusicO5ModelO04ViewD0V", "init"]
 - ["6IMusic12LibraryMusicO5ModelO04ViewD0V0eD4DataO", "SearchViewModel"]
 - ["6IMusic12LibraryMusicO5ModelO04ViewD0V0eD4DataO", "displayTracks"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Cell"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Cell"]
 depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
 - "SQ"
 - "SH"
 - !private "s6HasherV"
 - "6IMusic12LibraryMusicO"
 - "6IMusic12LibraryMusicO5ModelO"
 - "So8NSCodingP"
+- "So8NSObjectC"
 - "So8NSObjectP"
 - "6IMusic12LibraryMusicO5ModelO7RequestV"
 - "6IMusic12LibraryMusicO5ModelO7RequestV0E4TypeO"
 - "6IMusic12LibraryMusicO5ModelO8ResponseV"
 - "6IMusic12LibraryMusicO5ModelO8ResponseV0E4TypeO"
+- "6IMusic15SearchViewModelC"
 - "6IMusic12LibraryMusicO5ModelO04ViewD0V"
 - "6IMusic12LibraryMusicO5ModelO04ViewD0V0eD4DataO"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -206,4 +219,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "75c95a09189e3ee5f1b8001ac96c2ad6"
+interface-hash: "9ca98f5891069ce455b6fe4157c2ec88"

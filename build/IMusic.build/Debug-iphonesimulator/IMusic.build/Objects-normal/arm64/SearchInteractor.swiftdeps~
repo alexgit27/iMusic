@@ -29,8 +29,6 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - ["6IMusic6SearchO5ModelO", "Request"]
 - !private ["6IMusic6SearchO5ModelO", "Response"]
-- !private ["So8NSCodingP", ""]
-- !private ["So8NSObjectP", ""]
 - !private ["6IMusic14NetworkServiceC", "fetchTracks"]
 - ["6IMusic14NetworkServiceC", "init"]
 - ["6IMusic6SearchO5ModelO7RequestV", "RequestType"]
@@ -62,8 +60,6 @@ depends-member:
 depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - "6IMusic6SearchO5ModelO"
-- !private "So8NSCodingP"
-- !private "So8NSObjectP"
 - "6IMusic14NetworkServiceC"
 - "6IMusic6SearchO5ModelO7RequestV"
 - "6IMusic6SearchO5ModelO7RequestV0D4TypeO"

@@ -82,7 +82,7 @@ depends-member:
 - !private ["So8NSObjectC", "Data"]
 - !private ["So8NSObjectC", "NSKeyedUnarchiver"]
 - ["So8NSObjectC", "SearchViewModel"]
-- !private ["So8NSObjectC", "Track"]
+- ["So8NSObjectC", "Track"]
 - !private ["So8NSObjectC", "UserDefaults"]
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "cgAffineTransform"]
@@ -107,7 +107,7 @@ depends-member:
 - !private ["So8NSObjectP", "Data"]
 - !private ["So8NSObjectP", "NSKeyedUnarchiver"]
 - ["So8NSObjectP", "SearchViewModel"]
-- !private ["So8NSObjectP", "Track"]
+- ["So8NSObjectP", "Track"]
 - !private ["So8NSObjectP", "UserDefaults"]
 - !private ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "cgAffineTransform"]
@@ -135,7 +135,7 @@ depends-member:
 - !private ["So14NSUserDefaultsC", "Data"]
 - !private ["So14NSUserDefaultsC", "NSKeyedUnarchiver"]
 - ["So14NSUserDefaultsC", "SearchViewModel"]
-- !private ["So14NSUserDefaultsC", "Track"]
+- ["So14NSUserDefaultsC", "Track"]
 - !private ["So14NSUserDefaultsC", "UserDefaults"]
 - ["So14NSUserDefaultsC", ""]
 - ["So14NSUserDefaultsC", "favouriteTrackKey"]
@@ -315,4 +315,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "4bf7c42344f98d22f7d48d534375ff62"
+interface-hash: "211807bd82612062dc89cb214b1de7d5"

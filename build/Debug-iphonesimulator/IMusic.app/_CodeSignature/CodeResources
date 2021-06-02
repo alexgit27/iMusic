@@ -74,7 +74,7 @@
 		</data>
 		<key>LibraryMusicViewController.storyboardc/4e8-OJ-guC-view-l0C-ZM-RpR.nib</key>
 		<data>
-		KmA20njJADx7HfhaWbP8lAgCPm4=
+		OAIzTqQJxApleR+sJsmWheFQvFA=
 		</data>
 		<key>LibraryMusicViewController.storyboardc/Info.plist</key>
 		<data>
@@ -82,19 +82,7 @@
 		</data>
 		<key>LibraryMusicViewController.storyboardc/UIViewController-4e8-OJ-guC.nib</key>
 		<data>
-		bQAOjL6LeoxzjImslrPXoy/vVDI=
-		</data>
-		<key>LibraryVC.storyboardc/Info.plist</key>
-		<data>
-		Wtb8c1iDjf5/0ZcZATYaMGPccn4=
-		</data>
-		<key>LibraryVC.storyboardc/UIViewController-aan-pH-acg.nib</key>
-		<data>
-		hErGN+BNSZzBPljaU9Kvg23LJBE=
-		</data>
-		<key>LibraryVC.storyboardc/aan-pH-acg-view-L8I-U5-mTh.nib</key>
-		<data>
-		R/GLg9Iv+dHg/ulvG3gkhCUBV1M=
+		Pk/nxxGWkf0QKk1A+jxtuC/aoT4=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -106,19 +94,19 @@
 		</data>
 		<key>SearchViewController.storyboardc/JHW-EP-1HY-view-zKf-Cz-2h4.nib</key>
 		<data>
-		nCeLkstVkgH/UlFf8vQfgCzXYzo=
+		Hgo+MAYuRw3eTsZzLbQvFZDzZOg=
 		</data>
 		<key>SearchViewController.storyboardc/UIViewController-JHW-EP-1HY.nib</key>
 		<data>
-		FePUjfgIt1u84PILrJl6ekVBOKk=
+		LB3C1q8UrudeLT9kEeYkuJtXxdE=
 		</data>
 		<key>TrackCell.nib</key>
 		<data>
-		abUbsM7gMmcExabkiwwaMkw9e6s=
+		3QyeWIzjBYfRd9i/IDkJT1duMsU=
 		</data>
 		<key>TrackDetailView.nib</key>
 		<data>
-		H4x9MRgQOzO004hQS/7zvAmi3HA=
+		GFH+LTwKEqqX2JbhOngaz7FeVfU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -239,7 +227,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hTO4shG/BWZff92XKs5NYS2ZEIbu4Qa5U4HgRM4klR4=
+			ASlj9VRGeyEB6Ix/s0m/ZWnGbsZNOvNz4WHGOSEzGc4=
 			</data>
 		</dict>
 		<key>LibraryMusicViewController.storyboardc/Info.plist</key>
@@ -253,28 +241,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D6vs6hMNpv37r4LsmIKbqjqi2ixIUn/rYz0mgUKNFyo=
-			</data>
-		</dict>
-		<key>LibraryVC.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			psVVj0q6rosMtrmFTdKSx/OJ00/E/texMlwuPdoVe6g=
-			</data>
-		</dict>
-		<key>LibraryVC.storyboardc/UIViewController-aan-pH-acg.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			raoK7A+zeNz7dohX+0atSzq3ocCfXH5njOhEVZ5MIAo=
-			</data>
-		</dict>
-		<key>LibraryVC.storyboardc/aan-pH-acg-view-L8I-U5-mTh.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n9fh1iQZYA4p23FjkOuyHlrGo+9SnwBX9oE/COUNC8E=
+			QwqoklpRx3RCOg24rg8LzznGBgcVc3lhfgORC8B++kk=
 			</data>
 		</dict>
 		<key>SearchViewController.storyboardc/Info.plist</key>
@@ -288,28 +255,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+2iyNqfVFjXoZ6Rg7gwm9co4S+xtbyIdJ9xG6CCCYo=
+			lcdbHfsYAyZmzPY65m5LNJPME0ML9JJMNrBqxqt5KnQ=
 			</data>
 		</dict>
 		<key>SearchViewController.storyboardc/UIViewController-JHW-EP-1HY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DO3O8nr5cuWlljsIV1tyz5Y+tlK+woICautRAIZ9orA=
+			XO4WKeo84uu9OFHLWT+G87QD9x72wXYtL+uke4pqFLY=
 			</data>
 		</dict>
 		<key>TrackCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7KmXhUM9vSvhH8FFchqfjHBk27q5AEejbj6BRSGrykQ=
+			uxhmzOZYAoS3QC/gQYVkHyFGGUoLius10eJhXIm6ELk=
 			</data>
 		</dict>
 		<key>TrackDetailView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BAgGdOObAsAXXhDLPH5d4arNSGkm9CWlkwBgTNABqUk=
+			z1IWinpWmAMwi9f9lUDEYGQtU0MbNxok39/A3bFVU/E=
 			</data>
 		</dict>
 	</dict>

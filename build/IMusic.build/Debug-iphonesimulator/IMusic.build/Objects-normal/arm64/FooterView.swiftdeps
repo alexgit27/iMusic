@@ -35,7 +35,7 @@ depends-top-level:
 - !private "trailingAnchor"
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
-- ["SK", ""]
+- !private ["SK", ""]
 - ["So15CALayerDelegateP", "CGRect"]
 - ["So15CALayerDelegateP", "NSCoder"]
 - ["So15CALayerDelegateP", "UIActivityIndicatorView"]
@@ -92,8 +92,8 @@ depends-member:
 - !private ["s7CVarArgP", "topAnchor"]
 - !private ["s7CVarArgP", "trailingAnchor"]
 - ["s7CVarArgP", "translatesAutoresizingMaskIntoConstraints"]
-- ["Sl", ""]
-- ["SL", ""]
+- !private ["Sl", ""]
+- !private ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "UIActivityIndicatorView"]
 - ["s28CustomDebugStringConvertibleP", "UIFont"]
 - ["s28CustomDebugStringConvertibleP", "UILabel"]
@@ -185,15 +185,15 @@ depends-member:
 - !private ["SQ", "topAnchor"]
 - !private ["SQ", "trailingAnchor"]
 - ["SQ", "translatesAutoresizingMaskIntoConstraints"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s23ExpressibleByNilLiteralP", "lightGray"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - ["6IMusic10FooterViewC", "CGRect"]
 - ["6IMusic10FooterViewC", "NSCoder"]
@@ -245,7 +245,7 @@ depends-member:
 - !private ["SH", "topAnchor"]
 - !private ["SH", "trailingAnchor"]
 - ["SH", "translatesAutoresizingMaskIntoConstraints"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", "CGRect"]
 - ["So8NSCodingP", "NSCoder"]
 - ["So8NSCodingP", "UIActivityIndicatorView"]
@@ -420,11 +420,11 @@ depends-member:
 - !private ["Sj", ""]
 - ["Sq", "lightGray"]
 - ["SY", "center"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - ["So29UIAccessibilityIdentificationP", "CGRect"]
 - ["So29UIAccessibilityIdentificationP", "NSCoder"]
 - ["So29UIAccessibilityIdentificationP", "UIActivityIndicatorView"]
@@ -859,10 +859,10 @@ depends-member:
 - ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
 - ["7SwiftUI4ViewP", "lightGray"]
 - ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["s26_ExpressibleByColorLiteralP", "lightGray"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIActivityIndicatorView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
@@ -950,29 +950,29 @@ depends-member:
 - ["s38__DefaultCustomPlaygroundQuickLookableP", "translatesAutoresizingMaskIntoConstraints"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
-- "SK"
+- !private "SK"
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - "s28CustomDebugStringConvertibleP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "Se"
 - "SE"
 - "SQ"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "6IMusic10FooterViewC"
 - "7SwiftUI7GestureP"
 - "SH"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
 - "So9NSCopyingP"
 - "So21NSItemProviderReadingP"
@@ -988,11 +988,11 @@ depends-nominal:
 - !private "Sj"
 - "Sq"
 - "SY"
-- "ST"
+- !private "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - "So29UIAccessibilityIdentificationP"
 - "So23UIActivityIndicatorViewC"
 - "So12UIAppearanceP"
@@ -1015,10 +1015,10 @@ depends-nominal:
 - "So6UIViewC"
 - "7SwiftUI4ViewP"
 - "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s26_ExpressibleByColorLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
