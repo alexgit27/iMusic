@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4e8-OJ-guC">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Library Music View Controller-->
+        <scene sceneID="ndz-sa-BxX">
+            <objects>
+                <viewController id="4e8-OJ-guC" customClass="LibraryMusicViewController" customModule="IMusic" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l0C-ZM-RpR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yqt-i7-uGZ">
+                                <rect key="frame" x="0.0" y="137" width="414" height="739"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ao6-ia-V5u">
+                                <rect key="frame" x="0.0" y="134" width="414" height="3"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="NXB-b8-aR3"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="l68-aK-Ozx">
+                                <rect key="frame" x="20" y="84" width="374" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzU-Bv-ffu">
+                                        <rect key="frame" x="0.0" y="0.0" width="167" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="playButtonAction:" destination="4e8-OJ-guC" eventType="touchUpInside" id="NdX-uT-fzj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbK-te-7I2">
+                                        <rect key="frame" x="207" y="0.0" width="167" height="30"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="refreshButtonAction:" destination="4e8-OJ-guC" eventType="touchUpInside" id="Sxm-7b-jST"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SlL-E3-y8G"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ao6-ia-V5u" firstAttribute="leading" secondItem="l0C-ZM-RpR" secondAttribute="leading" id="0wV-AN-Jz5"/>
+                            <constraint firstItem="l68-aK-Ozx" firstAttribute="leading" secondItem="SlL-E3-y8G" secondAttribute="leading" constant="20" id="4wm-Zh-dY9"/>
+                            <constraint firstAttribute="bottom" secondItem="yqt-i7-uGZ" secondAttribute="bottom" constant="20" id="IUG-0Y-lUf"/>
+                            <constraint firstAttribute="trailing" secondItem="ao6-ia-V5u" secondAttribute="trailing" id="WYr-RC-Jnd"/>
+                            <constraint firstItem="ao6-ia-V5u" firstAttribute="top" secondItem="l68-aK-Ozx" secondAttribute="bottom" constant="20" id="XBc-zJ-dx2"/>
+                            <constraint firstItem="SlL-E3-y8G" firstAttribute="trailing" secondItem="l68-aK-Ozx" secondAttribute="trailing" constant="20" id="Y6H-gd-UgS"/>
+                            <constraint firstItem="l68-aK-Ozx" firstAttribute="top" secondItem="SlL-E3-y8G" secondAttribute="top" constant="40" id="dez-ze-0Rl"/>
+                            <constraint firstItem="yqt-i7-uGZ" firstAttribute="top" secondItem="ao6-ia-V5u" secondAttribute="bottom" id="e80-ZD-Cw4"/>
+                            <constraint firstItem="yqt-i7-uGZ" firstAttribute="trailing" secondItem="SlL-E3-y8G" secondAttribute="trailing" id="lAm-VV-W9u"/>
+                            <constraint firstItem="yqt-i7-uGZ" firstAttribute="leading" secondItem="SlL-E3-y8G" secondAttribute="leading" id="xzq-tw-EOV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="pzU-Bv-ffu" id="kQd-p4-WI6"/>
+                        <outlet property="refreshButton" destination="sbK-te-7I2" id="yyz-j0-xHW"/>
+                        <outlet property="table" destination="yqt-i7-uGZ" id="8fz-NE-SGQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FWT-iX-bsY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-60.869565217391312" y="22.767857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

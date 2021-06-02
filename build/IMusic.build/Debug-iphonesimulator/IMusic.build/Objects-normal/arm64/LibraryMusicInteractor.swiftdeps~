@@ -1,0 +1,252 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LibraryMusicBusinessLogic"
+- "LibraryMusicInteractor"
+provides-nominal:
+- "6IMusic25LibraryMusicBusinessLogicP"
+- "6IMusic22LibraryMusicInteractorC"
+provides-member:
+- ["6IMusic25LibraryMusicBusinessLogicP", ""]
+- ["6IMusic22LibraryMusicInteractorC", ""]
+provides-dynamic-lookup:
+- "makeRequest"
+- "presenter"
+- "service"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- "LibraryMusic"
+- "LibraryMusicBusinessLogic"
+- "LibraryMusicInteractor"
+- "LibraryMusicPresentationLogic"
+- "LibraryMusicService"
+- !private "UserDefaults"
+- !private "presenter"
+- !private "service"
+depends-member:
+- !private ["SK", ""]
+- !private ["s7CVarArgP", "getTracks"]
+- !private ["s7CVarArgP", "standard"]
+- !private ["Sl", ""]
+- !private ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "getTracks"]
+- !private ["s28CustomDebugStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "getTracks"]
+- !private ["s23CustomStringConvertibleP", "standard"]
+- ["SQ", ""]
+- !private ["SQ", "getTracks"]
+- ["SQ", "getTracksFromUserDefaults"]
+- !private ["SQ", "standard"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["SH", ""]
+- !private ["SH", "getTracks"]
+- ["SH", "getTracksFromUserDefaults"]
+- !private ["SH", "standard"]
+- ["6IMusic12LibraryMusicO", "Model"]
+- ["6IMusic25LibraryMusicBusinessLogicP", "LibraryMusic"]
+- !private ["6IMusic25LibraryMusicBusinessLogicP", "LibraryMusicService"]
+- !private ["6IMusic25LibraryMusicBusinessLogicP", "UserDefaults"]
+- ["6IMusic25LibraryMusicBusinessLogicP", ""]
+- ["6IMusic25LibraryMusicBusinessLogicP", "makeRequest"]
+- !private ["6IMusic25LibraryMusicBusinessLogicP", "presenter"]
+- !private ["6IMusic25LibraryMusicBusinessLogicP", "service"]
+- ["6IMusic22LibraryMusicInteractorC", "LibraryMusic"]
+- ["6IMusic22LibraryMusicInteractorC", "LibraryMusicPresentationLogic"]
+- ["6IMusic22LibraryMusicInteractorC", "LibraryMusicService"]
+- !private ["6IMusic22LibraryMusicInteractorC", "UserDefaults"]
+- ["6IMusic22LibraryMusicInteractorC", "deinit"]
+- ["6IMusic22LibraryMusicInteractorC", "init"]
+- ["6IMusic22LibraryMusicInteractorC", "makeRequest"]
+- ["6IMusic22LibraryMusicInteractorC", "presenter"]
+- ["6IMusic22LibraryMusicInteractorC", "service"]
+- !private ["6IMusic29LibraryMusicPresentationLogicP", "presentData"]
+- !private ["6IMusic19LibraryMusicServiceC", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- ["6IMusic12LibraryMusicO5ModelO", "Request"]
+- !private ["6IMusic12LibraryMusicO5ModelO", "Response"]
+- !private ["So8NSCodingP", ""]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "getTracks"]
+- !private ["So8NSObjectC", "standard"]
+- !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "getTracks"]
+- !private ["So8NSObjectP", "standard"]
+- ["6IMusic12LibraryMusicO5ModelO7RequestV", "RequestType"]
+- ["6IMusic12LibraryMusicO5ModelO7RequestV0E4TypeO", "getTracksFromUserDefaults"]
+- !private ["6IMusic12LibraryMusicO5ModelO8ResponseV", "ResponseType"]
+- !private ["6IMusic12LibraryMusicO5ModelO8ResponseV0E4TypeO", "presentTracks"]
+- !private ["ST", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So14NSUserDefaultsC", "getTracks"]
+- !private ["So14NSUserDefaultsC", "standard"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getTracks"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "standard"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getTracks"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "standard"]
+depends-nominal:
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "6IMusic12LibraryMusicO"
+- "6IMusic25LibraryMusicBusinessLogicP"
+- "6IMusic22LibraryMusicInteractorC"
+- !private "6IMusic29LibraryMusicPresentationLogicP"
+- !private "6IMusic19LibraryMusicServiceC"
+- !private "s25LosslessStringConvertibleP"
+- "6IMusic12LibraryMusicO5ModelO"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- "6IMusic12LibraryMusicO5ModelO7RequestV"
+- "6IMusic12LibraryMusicO5ModelO7RequestV0E4TypeO"
+- !private "6IMusic12LibraryMusicO5ModelO8ResponseV"
+- !private "6IMusic12LibraryMusicO5ModelO8ResponseV0E4TypeO"
+- !private "ST"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So14NSUserDefaultsC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/os.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AVKit.framework/Headers/AVKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "82389bca43799a47c1f71bc813843c20"

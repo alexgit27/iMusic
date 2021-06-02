@@ -54,7 +54,7 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "subscript"]
 - !private ["Sa", "count"]
 - !private ["Sa", "subscript"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "count"]
 - !private ["SK", "row"]
 - !private ["SK", "subscript"]
@@ -116,11 +116,11 @@ depends-member:
 - !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "white"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "count"]
 - !private ["Sl", "row"]
 - !private ["Sl", "subscript"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "row"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
@@ -289,7 +289,6 @@ depends-member:
 - ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
@@ -297,10 +296,7 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "reloadData"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
-- ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - !private ["7SwiftUI7GestureP", "backgroundColor"]
 - !private ["7SwiftUI7GestureP", "register"]
@@ -350,7 +346,6 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - !private ["SH", "white"]
 - !private ["10Foundation9IndexPathV", "row"]
-- ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "count"]
 - !private ["SM", "row"]
@@ -360,12 +355,10 @@ depends-member:
 - ["So8NSCodingP", "IndexPath"]
 - ["So8NSCodingP", "Int"]
 - ["So8NSCodingP", "NetworkService"]
-- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "Timer"]
 - ["So8NSCodingP", "Track"]
 - ["So8NSCodingP", "UISearchBar"]
 - ["So8NSCodingP", "UISearchController"]
-- ["So8NSCodingP", "UITableView"]
 - ["So8NSCodingP", "UITableViewCell"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "backgroundColor"]
@@ -408,12 +401,10 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "IndexPath"]
 - ["So26NSExtensionRequestHandlingP", "Int"]
 - ["So26NSExtensionRequestHandlingP", "NetworkService"]
-- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", "Timer"]
 - ["So26NSExtensionRequestHandlingP", "Track"]
 - ["So26NSExtensionRequestHandlingP", "UISearchBar"]
 - ["So26NSExtensionRequestHandlingP", "UISearchController"]
-- ["So26NSExtensionRequestHandlingP", "UITableView"]
 - ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "init"]
@@ -492,12 +483,10 @@ depends-member:
 - ["So8NSObjectP", "IndexPath"]
 - ["So8NSObjectP", "Int"]
 - ["So8NSObjectP", "NetworkService"]
-- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "Timer"]
 - ["So8NSObjectP", "Track"]
 - ["So8NSObjectP", "UISearchBar"]
 - ["So8NSObjectP", "UISearchController"]
-- ["So8NSObjectP", "UITableView"]
 - ["So8NSObjectP", "UITableViewCell"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "backgroundColor"]
@@ -589,7 +578,7 @@ depends-member:
 - !private ["6IMusic25SearchMusicViewControllerC", "view"]
 - ["6IMusic25SearchMusicViewControllerC", "viewDidLoad"]
 - !private ["6IMusic14SearchResponseV", "results"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "count"]
 - !private ["ST", "row"]
 - !private ["ST", "subscript"]
@@ -598,10 +587,8 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
 - !private ["s27StringInterpolationProtocolP", "appendLiteral"]
 - !private ["s27StringInterpolationProtocolP", "init"]
-- ["s16TextOutputStreamP", ""]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
-- ["s20TextOutputStreamableP", ""]
 - !private ["So7NSTimerC", "invalidate"]
 - !private ["So7NSTimerC", "scheduledTimer"]
 - !private ["6IMusic5TrackV", "artistName"]
@@ -642,12 +629,10 @@ depends-member:
 - ["So21UIAppearanceContainerP", "IndexPath"]
 - ["So21UIAppearanceContainerP", "Int"]
 - ["So21UIAppearanceContainerP", "NetworkService"]
-- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "Timer"]
 - ["So21UIAppearanceContainerP", "Track"]
 - ["So21UIAppearanceContainerP", "UISearchBar"]
 - ["So21UIAppearanceContainerP", "UISearchController"]
-- ["So21UIAppearanceContainerP", "UITableView"]
 - ["So21UIAppearanceContainerP", "UITableViewCell"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "backgroundColor"]
@@ -715,12 +700,10 @@ depends-member:
 - ["So18UIContentContainerP", "IndexPath"]
 - ["So18UIContentContainerP", "Int"]
 - ["So18UIContentContainerP", "NetworkService"]
-- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", "Timer"]
 - ["So18UIContentContainerP", "Track"]
 - ["So18UIContentContainerP", "UISearchBar"]
 - ["So18UIContentContainerP", "UISearchController"]
-- ["So18UIContentContainerP", "UITableView"]
 - ["So18UIContentContainerP", "UITableViewCell"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "init"]
@@ -781,12 +764,10 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "IndexPath"]
 - ["So18UIFocusEnvironmentP", "Int"]
 - ["So18UIFocusEnvironmentP", "NetworkService"]
-- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "Timer"]
 - ["So18UIFocusEnvironmentP", "Track"]
 - ["So18UIFocusEnvironmentP", "UISearchBar"]
 - ["So18UIFocusEnvironmentP", "UISearchController"]
-- ["So18UIFocusEnvironmentP", "UITableView"]
 - ["So18UIFocusEnvironmentP", "UITableViewCell"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "backgroundColor"]
@@ -837,7 +818,7 @@ depends-member:
 - !private ["So11UIFocusItemP", "reloadData"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So11UIFocusItemP", "textLabel"]
-- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "backgroundColor"]
 - !private ["So20UIFocusItemContainerP", "delegate"]
 - !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
@@ -881,12 +862,10 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "IndexPath"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
 - ["So30UIPasteConfigurationSupportingP", "NetworkService"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "Timer"]
 - ["So30UIPasteConfigurationSupportingP", "Track"]
 - ["So30UIPasteConfigurationSupportingP", "UISearchBar"]
 - ["So30UIPasteConfigurationSupportingP", "UISearchController"]
-- ["So30UIPasteConfigurationSupportingP", "UITableView"]
 - ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
@@ -971,12 +950,10 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "IndexPath"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
 - ["So30UIResponderStandardEditActionsP", "NetworkService"]
-- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "Timer"]
 - ["So30UIResponderStandardEditActionsP", "Track"]
 - ["So30UIResponderStandardEditActionsP", "UISearchBar"]
 - ["So30UIResponderStandardEditActionsP", "UISearchController"]
-- ["So30UIResponderStandardEditActionsP", "UITableView"]
 - ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
@@ -1087,12 +1064,10 @@ depends-member:
 - ["So16UIStateRestoringP", "IndexPath"]
 - ["So16UIStateRestoringP", "Int"]
 - ["So16UIStateRestoringP", "NetworkService"]
-- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", "Timer"]
 - ["So16UIStateRestoringP", "Track"]
 - ["So16UIStateRestoringP", "UISearchBar"]
 - ["So16UIStateRestoringP", "UISearchController"]
-- ["So16UIStateRestoringP", "UITableView"]
 - ["So16UIStateRestoringP", "UITableViewCell"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "init"]
@@ -1221,12 +1196,10 @@ depends-member:
 - ["So18UITraitEnvironmentP", "IndexPath"]
 - ["So18UITraitEnvironmentP", "Int"]
 - ["So18UITraitEnvironmentP", "NetworkService"]
-- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "Timer"]
 - ["So18UITraitEnvironmentP", "Track"]
 - ["So18UITraitEnvironmentP", "UISearchBar"]
 - ["So18UITraitEnvironmentP", "UISearchController"]
-- ["So18UITraitEnvironmentP", "UITableView"]
 - ["So18UITraitEnvironmentP", "UITableViewCell"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "backgroundColor"]
@@ -1266,12 +1239,10 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "IndexPath"]
 - ["So23UIUserActivityRestoringP", "Int"]
 - ["So23UIUserActivityRestoringP", "NetworkService"]
-- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "Timer"]
 - ["So23UIUserActivityRestoringP", "Track"]
 - ["So23UIUserActivityRestoringP", "UISearchBar"]
 - ["So23UIUserActivityRestoringP", "UISearchController"]
-- ["So23UIUserActivityRestoringP", "UITableView"]
 - ["So23UIUserActivityRestoringP", "UITableViewCell"]
 - ["So23UIUserActivityRestoringP", ""]
 - !private ["So23UIUserActivityRestoringP", "backgroundColor"]
@@ -1367,11 +1338,9 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "count"]
@@ -1480,12 +1449,12 @@ depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - !private "So15CALayerDelegateP"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -1496,18 +1465,14 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
 - !private "SF"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "10Foundation9IndexPathV"
-- "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
@@ -1526,12 +1491,11 @@ depends-nominal:
 - !private "10Foundation20ReferenceConvertibleP"
 - "6IMusic25SearchMusicViewControllerC"
 - !private "6IMusic14SearchResponseV"
-- "ST"
+- !private "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
 - !private "s27StringInterpolationProtocolP"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
 - !private "So7NSTimerC"
 - !private "6IMusic5TrackV"
 - "6IMusic10TrackModelV"
@@ -1550,7 +1514,7 @@ depends-nominal:
 - !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
 - !private "So11UIFocusItemP"
-- "So20UIFocusItemContainerP"
+- !private "So20UIFocusItemContainerP"
 - !private "So30UIFocusItemScrollableContainerP"
 - !private "So27UIGestureRecognizerDelegateP"
 - !private "So11UIImageViewC"
@@ -1583,11 +1547,9 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s19_HasContiguousBytesP"
@@ -1604,10 +1566,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -1625,74 +1587,74 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"

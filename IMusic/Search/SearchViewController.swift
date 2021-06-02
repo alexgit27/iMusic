@@ -21,6 +21,7 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     private var timer: Timer?
     private lazy var footerView = FooterView()
     weak var tabBarDelegate: MainTabBarControllerDelegate?
+    private var tabBarVC: MainTabBarController!
 
   @IBOutlet weak var table: UITableView!
 
@@ -49,17 +50,22 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     setupTableView()
     setupSearchBar()
     setup()
+    
+    let keyWindow = UIApplication.shared.connectedScenes.filter ({
+        $0.activationState == .foregroundActive
+    }).map({$0 as? UIWindowScene}).compactMap({$0}).first?.windows.filter({$0.isKeyWindow}).first
+     tabBarVC = keyWindow?.rootViewController as? MainTabBarController
   }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        let keyWindow = UIApplication.shared.connectedScenes.filter ({
-            $0.activationState == .foregroundActive
-        }).map({$0 as? UIWindowScene}).compactMap({$0}).first?.windows.filter({$0.isKeyWindow}).first
-        let tabBarVC = keyWindow?.rootViewController as? MainTabBarController
-        tabBarVC?.trackDetailView.delegate = self
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//
+//        let keyWindow = UIApplication.shared.connectedScenes.filter ({
+//            $0.activationState == .foregroundActive
+//        }).map({$0 as? UIWindowScene}).compactMap({$0}).first?.windows.filter({$0.isKeyWindow}).first
+//        let tabBarVC = keyWindow?.rootViewController as? MainTabBarController
+//        tabBarVC?.trackDetailView.delegate = self
+//    }
     
     private func setupSearchBar() {
         navigationItem.searchController = searchController
@@ -69,7 +75,7 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     }
     
     private func setupTableView() {
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
+//        table.register(UITableViewCell.self, forCellReuseIdentifier: "cellId")
 
         let nib = UINib(nibName: "TrackCell", bundle: nil)
         table.register(nib, forCellReuseIdentifier: TrackCell.reuseId)
@@ -80,8 +86,6 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     switch viewModel {
     
     case .displayTracks(let searchViewModel):
-        print("viewModel .displayTracks")
-        
         self.searchViewModel = searchViewModel
         table.reloadData()
         footerView.hideLoader()
@@ -127,6 +131,7 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tabBarVC?.trackDetailView.delegate = self
         let cellViewModel = searchViewModel.cells[indexPath.row]
         
         tabBarDelegate?.maximazeTrackViewController(viewModel: cellViewModel)

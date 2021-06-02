@@ -25,7 +25,6 @@ class NetworkService {
             do {
                 let objects = try decoder.decode(SearchResponse.self, from: data)
                 completion(objects)
-                print(objects)
             } catch {
                 print(error.localizedDescription)
                 completion(nil)

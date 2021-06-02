@@ -1,21 +1,28 @@
+/Users/alexandr/Desktop/IMusic/IMusic/Library/LibraryMusicViewController.swift
 /Users/alexandr/Desktop/IMusic/IMusic/SearchMusicViewController.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Helpers/UIViewController\ +\ Storyboard.swift
 /Users/alexandr/Desktop/IMusic/IMusic/ViewController.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/Services/Model/SearchResponse.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/SearchInteractor.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/Cell/UserDefaults.swift
+/Users/alexandr/Desktop/IMusic/IMusic/Library/LibraryMusicModels.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/Footer\ View/FooterView.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Helpers/CMTime\ +\ Extension.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/Cell/TrackCell.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Helpers/Nib.swift
+/Users/alexandr/Desktop/IMusic/IMusic/Library/LibraryMusicRouter.swift
 /Users/alexandr/Desktop/IMusic/IMusic/AppDelegate.swift
 /Users/alexandr/Desktop/IMusic/IMusic/MainTabBarController.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/SearchWorker.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/SearchViewController.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/SearchRouter.swift
+/Users/alexandr/Desktop/IMusic/IMusic/LibraryViewController/LibraryVC.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/SearchModels.swift
 /Users/alexandr/Desktop/IMusic/IMusic/SceneDelegate.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/SearchPresenter.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Library.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/TrackDetailView/TrackDetailView.swift
+/Users/alexandr/Desktop/IMusic/IMusic/Library/LibraryMusicPresenter.swift
+/Users/alexandr/Desktop/IMusic/IMusic/Library/LibraryMusicWorker.swift
+/Users/alexandr/Desktop/IMusic/IMusic/Library/LibraryMusicInteractor.swift
 /Users/alexandr/Desktop/IMusic/IMusic/Search/Services/NetworkService.swift

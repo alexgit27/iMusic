@@ -23,7 +23,6 @@ depends-top-level:
 - !private "StringLiteralType"
 - "Track"
 - "cellViewModel"
-- !private "print"
 - !private "viewController"
 depends-member:
 - !private ["9Alamofire0A8ExtendedP", "map"]
@@ -76,7 +75,6 @@ depends-member:
 - !private ["So8NSCodingP", "init"]
 - ["So8NSObjectC", "Cell"]
 - ["So8NSObjectC", ""]
-- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectP", "Cell"]
 - !private ["So8NSObjectP", "init"]
 - !private ["Sk", ""]
@@ -93,7 +91,6 @@ depends-member:
 - ["6IMusic23SearchPresentationLogicP", ""]
 - !private ["6IMusic23SearchPresentationLogicP", "cellViewModel"]
 - ["6IMusic23SearchPresentationLogicP", "presentData"]
-- !private ["6IMusic23SearchPresentationLogicP", "print"]
 - !private ["6IMusic23SearchPresentationLogicP", "viewController"]
 - ["6IMusic15SearchPresenterC", "Search"]
 - ["6IMusic15SearchPresenterC", "SearchDisplayLogic"]
@@ -103,7 +100,6 @@ depends-member:
 - ["6IMusic15SearchPresenterC", "deinit"]
 - ["6IMusic15SearchPresenterC", "init"]
 - ["6IMusic15SearchPresenterC", "presentData"]
-- !private ["6IMusic15SearchPresenterC", "print"]
 - ["6IMusic15SearchPresenterC", "viewController"]
 - !private ["6IMusic14SearchResponseV", "results"]
 - ["6IMusic15SearchViewModelC", "Cell"]

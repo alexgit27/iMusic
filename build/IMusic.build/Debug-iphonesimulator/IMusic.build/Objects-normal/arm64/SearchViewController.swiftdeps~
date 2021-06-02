@@ -24,11 +24,11 @@ provides-dynamic-lookup:
 - "setupSearchBar"
 - "setupTableView"
 - "tabBarDelegate"
+- "tabBarVC"
 - "table"
 - "tableView"
 - "timer"
 - "viewDidLoad"
-- "viewWillAppear"
 depends-top-level:
 - !private "+"
 - !private "-"
@@ -81,13 +81,13 @@ depends-top-level:
 - !private "footerView"
 - !private "getTrack"
 - !private "navigationItem"
-- !private "print"
 - !private "searchController"
 - !private "searchViewModel"
 - !private "setup"
 - !private "setupSearchBar"
 - !private "setupTableView"
 - !private "tabBarDelegate"
+- !private "tabBarVC"
 - !private "table"
 - !private "timer"
 depends-member:
@@ -107,7 +107,7 @@ depends-member:
 - !private ["Sa", "first"]
 - !private ["Sa", "map"]
 - !private ["Sa", "subscript"]
-- ["SK", ""]
+- !private ["SK", ""]
 - !private ["SK", "compactMap"]
 - !private ["SK", "count"]
 - !private ["SK", "filter"]
@@ -117,7 +117,6 @@ depends-member:
 - !private ["SK", "row"]
 - !private ["SK", "section"]
 - !private ["SK", "subscript"]
-- !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "backgroundColor"]
 - !private ["So15CALayerDelegateP", "delegate"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
@@ -164,7 +163,6 @@ depends-member:
 - !private ["s7CVarArgP", "UILabel"]
 - !private ["s7CVarArgP", "UINib"]
 - ["s7CVarArgP", "UISearchController"]
-- !private ["s7CVarArgP", "UITableViewCell"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "activationState"]
 - !private ["s7CVarArgP", "backgroundColor"]
@@ -199,7 +197,6 @@ depends-member:
 - !private ["s7CVarArgP", "obscuresBackgroundDuringPresentation"]
 - ["s7CVarArgP", "position"]
 - ["s7CVarArgP", "positionForBar"]
-- !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "red"]
 - !private ["s7CVarArgP", "register"]
 - !private ["s7CVarArgP", "reloadData"]
@@ -243,6 +240,7 @@ depends-member:
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "systemFont"]
 - !private ["s7CVarArgP", "tabBarDelegate"]
+- !private ["s7CVarArgP", "tabBarVC"]
 - !private ["s7CVarArgP", "table"]
 - !private ["s7CVarArgP", "tableFooterView"]
 - ["s7CVarArgP", "tableView"]
@@ -256,9 +254,8 @@ depends-member:
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
-- !private ["s7CVarArgP", "viewWillAppear"]
 - !private ["s7CVarArgP", "windows"]
-- ["Sl", ""]
+- !private ["Sl", ""]
 - !private ["Sl", "compactMap"]
 - !private ["Sl", "count"]
 - !private ["Sl", "filter"]
@@ -268,7 +265,7 @@ depends-member:
 - !private ["Sl", "row"]
 - !private ["Sl", "section"]
 - !private ["Sl", "subscript"]
-- ["SL", ""]
+- !private ["SL", ""]
 - !private ["SL", "init"]
 - !private ["SL", "row"]
 - !private ["SL", "section"]
@@ -294,7 +291,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "UILabel"]
 - !private ["s28CustomDebugStringConvertibleP", "UINib"]
 - ["s28CustomDebugStringConvertibleP", "UISearchController"]
-- !private ["s28CustomDebugStringConvertibleP", "UITableViewCell"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "activationState"]
 - !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
@@ -329,7 +325,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "obscuresBackgroundDuringPresentation"]
 - ["s28CustomDebugStringConvertibleP", "position"]
 - ["s28CustomDebugStringConvertibleP", "positionForBar"]
-- !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "red"]
 - !private ["s28CustomDebugStringConvertibleP", "register"]
 - !private ["s28CustomDebugStringConvertibleP", "reloadData"]
@@ -375,6 +370,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "systemFont"]
 - !private ["s28CustomDebugStringConvertibleP", "tabBarDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "tabBarVC"]
 - !private ["s28CustomDebugStringConvertibleP", "table"]
 - !private ["s28CustomDebugStringConvertibleP", "tableFooterView"]
 - ["s28CustomDebugStringConvertibleP", "tableView"]
@@ -388,7 +384,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
-- !private ["s28CustomDebugStringConvertibleP", "viewWillAppear"]
 - !private ["s28CustomDebugStringConvertibleP", "windows"]
 - !private ["s17CustomReflectableP", "backgroundColor"]
 - !private ["s17CustomReflectableP", "compactMap"]
@@ -423,7 +418,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "UILabel"]
 - !private ["s23CustomStringConvertibleP", "UINib"]
 - ["s23CustomStringConvertibleP", "UISearchController"]
-- !private ["s23CustomStringConvertibleP", "UITableViewCell"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "activationState"]
 - !private ["s23CustomStringConvertibleP", "backgroundColor"]
@@ -458,7 +452,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "obscuresBackgroundDuringPresentation"]
 - ["s23CustomStringConvertibleP", "position"]
 - ["s23CustomStringConvertibleP", "positionForBar"]
-- !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "red"]
 - !private ["s23CustomStringConvertibleP", "register"]
 - !private ["s23CustomStringConvertibleP", "reloadData"]
@@ -504,6 +497,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "systemFont"]
 - !private ["s23CustomStringConvertibleP", "tabBarDelegate"]
+- !private ["s23CustomStringConvertibleP", "tabBarVC"]
 - !private ["s23CustomStringConvertibleP", "table"]
 - !private ["s23CustomStringConvertibleP", "tableFooterView"]
 - ["s23CustomStringConvertibleP", "tableView"]
@@ -517,7 +511,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
-- !private ["s23CustomStringConvertibleP", "viewWillAppear"]
 - !private ["s23CustomStringConvertibleP", "windows"]
 - !private ["10Foundation12DataProtocolP", ""]
 - !private ["10Foundation12DataProtocolP", "compactMap"]
@@ -579,7 +572,6 @@ depends-member:
 - !private ["SQ", "UILabel"]
 - !private ["SQ", "UINib"]
 - ["SQ", "UISearchController"]
-- !private ["SQ", "UITableViewCell"]
 - ["SQ", ""]
 - !private ["SQ", "activationState"]
 - !private ["SQ", "backgroundColor"]
@@ -617,7 +609,6 @@ depends-member:
 - !private ["SQ", "obscuresBackgroundDuringPresentation"]
 - ["SQ", "position"]
 - ["SQ", "positionForBar"]
-- !private ["SQ", "print"]
 - !private ["SQ", "red"]
 - !private ["SQ", "register"]
 - !private ["SQ", "reloadData"]
@@ -664,6 +655,7 @@ depends-member:
 - !private ["SQ", "subscript"]
 - !private ["SQ", "systemFont"]
 - !private ["SQ", "tabBarDelegate"]
+- !private ["SQ", "tabBarVC"]
 - !private ["SQ", "table"]
 - !private ["SQ", "tableFooterView"]
 - ["SQ", "tableView"]
@@ -677,7 +669,6 @@ depends-member:
 - !private ["SQ", "viewDidLoad"]
 - ["SQ", "viewForZooming"]
 - ["SQ", "viewForZoomingInScrollView"]
-- !private ["SQ", "viewWillAppear"]
 - !private ["SQ", "windows"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
@@ -689,7 +680,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "section"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
@@ -704,9 +695,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "row"]
 - !private ["s23ExpressibleByNilLiteralP", "selectRow"]
 - !private ["s23ExpressibleByNilLiteralP", "tableFooterView"]
-- ["s32ExpressibleByStringInterpolationP", ""]
-- ["s26ExpressibleByStringLiteralP", ""]
-- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - ["6IMusic10FooterViewC", ""]
 - !private ["6IMusic10FooterViewC", "hideLoader"]
@@ -739,7 +730,6 @@ depends-member:
 - !private ["SH", "UILabel"]
 - !private ["SH", "UINib"]
 - ["SH", "UISearchController"]
-- !private ["SH", "UITableViewCell"]
 - ["SH", ""]
 - !private ["SH", "activationState"]
 - !private ["SH", "backgroundColor"]
@@ -777,7 +767,6 @@ depends-member:
 - !private ["SH", "obscuresBackgroundDuringPresentation"]
 - ["SH", "position"]
 - ["SH", "positionForBar"]
-- !private ["SH", "print"]
 - !private ["SH", "red"]
 - !private ["SH", "register"]
 - !private ["SH", "reloadData"]
@@ -824,6 +813,7 @@ depends-member:
 - !private ["SH", "subscript"]
 - !private ["SH", "systemFont"]
 - !private ["SH", "tabBarDelegate"]
+- !private ["SH", "tabBarVC"]
 - !private ["SH", "table"]
 - !private ["SH", "tableFooterView"]
 - ["SH", "tableView"]
@@ -837,12 +827,11 @@ depends-member:
 - !private ["SH", "viewDidLoad"]
 - ["SH", "viewForZooming"]
 - ["SH", "viewForZoomingInScrollView"]
-- !private ["SH", "viewWillAppear"]
 - !private ["SH", "windows"]
 - !private ["10Foundation9IndexPathV", "init"]
 - !private ["10Foundation9IndexPathV", "row"]
 - !private ["10Foundation9IndexPathV", "section"]
-- ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["6IMusic20MainTabBarControllerC", "trackDetailView"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "maximazeTrackViewController"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "trackDetailView"]
@@ -871,7 +860,7 @@ depends-member:
 - ["So8NSCodingP", "FooterView"]
 - ["So8NSCodingP", "IndexPath"]
 - ["So8NSCodingP", "Int"]
-- !private ["So8NSCodingP", "MainTabBarController"]
+- ["So8NSCodingP", "MainTabBarController"]
 - ["So8NSCodingP", "MainTabBarControllerDelegate"]
 - ["So8NSCodingP", "NSObjectProtocol"]
 - ["So8NSCodingP", "Search"]
@@ -881,7 +870,6 @@ depends-member:
 - !private ["So8NSCodingP", "SearchRouter"]
 - ["So8NSCodingP", "SearchRoutingLogic"]
 - ["So8NSCodingP", "SearchViewModel"]
-- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "Timer"]
 - !private ["So8NSCodingP", "TrackCell"]
 - !private ["So8NSCodingP", "UIApplication"]
@@ -892,7 +880,6 @@ depends-member:
 - ["So8NSCodingP", "UISearchController"]
 - ["So8NSCodingP", "UITableView"]
 - ["So8NSCodingP", "UITableViewCell"]
-- ["So8NSCodingP", "UIView"]
 - !private ["So8NSCodingP", "UIWindowScene"]
 - ["So8NSCodingP", ""]
 - ["So8NSCodingP", "__lazy_storage_$_footerView"]
@@ -923,7 +910,6 @@ depends-member:
 - !private ["So8NSCodingP", "obscuresBackgroundDuringPresentation"]
 - ["So8NSCodingP", "position"]
 - ["So8NSCodingP", "positionForBar"]
-- !private ["So8NSCodingP", "print"]
 - !private ["So8NSCodingP", "red"]
 - !private ["So8NSCodingP", "register"]
 - !private ["So8NSCodingP", "registerClass"]
@@ -966,6 +952,7 @@ depends-member:
 - ["So8NSCodingP", "setupTableView"]
 - !private ["So8NSCodingP", "showLoader"]
 - ["So8NSCodingP", "tabBarDelegate"]
+- ["So8NSCodingP", "tabBarVC"]
 - ["So8NSCodingP", "table"]
 - !private ["So8NSCodingP", "tableFooterView"]
 - ["So8NSCodingP", "tableView"]
@@ -978,7 +965,6 @@ depends-member:
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewForZooming"]
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
-- ["So8NSCodingP", "viewWillAppear"]
 - !private ["So9NSCopyingP", "red"]
 - !private ["So9NSCopyingP", "systemFont"]
 - ["So26NSExtensionRequestHandlingP", "$__lazy_storage_$_footerView"]
@@ -987,7 +973,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "FooterView"]
 - ["So26NSExtensionRequestHandlingP", "IndexPath"]
 - ["So26NSExtensionRequestHandlingP", "Int"]
-- !private ["So26NSExtensionRequestHandlingP", "MainTabBarController"]
+- ["So26NSExtensionRequestHandlingP", "MainTabBarController"]
 - ["So26NSExtensionRequestHandlingP", "MainTabBarControllerDelegate"]
 - ["So26NSExtensionRequestHandlingP", "NSObjectProtocol"]
 - ["So26NSExtensionRequestHandlingP", "Search"]
@@ -997,7 +983,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "SearchRouter"]
 - ["So26NSExtensionRequestHandlingP", "SearchRoutingLogic"]
 - ["So26NSExtensionRequestHandlingP", "SearchViewModel"]
-- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", "Timer"]
 - !private ["So26NSExtensionRequestHandlingP", "TrackCell"]
 - !private ["So26NSExtensionRequestHandlingP", "UIApplication"]
@@ -1008,7 +993,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "UISearchController"]
 - ["So26NSExtensionRequestHandlingP", "UITableView"]
 - ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
-- ["So26NSExtensionRequestHandlingP", "UIView"]
 - !private ["So26NSExtensionRequestHandlingP", "UIWindowScene"]
 - ["So26NSExtensionRequestHandlingP", ""]
 - ["So26NSExtensionRequestHandlingP", "__lazy_storage_$_footerView"]
@@ -1027,7 +1011,6 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "obscuresBackgroundDuringPresentation"]
 - ["So26NSExtensionRequestHandlingP", "position"]
 - ["So26NSExtensionRequestHandlingP", "positionForBar"]
-- !private ["So26NSExtensionRequestHandlingP", "print"]
 - ["So26NSExtensionRequestHandlingP", "router"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So26NSExtensionRequestHandlingP", "scrollViewDidEndDecelerating"]
@@ -1059,6 +1042,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "setupSearchBar"]
 - ["So26NSExtensionRequestHandlingP", "setupTableView"]
 - ["So26NSExtensionRequestHandlingP", "tabBarDelegate"]
+- ["So26NSExtensionRequestHandlingP", "tabBarVC"]
 - ["So26NSExtensionRequestHandlingP", "table"]
 - ["So26NSExtensionRequestHandlingP", "tableView"]
 - ["So26NSExtensionRequestHandlingP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -1067,7 +1051,6 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - ["So26NSExtensionRequestHandlingP", "viewForZooming"]
 - ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
-- ["So26NSExtensionRequestHandlingP", "viewWillAppear"]
 - !private ["So21NSItemProviderReadingP", "red"]
 - !private ["So21NSItemProviderWritingP", "red"]
 - ["So8NSObjectC", "$__lazy_storage_$_footerView"]
@@ -1077,7 +1060,7 @@ depends-member:
 - ["So8NSObjectC", "FooterView"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
-- !private ["So8NSObjectC", "MainTabBarController"]
+- ["So8NSObjectC", "MainTabBarController"]
 - ["So8NSObjectC", "MainTabBarControllerDelegate"]
 - ["So8NSObjectC", "NSObjectProtocol"]
 - ["So8NSObjectC", "Search"]
@@ -1134,7 +1117,6 @@ depends-member:
 - !private ["So8NSObjectC", "obscuresBackgroundDuringPresentation"]
 - ["So8NSObjectC", "position"]
 - ["So8NSObjectC", "positionForBar"]
-- !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "red"]
 - !private ["So8NSObjectC", "register"]
 - !private ["So8NSObjectC", "registerClass"]
@@ -1182,6 +1164,7 @@ depends-member:
 - !private ["So8NSObjectC", "systemFont"]
 - !private ["So8NSObjectC", "systemFontOfSize"]
 - ["So8NSObjectC", "tabBarDelegate"]
+- ["So8NSObjectC", "tabBarVC"]
 - ["So8NSObjectC", "table"]
 - !private ["So8NSObjectC", "tableFooterView"]
 - ["So8NSObjectC", "tableView"]
@@ -1195,7 +1178,6 @@ depends-member:
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
-- ["So8NSObjectC", "viewWillAppear"]
 - !private ["So8NSObjectC", "windows"]
 - ["So8NSObjectP", "$__lazy_storage_$_footerView"]
 - ["So8NSObjectP", "Bool"]
@@ -1204,7 +1186,7 @@ depends-member:
 - ["So8NSObjectP", "FooterView"]
 - ["So8NSObjectP", "IndexPath"]
 - ["So8NSObjectP", "Int"]
-- !private ["So8NSObjectP", "MainTabBarController"]
+- ["So8NSObjectP", "MainTabBarController"]
 - ["So8NSObjectP", "MainTabBarControllerDelegate"]
 - ["So8NSObjectP", "NSObjectProtocol"]
 - ["So8NSObjectP", "Search"]
@@ -1214,7 +1196,6 @@ depends-member:
 - !private ["So8NSObjectP", "SearchRouter"]
 - ["So8NSObjectP", "SearchRoutingLogic"]
 - ["So8NSObjectP", "SearchViewModel"]
-- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "Timer"]
 - !private ["So8NSObjectP", "TrackCell"]
 - !private ["So8NSObjectP", "UIApplication"]
@@ -1225,7 +1206,6 @@ depends-member:
 - ["So8NSObjectP", "UISearchController"]
 - ["So8NSObjectP", "UITableView"]
 - ["So8NSObjectP", "UITableViewCell"]
-- ["So8NSObjectP", "UIView"]
 - !private ["So8NSObjectP", "UIWindowScene"]
 - ["So8NSObjectP", ""]
 - ["So8NSObjectP", "__lazy_storage_$_footerView"]
@@ -1261,7 +1241,6 @@ depends-member:
 - !private ["So8NSObjectP", "obscuresBackgroundDuringPresentation"]
 - ["So8NSObjectP", "position"]
 - ["So8NSObjectP", "positionForBar"]
-- !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "red"]
 - !private ["So8NSObjectP", "register"]
 - !private ["So8NSObjectP", "registerClass"]
@@ -1309,6 +1288,7 @@ depends-member:
 - !private ["So8NSObjectP", "systemFont"]
 - !private ["So8NSObjectP", "systemFontOfSize"]
 - ["So8NSObjectP", "tabBarDelegate"]
+- ["So8NSObjectP", "tabBarVC"]
 - ["So8NSObjectP", "table"]
 - !private ["So8NSObjectP", "tableFooterView"]
 - ["So8NSObjectP", "tableView"]
@@ -1322,7 +1302,6 @@ depends-member:
 - ["So8NSObjectP", "viewDidLoad"]
 - ["So8NSObjectP", "viewForZooming"]
 - ["So8NSObjectP", "viewForZoomingInScrollView"]
-- ["So8NSObjectP", "viewWillAppear"]
 - !private ["So8NSObjectP", "windows"]
 - !private ["So14NSSecureCodingP", "red"]
 - !private ["So15NSTextAlignmentV", "center"]
@@ -1385,7 +1364,6 @@ depends-member:
 - !private ["6IMusic18SearchDisplayLogicP", "UILabel"]
 - !private ["6IMusic18SearchDisplayLogicP", "UINib"]
 - ["6IMusic18SearchDisplayLogicP", "UISearchController"]
-- !private ["6IMusic18SearchDisplayLogicP", "UITableViewCell"]
 - ["6IMusic18SearchDisplayLogicP", ""]
 - ["6IMusic18SearchDisplayLogicP", "displayData"]
 - !private ["6IMusic18SearchDisplayLogicP", "footerView"]
@@ -1400,7 +1378,6 @@ depends-member:
 - ["6IMusic18SearchDisplayLogicP", "numberOfSectionsInTableView"]
 - ["6IMusic18SearchDisplayLogicP", "position"]
 - ["6IMusic18SearchDisplayLogicP", "positionForBar"]
-- !private ["6IMusic18SearchDisplayLogicP", "print"]
 - !private ["6IMusic18SearchDisplayLogicP", "router"]
 - ["6IMusic18SearchDisplayLogicP", "scrollViewDidChangeAdjustedContentInset"]
 - ["6IMusic18SearchDisplayLogicP", "scrollViewDidEndDecelerating"]
@@ -1432,6 +1409,7 @@ depends-member:
 - !private ["6IMusic18SearchDisplayLogicP", "setupSearchBar"]
 - !private ["6IMusic18SearchDisplayLogicP", "setupTableView"]
 - !private ["6IMusic18SearchDisplayLogicP", "tabBarDelegate"]
+- !private ["6IMusic18SearchDisplayLogicP", "tabBarVC"]
 - !private ["6IMusic18SearchDisplayLogicP", "table"]
 - ["6IMusic18SearchDisplayLogicP", "tableView"]
 - ["6IMusic18SearchDisplayLogicP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -1439,7 +1417,6 @@ depends-member:
 - !private ["6IMusic18SearchDisplayLogicP", "viewDidLoad"]
 - ["6IMusic18SearchDisplayLogicP", "viewForZooming"]
 - ["6IMusic18SearchDisplayLogicP", "viewForZoomingInScrollView"]
-- !private ["6IMusic18SearchDisplayLogicP", "viewWillAppear"]
 - !private ["6IMusic16SearchInteractorC", ""]
 - !private ["6IMusic16SearchInteractorC", "init"]
 - !private ["6IMusic16SearchInteractorC", "presenter"]
@@ -1459,7 +1436,7 @@ depends-member:
 - ["6IMusic20SearchViewControllerC", "FooterView"]
 - ["6IMusic20SearchViewControllerC", "IndexPath"]
 - ["6IMusic20SearchViewControllerC", "Int"]
-- !private ["6IMusic20SearchViewControllerC", "MainTabBarController"]
+- ["6IMusic20SearchViewControllerC", "MainTabBarController"]
 - ["6IMusic20SearchViewControllerC", "MainTabBarControllerDelegate"]
 - ["6IMusic20SearchViewControllerC", "NSObjectProtocol"]
 - ["6IMusic20SearchViewControllerC", "Search"]
@@ -1498,7 +1475,6 @@ depends-member:
 - ["6IMusic20SearchViewControllerC", "numberOfSectionsInTableView"]
 - ["6IMusic20SearchViewControllerC", "position"]
 - ["6IMusic20SearchViewControllerC", "positionForBar"]
-- !private ["6IMusic20SearchViewControllerC", "print"]
 - ["6IMusic20SearchViewControllerC", "router"]
 - ["6IMusic20SearchViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
 - ["6IMusic20SearchViewControllerC", "scrollViewDidEndDecelerating"]
@@ -1530,6 +1506,7 @@ depends-member:
 - !private ["6IMusic20SearchViewControllerC", "setupSearchBar"]
 - !private ["6IMusic20SearchViewControllerC", "setupTableView"]
 - ["6IMusic20SearchViewControllerC", "tabBarDelegate"]
+- !private ["6IMusic20SearchViewControllerC", "tabBarVC"]
 - ["6IMusic20SearchViewControllerC", "table"]
 - ["6IMusic20SearchViewControllerC", "tableView"]
 - ["6IMusic20SearchViewControllerC", "tableViewDidEndMultipleSelectionInteraction"]
@@ -1537,12 +1514,11 @@ depends-member:
 - ["6IMusic20SearchViewControllerC", "viewDidLoad"]
 - ["6IMusic20SearchViewControllerC", "viewForZooming"]
 - ["6IMusic20SearchViewControllerC", "viewForZoomingInScrollView"]
-- ["6IMusic20SearchViewControllerC", "viewWillAppear"]
 - ["6IMusic15SearchViewModelC", "Cell"]
 - ["6IMusic15SearchViewModelC", ""]
 - !private ["6IMusic15SearchViewModelC", "cells"]
 - ["6IMusic15SearchViewModelC", "init"]
-- ["ST", ""]
+- !private ["ST", ""]
 - !private ["ST", "compactMap"]
 - !private ["ST", "count"]
 - !private ["ST", "filter"]
@@ -1558,8 +1534,8 @@ depends-member:
 - !private ["s10SetAlgebraP", "map"]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
-- ["s16TextOutputStreamP", ""]
-- ["s20TextOutputStreamableP", ""]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
 - !private ["So7NSTimerC", "invalidate"]
 - !private ["So7NSTimerC", "scheduledTimer"]
 - !private ["6IMusic9TrackCellC", "reuseId"]
@@ -1580,7 +1556,6 @@ depends-member:
 - !private ["6IMusic20TrackMmovingDelegateP", "UILabel"]
 - !private ["6IMusic20TrackMmovingDelegateP", "UINib"]
 - ["6IMusic20TrackMmovingDelegateP", "UISearchController"]
-- !private ["6IMusic20TrackMmovingDelegateP", "UITableViewCell"]
 - ["6IMusic20TrackMmovingDelegateP", ""]
 - ["6IMusic20TrackMmovingDelegateP", "displayData"]
 - !private ["6IMusic20TrackMmovingDelegateP", "footerView"]
@@ -1595,7 +1570,6 @@ depends-member:
 - ["6IMusic20TrackMmovingDelegateP", "numberOfSectionsInTableView"]
 - ["6IMusic20TrackMmovingDelegateP", "position"]
 - ["6IMusic20TrackMmovingDelegateP", "positionForBar"]
-- !private ["6IMusic20TrackMmovingDelegateP", "print"]
 - !private ["6IMusic20TrackMmovingDelegateP", "router"]
 - ["6IMusic20TrackMmovingDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["6IMusic20TrackMmovingDelegateP", "scrollViewDidEndDecelerating"]
@@ -1627,6 +1601,7 @@ depends-member:
 - !private ["6IMusic20TrackMmovingDelegateP", "setupSearchBar"]
 - !private ["6IMusic20TrackMmovingDelegateP", "setupTableView"]
 - !private ["6IMusic20TrackMmovingDelegateP", "tabBarDelegate"]
+- !private ["6IMusic20TrackMmovingDelegateP", "tabBarVC"]
 - !private ["6IMusic20TrackMmovingDelegateP", "table"]
 - ["6IMusic20TrackMmovingDelegateP", "tableView"]
 - ["6IMusic20TrackMmovingDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -1634,7 +1609,6 @@ depends-member:
 - ["6IMusic20TrackMmovingDelegateP", "viewForZooming"]
 - ["6IMusic20TrackMmovingDelegateP", "viewForZoomingInScrollView"]
 - !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "backgroundColor"]
-- !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
@@ -1660,7 +1634,6 @@ depends-member:
 - !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So29UIAccessibilityIdentificationP", "textAlignment"]
 - !private ["So29UIAccessibilityIdentificationP", "trackImageView"]
-- !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "backgroundColor"]
 - !private ["So12UIAppearanceP", "delegate"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
@@ -1692,7 +1665,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "FooterView"]
 - ["So21UIAppearanceContainerP", "IndexPath"]
 - ["So21UIAppearanceContainerP", "Int"]
-- !private ["So21UIAppearanceContainerP", "MainTabBarController"]
+- ["So21UIAppearanceContainerP", "MainTabBarController"]
 - ["So21UIAppearanceContainerP", "MainTabBarControllerDelegate"]
 - ["So21UIAppearanceContainerP", "NSObjectProtocol"]
 - ["So21UIAppearanceContainerP", "Search"]
@@ -1702,7 +1675,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "SearchRouter"]
 - ["So21UIAppearanceContainerP", "SearchRoutingLogic"]
 - ["So21UIAppearanceContainerP", "SearchViewModel"]
-- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "Timer"]
 - !private ["So21UIAppearanceContainerP", "TrackCell"]
 - !private ["So21UIAppearanceContainerP", "UIApplication"]
@@ -1713,7 +1685,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "UISearchController"]
 - ["So21UIAppearanceContainerP", "UITableView"]
 - ["So21UIAppearanceContainerP", "UITableViewCell"]
-- ["So21UIAppearanceContainerP", "UIView"]
 - !private ["So21UIAppearanceContainerP", "UIWindowScene"]
 - ["So21UIAppearanceContainerP", ""]
 - ["So21UIAppearanceContainerP", "__lazy_storage_$_footerView"]
@@ -1742,7 +1713,6 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "obscuresBackgroundDuringPresentation"]
 - ["So21UIAppearanceContainerP", "position"]
 - ["So21UIAppearanceContainerP", "positionForBar"]
-- !private ["So21UIAppearanceContainerP", "print"]
 - !private ["So21UIAppearanceContainerP", "register"]
 - !private ["So21UIAppearanceContainerP", "registerClass"]
 - !private ["So21UIAppearanceContainerP", "registerNib"]
@@ -1784,6 +1754,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "setupTableView"]
 - !private ["So21UIAppearanceContainerP", "showLoader"]
 - ["So21UIAppearanceContainerP", "tabBarDelegate"]
+- ["So21UIAppearanceContainerP", "tabBarVC"]
 - ["So21UIAppearanceContainerP", "table"]
 - !private ["So21UIAppearanceContainerP", "tableFooterView"]
 - ["So21UIAppearanceContainerP", "tableView"]
@@ -1796,7 +1767,6 @@ depends-member:
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
-- ["So21UIAppearanceContainerP", "viewWillAppear"]
 - !private ["So13UIApplicationC", "connectedScenes"]
 - !private ["So13UIApplicationC", "shared"]
 - !private ["So16UIBarPositioningP", "delegate"]
@@ -1815,7 +1785,6 @@ depends-member:
 - !private ["So24UIBarPositioningDelegateP", "UILabel"]
 - !private ["So24UIBarPositioningDelegateP", "UINib"]
 - ["So24UIBarPositioningDelegateP", "UISearchController"]
-- !private ["So24UIBarPositioningDelegateP", "UITableViewCell"]
 - ["So24UIBarPositioningDelegateP", ""]
 - ["So24UIBarPositioningDelegateP", "displayData"]
 - ["So24UIBarPositioningDelegateP", "footerView"]
@@ -1831,7 +1800,6 @@ depends-member:
 - ["So24UIBarPositioningDelegateP", "numberOfSectionsInTableView"]
 - ["So24UIBarPositioningDelegateP", "position"]
 - ["So24UIBarPositioningDelegateP", "positionForBar"]
-- !private ["So24UIBarPositioningDelegateP", "print"]
 - ["So24UIBarPositioningDelegateP", "router"]
 - ["So24UIBarPositioningDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So24UIBarPositioningDelegateP", "scrollViewDidEndDecelerating"]
@@ -1863,6 +1831,7 @@ depends-member:
 - ["So24UIBarPositioningDelegateP", "setupSearchBar"]
 - ["So24UIBarPositioningDelegateP", "setupTableView"]
 - ["So24UIBarPositioningDelegateP", "tabBarDelegate"]
+- ["So24UIBarPositioningDelegateP", "tabBarVC"]
 - ["So24UIBarPositioningDelegateP", "table"]
 - ["So24UIBarPositioningDelegateP", "tableView"]
 - ["So24UIBarPositioningDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -1870,7 +1839,6 @@ depends-member:
 - ["So24UIBarPositioningDelegateP", "viewDidLoad"]
 - ["So24UIBarPositioningDelegateP", "viewForZooming"]
 - ["So24UIBarPositioningDelegateP", "viewForZoomingInScrollView"]
-- ["So24UIBarPositioningDelegateP", "viewWillAppear"]
 - !private ["So7UIColorC", "red"]
 - ["So18UIContentContainerP", "$__lazy_storage_$_footerView"]
 - ["So18UIContentContainerP", "Bool"]
@@ -1878,7 +1846,7 @@ depends-member:
 - ["So18UIContentContainerP", "FooterView"]
 - ["So18UIContentContainerP", "IndexPath"]
 - ["So18UIContentContainerP", "Int"]
-- !private ["So18UIContentContainerP", "MainTabBarController"]
+- ["So18UIContentContainerP", "MainTabBarController"]
 - ["So18UIContentContainerP", "MainTabBarControllerDelegate"]
 - ["So18UIContentContainerP", "NSObjectProtocol"]
 - ["So18UIContentContainerP", "Search"]
@@ -1888,7 +1856,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "SearchRouter"]
 - ["So18UIContentContainerP", "SearchRoutingLogic"]
 - ["So18UIContentContainerP", "SearchViewModel"]
-- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", "Timer"]
 - !private ["So18UIContentContainerP", "TrackCell"]
 - !private ["So18UIContentContainerP", "UIApplication"]
@@ -1899,7 +1866,6 @@ depends-member:
 - ["So18UIContentContainerP", "UISearchController"]
 - ["So18UIContentContainerP", "UITableView"]
 - ["So18UIContentContainerP", "UITableViewCell"]
-- ["So18UIContentContainerP", "UIView"]
 - !private ["So18UIContentContainerP", "UIWindowScene"]
 - ["So18UIContentContainerP", ""]
 - ["So18UIContentContainerP", "__lazy_storage_$_footerView"]
@@ -1918,7 +1884,6 @@ depends-member:
 - !private ["So18UIContentContainerP", "obscuresBackgroundDuringPresentation"]
 - ["So18UIContentContainerP", "position"]
 - ["So18UIContentContainerP", "positionForBar"]
-- !private ["So18UIContentContainerP", "print"]
 - ["So18UIContentContainerP", "router"]
 - ["So18UIContentContainerP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So18UIContentContainerP", "scrollViewDidEndDecelerating"]
@@ -1950,6 +1915,7 @@ depends-member:
 - ["So18UIContentContainerP", "setupSearchBar"]
 - ["So18UIContentContainerP", "setupTableView"]
 - ["So18UIContentContainerP", "tabBarDelegate"]
+- ["So18UIContentContainerP", "tabBarVC"]
 - ["So18UIContentContainerP", "table"]
 - ["So18UIContentContainerP", "tableView"]
 - ["So18UIContentContainerP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -1958,13 +1924,11 @@ depends-member:
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewForZooming"]
 - ["So18UIContentContainerP", "viewForZoomingInScrollView"]
-- ["So18UIContentContainerP", "viewWillAppear"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "font"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "init"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "textAlignment"]
 - ["So33UIContextMenuInteractionAnimatingP", ""]
-- !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "backgroundColor"]
 - !private ["So17UICoordinateSpaceP", "delegate"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
@@ -1997,7 +1961,6 @@ depends-member:
 - !private ["So23UIDataSourceTranslatingP", "reloadData"]
 - !private ["So23UIDataSourceTranslatingP", "selectRow"]
 - !private ["So23UIDataSourceTranslatingP", "tableFooterView"]
-- !private ["So13UIDynamicItemP", ""]
 - !private ["So13UIDynamicItemP", "backgroundColor"]
 - !private ["So13UIDynamicItemP", "delegate"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
@@ -2029,7 +1992,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "FooterView"]
 - ["So18UIFocusEnvironmentP", "IndexPath"]
 - ["So18UIFocusEnvironmentP", "Int"]
-- !private ["So18UIFocusEnvironmentP", "MainTabBarController"]
+- ["So18UIFocusEnvironmentP", "MainTabBarController"]
 - ["So18UIFocusEnvironmentP", "MainTabBarControllerDelegate"]
 - ["So18UIFocusEnvironmentP", "NSObjectProtocol"]
 - ["So18UIFocusEnvironmentP", "Search"]
@@ -2039,7 +2002,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "SearchRouter"]
 - ["So18UIFocusEnvironmentP", "SearchRoutingLogic"]
 - ["So18UIFocusEnvironmentP", "SearchViewModel"]
-- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "Timer"]
 - !private ["So18UIFocusEnvironmentP", "TrackCell"]
 - !private ["So18UIFocusEnvironmentP", "UIApplication"]
@@ -2050,7 +2012,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "UISearchController"]
 - ["So18UIFocusEnvironmentP", "UITableView"]
 - ["So18UIFocusEnvironmentP", "UITableViewCell"]
-- ["So18UIFocusEnvironmentP", "UIView"]
 - !private ["So18UIFocusEnvironmentP", "UIWindowScene"]
 - ["So18UIFocusEnvironmentP", ""]
 - ["So18UIFocusEnvironmentP", "__lazy_storage_$_footerView"]
@@ -2079,7 +2040,6 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "obscuresBackgroundDuringPresentation"]
 - ["So18UIFocusEnvironmentP", "position"]
 - ["So18UIFocusEnvironmentP", "positionForBar"]
-- !private ["So18UIFocusEnvironmentP", "print"]
 - !private ["So18UIFocusEnvironmentP", "register"]
 - !private ["So18UIFocusEnvironmentP", "registerClass"]
 - !private ["So18UIFocusEnvironmentP", "registerNib"]
@@ -2121,6 +2081,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "setupTableView"]
 - !private ["So18UIFocusEnvironmentP", "showLoader"]
 - ["So18UIFocusEnvironmentP", "tabBarDelegate"]
+- ["So18UIFocusEnvironmentP", "tabBarVC"]
 - ["So18UIFocusEnvironmentP", "table"]
 - !private ["So18UIFocusEnvironmentP", "tableFooterView"]
 - ["So18UIFocusEnvironmentP", "tableView"]
@@ -2133,8 +2094,6 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
-- ["So18UIFocusEnvironmentP", "viewWillAppear"]
-- !private ["So11UIFocusItemP", ""]
 - !private ["So11UIFocusItemP", "backgroundColor"]
 - !private ["So11UIFocusItemP", "delegate"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
@@ -2208,7 +2167,6 @@ depends-member:
 - !private ["So7UILabelC", "init"]
 - !private ["So7UILabelC", "text"]
 - !private ["So7UILabelC", "textAlignment"]
-- !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "backgroundColor"]
 - !private ["So24UILargeContentViewerItemP", "delegate"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
@@ -2243,7 +2201,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "FooterView"]
 - ["So30UIPasteConfigurationSupportingP", "IndexPath"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
-- !private ["So30UIPasteConfigurationSupportingP", "MainTabBarController"]
+- ["So30UIPasteConfigurationSupportingP", "MainTabBarController"]
 - ["So30UIPasteConfigurationSupportingP", "MainTabBarControllerDelegate"]
 - ["So30UIPasteConfigurationSupportingP", "NSObjectProtocol"]
 - ["So30UIPasteConfigurationSupportingP", "Search"]
@@ -2253,7 +2211,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "SearchRouter"]
 - ["So30UIPasteConfigurationSupportingP", "SearchRoutingLogic"]
 - ["So30UIPasteConfigurationSupportingP", "SearchViewModel"]
-- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "Timer"]
 - !private ["So30UIPasteConfigurationSupportingP", "TrackCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIApplication"]
@@ -2264,7 +2221,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "UISearchController"]
 - ["So30UIPasteConfigurationSupportingP", "UITableView"]
 - ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
-- ["So30UIPasteConfigurationSupportingP", "UIView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIWindowScene"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - ["So30UIPasteConfigurationSupportingP", "__lazy_storage_$_footerView"]
@@ -2295,7 +2251,6 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "obscuresBackgroundDuringPresentation"]
 - ["So30UIPasteConfigurationSupportingP", "position"]
 - ["So30UIPasteConfigurationSupportingP", "positionForBar"]
-- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - !private ["So30UIPasteConfigurationSupportingP", "register"]
 - !private ["So30UIPasteConfigurationSupportingP", "registerClass"]
 - !private ["So30UIPasteConfigurationSupportingP", "registerNib"]
@@ -2338,6 +2293,7 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "shared"]
 - !private ["So30UIPasteConfigurationSupportingP", "showLoader"]
 - ["So30UIPasteConfigurationSupportingP", "tabBarDelegate"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarVC"]
 - ["So30UIPasteConfigurationSupportingP", "table"]
 - !private ["So30UIPasteConfigurationSupportingP", "tableFooterView"]
 - ["So30UIPasteConfigurationSupportingP", "tableView"]
@@ -2350,7 +2306,6 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
-- ["So30UIPasteConfigurationSupportingP", "viewWillAppear"]
 - !private ["So30UIPasteConfigurationSupportingP", "windows"]
 - ["So11UIResponderC", "$__lazy_storage_$_footerView"]
 - ["So11UIResponderC", "Bool"]
@@ -2358,7 +2313,7 @@ depends-member:
 - ["So11UIResponderC", "FooterView"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
-- !private ["So11UIResponderC", "MainTabBarController"]
+- ["So11UIResponderC", "MainTabBarController"]
 - ["So11UIResponderC", "MainTabBarControllerDelegate"]
 - ["So11UIResponderC", "NSObjectProtocol"]
 - ["So11UIResponderC", "Search"]
@@ -2410,7 +2365,6 @@ depends-member:
 - !private ["So11UIResponderC", "obscuresBackgroundDuringPresentation"]
 - ["So11UIResponderC", "position"]
 - ["So11UIResponderC", "positionForBar"]
-- !private ["So11UIResponderC", "print"]
 - !private ["So11UIResponderC", "register"]
 - !private ["So11UIResponderC", "registerClass"]
 - !private ["So11UIResponderC", "registerNib"]
@@ -2453,6 +2407,7 @@ depends-member:
 - !private ["So11UIResponderC", "shared"]
 - !private ["So11UIResponderC", "showLoader"]
 - ["So11UIResponderC", "tabBarDelegate"]
+- ["So11UIResponderC", "tabBarVC"]
 - ["So11UIResponderC", "table"]
 - !private ["So11UIResponderC", "tableFooterView"]
 - ["So11UIResponderC", "tableView"]
@@ -2465,7 +2420,6 @@ depends-member:
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
-- ["So11UIResponderC", "viewWillAppear"]
 - !private ["So11UIResponderC", "windows"]
 - ["So30UIResponderStandardEditActionsP", "$__lazy_storage_$_footerView"]
 - ["So30UIResponderStandardEditActionsP", "Bool"]
@@ -2473,7 +2427,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "FooterView"]
 - ["So30UIResponderStandardEditActionsP", "IndexPath"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
-- !private ["So30UIResponderStandardEditActionsP", "MainTabBarController"]
+- ["So30UIResponderStandardEditActionsP", "MainTabBarController"]
 - ["So30UIResponderStandardEditActionsP", "MainTabBarControllerDelegate"]
 - ["So30UIResponderStandardEditActionsP", "NSObjectProtocol"]
 - ["So30UIResponderStandardEditActionsP", "Search"]
@@ -2483,7 +2437,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "SearchRouter"]
 - ["So30UIResponderStandardEditActionsP", "SearchRoutingLogic"]
 - ["So30UIResponderStandardEditActionsP", "SearchViewModel"]
-- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "Timer"]
 - !private ["So30UIResponderStandardEditActionsP", "TrackCell"]
 - !private ["So30UIResponderStandardEditActionsP", "UIApplication"]
@@ -2494,7 +2447,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "UISearchController"]
 - ["So30UIResponderStandardEditActionsP", "UITableView"]
 - ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
-- ["So30UIResponderStandardEditActionsP", "UIView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIWindowScene"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - ["So30UIResponderStandardEditActionsP", "__lazy_storage_$_footerView"]
@@ -2525,7 +2477,6 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "obscuresBackgroundDuringPresentation"]
 - ["So30UIResponderStandardEditActionsP", "position"]
 - ["So30UIResponderStandardEditActionsP", "positionForBar"]
-- !private ["So30UIResponderStandardEditActionsP", "print"]
 - !private ["So30UIResponderStandardEditActionsP", "register"]
 - !private ["So30UIResponderStandardEditActionsP", "registerClass"]
 - !private ["So30UIResponderStandardEditActionsP", "registerNib"]
@@ -2568,6 +2519,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "shared"]
 - !private ["So30UIResponderStandardEditActionsP", "showLoader"]
 - ["So30UIResponderStandardEditActionsP", "tabBarDelegate"]
+- ["So30UIResponderStandardEditActionsP", "tabBarVC"]
 - ["So30UIResponderStandardEditActionsP", "table"]
 - !private ["So30UIResponderStandardEditActionsP", "tableFooterView"]
 - ["So30UIResponderStandardEditActionsP", "tableView"]
@@ -2580,7 +2532,6 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
-- ["So30UIResponderStandardEditActionsP", "viewWillAppear"]
 - !private ["So30UIResponderStandardEditActionsP", "windows"]
 - ["So7UISceneC", ""]
 - !private ["So7UISceneC", "activationState"]
@@ -2613,7 +2564,6 @@ depends-member:
 - !private ["So20UIScrollViewDelegateP", "UILabel"]
 - !private ["So20UIScrollViewDelegateP", "UINib"]
 - ["So20UIScrollViewDelegateP", "UISearchController"]
-- !private ["So20UIScrollViewDelegateP", "UITableViewCell"]
 - ["So20UIScrollViewDelegateP", ""]
 - ["So20UIScrollViewDelegateP", "displayData"]
 - ["So20UIScrollViewDelegateP", "footerView"]
@@ -2629,7 +2579,6 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "numberOfSectionsInTableView"]
 - ["So20UIScrollViewDelegateP", "position"]
 - ["So20UIScrollViewDelegateP", "positionForBar"]
-- !private ["So20UIScrollViewDelegateP", "print"]
 - ["So20UIScrollViewDelegateP", "router"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So20UIScrollViewDelegateP", "scrollViewDidEndDecelerating"]
@@ -2661,6 +2610,7 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "setupSearchBar"]
 - ["So20UIScrollViewDelegateP", "setupTableView"]
 - ["So20UIScrollViewDelegateP", "tabBarDelegate"]
+- ["So20UIScrollViewDelegateP", "tabBarVC"]
 - ["So20UIScrollViewDelegateP", "table"]
 - ["So20UIScrollViewDelegateP", "tableView"]
 - ["So20UIScrollViewDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -2668,7 +2618,6 @@ depends-member:
 - ["So20UIScrollViewDelegateP", "viewDidLoad"]
 - ["So20UIScrollViewDelegateP", "viewForZooming"]
 - ["So20UIScrollViewDelegateP", "viewForZoomingInScrollView"]
-- ["So20UIScrollViewDelegateP", "viewWillAppear"]
 - !private ["So11UISearchBarC", "delegate"]
 - ["So19UISearchBarDelegateP", "$__lazy_storage_$_footerView"]
 - ["So19UISearchBarDelegateP", "FooterView"]
@@ -2685,7 +2634,6 @@ depends-member:
 - !private ["So19UISearchBarDelegateP", "UILabel"]
 - !private ["So19UISearchBarDelegateP", "UINib"]
 - ["So19UISearchBarDelegateP", "UISearchController"]
-- !private ["So19UISearchBarDelegateP", "UITableViewCell"]
 - ["So19UISearchBarDelegateP", ""]
 - ["So19UISearchBarDelegateP", "displayData"]
 - ["So19UISearchBarDelegateP", "footerView"]
@@ -2701,7 +2649,6 @@ depends-member:
 - ["So19UISearchBarDelegateP", "numberOfSectionsInTableView"]
 - ["So19UISearchBarDelegateP", "position"]
 - ["So19UISearchBarDelegateP", "positionForBar"]
-- !private ["So19UISearchBarDelegateP", "print"]
 - ["So19UISearchBarDelegateP", "router"]
 - ["So19UISearchBarDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So19UISearchBarDelegateP", "scrollViewDidEndDecelerating"]
@@ -2733,6 +2680,7 @@ depends-member:
 - ["So19UISearchBarDelegateP", "setupSearchBar"]
 - ["So19UISearchBarDelegateP", "setupTableView"]
 - ["So19UISearchBarDelegateP", "tabBarDelegate"]
+- ["So19UISearchBarDelegateP", "tabBarVC"]
 - ["So19UISearchBarDelegateP", "table"]
 - ["So19UISearchBarDelegateP", "tableView"]
 - ["So19UISearchBarDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -2740,7 +2688,6 @@ depends-member:
 - ["So19UISearchBarDelegateP", "viewDidLoad"]
 - ["So19UISearchBarDelegateP", "viewForZooming"]
 - ["So19UISearchBarDelegateP", "viewForZoomingInScrollView"]
-- ["So19UISearchBarDelegateP", "viewWillAppear"]
 - ["So18UISearchControllerC", "init"]
 - !private ["So18UISearchControllerC", "obscuresBackgroundDuringPresentation"]
 - !private ["So18UISearchControllerC", "searchBar"]
@@ -2757,7 +2704,7 @@ depends-member:
 - ["So16UIStateRestoringP", "FooterView"]
 - ["So16UIStateRestoringP", "IndexPath"]
 - ["So16UIStateRestoringP", "Int"]
-- !private ["So16UIStateRestoringP", "MainTabBarController"]
+- ["So16UIStateRestoringP", "MainTabBarController"]
 - ["So16UIStateRestoringP", "MainTabBarControllerDelegate"]
 - ["So16UIStateRestoringP", "NSObjectProtocol"]
 - ["So16UIStateRestoringP", "Search"]
@@ -2767,7 +2714,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "SearchRouter"]
 - ["So16UIStateRestoringP", "SearchRoutingLogic"]
 - ["So16UIStateRestoringP", "SearchViewModel"]
-- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", "Timer"]
 - !private ["So16UIStateRestoringP", "TrackCell"]
 - !private ["So16UIStateRestoringP", "UIApplication"]
@@ -2778,7 +2724,6 @@ depends-member:
 - ["So16UIStateRestoringP", "UISearchController"]
 - ["So16UIStateRestoringP", "UITableView"]
 - ["So16UIStateRestoringP", "UITableViewCell"]
-- ["So16UIStateRestoringP", "UIView"]
 - !private ["So16UIStateRestoringP", "UIWindowScene"]
 - ["So16UIStateRestoringP", ""]
 - ["So16UIStateRestoringP", "__lazy_storage_$_footerView"]
@@ -2797,7 +2742,6 @@ depends-member:
 - !private ["So16UIStateRestoringP", "obscuresBackgroundDuringPresentation"]
 - ["So16UIStateRestoringP", "position"]
 - ["So16UIStateRestoringP", "positionForBar"]
-- !private ["So16UIStateRestoringP", "print"]
 - ["So16UIStateRestoringP", "router"]
 - ["So16UIStateRestoringP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16UIStateRestoringP", "scrollViewDidEndDecelerating"]
@@ -2829,6 +2773,7 @@ depends-member:
 - ["So16UIStateRestoringP", "setupSearchBar"]
 - ["So16UIStateRestoringP", "setupTableView"]
 - ["So16UIStateRestoringP", "tabBarDelegate"]
+- ["So16UIStateRestoringP", "tabBarVC"]
 - ["So16UIStateRestoringP", "table"]
 - ["So16UIStateRestoringP", "tableView"]
 - ["So16UIStateRestoringP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -2837,7 +2782,6 @@ depends-member:
 - ["So16UIStateRestoringP", "viewDidLoad"]
 - ["So16UIStateRestoringP", "viewForZooming"]
 - ["So16UIStateRestoringP", "viewForZoomingInScrollView"]
-- ["So16UIStateRestoringP", "viewWillAppear"]
 - ["So18UITabBarControllerC", ""]
 - !private ["So18UITabBarControllerC", "trackDetailView"]
 - !private ["So16UITabBarDelegateP", "trackDetailView"]
@@ -2867,7 +2811,6 @@ depends-member:
 - !private ["So21UITableViewDataSourceP", "UILabel"]
 - !private ["So21UITableViewDataSourceP", "UINib"]
 - ["So21UITableViewDataSourceP", "UISearchController"]
-- !private ["So21UITableViewDataSourceP", "UITableViewCell"]
 - ["So21UITableViewDataSourceP", ""]
 - ["So21UITableViewDataSourceP", "displayData"]
 - ["So21UITableViewDataSourceP", "footerView"]
@@ -2883,7 +2826,6 @@ depends-member:
 - ["So21UITableViewDataSourceP", "numberOfSectionsInTableView"]
 - ["So21UITableViewDataSourceP", "position"]
 - ["So21UITableViewDataSourceP", "positionForBar"]
-- !private ["So21UITableViewDataSourceP", "print"]
 - ["So21UITableViewDataSourceP", "router"]
 - ["So21UITableViewDataSourceP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So21UITableViewDataSourceP", "scrollViewDidEndDecelerating"]
@@ -2915,6 +2857,7 @@ depends-member:
 - ["So21UITableViewDataSourceP", "setupSearchBar"]
 - ["So21UITableViewDataSourceP", "setupTableView"]
 - ["So21UITableViewDataSourceP", "tabBarDelegate"]
+- ["So21UITableViewDataSourceP", "tabBarVC"]
 - ["So21UITableViewDataSourceP", "table"]
 - ["So21UITableViewDataSourceP", "tableView"]
 - ["So21UITableViewDataSourceP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -2922,7 +2865,6 @@ depends-member:
 - ["So21UITableViewDataSourceP", "viewDidLoad"]
 - ["So21UITableViewDataSourceP", "viewForZooming"]
 - ["So21UITableViewDataSourceP", "viewForZoomingInScrollView"]
-- ["So21UITableViewDataSourceP", "viewWillAppear"]
 - ["So19UITableViewDelegateP", "$__lazy_storage_$_footerView"]
 - ["So19UITableViewDelegateP", "FooterView"]
 - !private ["So19UITableViewDelegateP", "IndexPath"]
@@ -2938,7 +2880,6 @@ depends-member:
 - !private ["So19UITableViewDelegateP", "UILabel"]
 - !private ["So19UITableViewDelegateP", "UINib"]
 - ["So19UITableViewDelegateP", "UISearchController"]
-- !private ["So19UITableViewDelegateP", "UITableViewCell"]
 - ["So19UITableViewDelegateP", ""]
 - ["So19UITableViewDelegateP", "displayData"]
 - ["So19UITableViewDelegateP", "footerView"]
@@ -2954,7 +2895,6 @@ depends-member:
 - ["So19UITableViewDelegateP", "numberOfSectionsInTableView"]
 - ["So19UITableViewDelegateP", "position"]
 - ["So19UITableViewDelegateP", "positionForBar"]
-- !private ["So19UITableViewDelegateP", "print"]
 - ["So19UITableViewDelegateP", "router"]
 - ["So19UITableViewDelegateP", "scrollViewDidChangeAdjustedContentInset"]
 - ["So19UITableViewDelegateP", "scrollViewDidEndDecelerating"]
@@ -2986,6 +2926,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "setupSearchBar"]
 - ["So19UITableViewDelegateP", "setupTableView"]
 - ["So19UITableViewDelegateP", "tabBarDelegate"]
+- ["So19UITableViewDelegateP", "tabBarVC"]
 - ["So19UITableViewDelegateP", "table"]
 - ["So19UITableViewDelegateP", "tableView"]
 - ["So19UITableViewDelegateP", "tableViewDidEndMultipleSelectionInteraction"]
@@ -2993,7 +2934,6 @@ depends-member:
 - ["So19UITableViewDelegateP", "viewDidLoad"]
 - ["So19UITableViewDelegateP", "viewForZooming"]
 - ["So19UITableViewDelegateP", "viewForZoomingInScrollView"]
-- ["So19UITableViewDelegateP", "viewWillAppear"]
 - !private ["So17UITextInputTraitsP", "delegate"]
 - ["So18UITraitEnvironmentP", "$__lazy_storage_$_footerView"]
 - ["So18UITraitEnvironmentP", "Bool"]
@@ -3001,7 +2941,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "FooterView"]
 - ["So18UITraitEnvironmentP", "IndexPath"]
 - ["So18UITraitEnvironmentP", "Int"]
-- !private ["So18UITraitEnvironmentP", "MainTabBarController"]
+- ["So18UITraitEnvironmentP", "MainTabBarController"]
 - ["So18UITraitEnvironmentP", "MainTabBarControllerDelegate"]
 - ["So18UITraitEnvironmentP", "NSObjectProtocol"]
 - ["So18UITraitEnvironmentP", "Search"]
@@ -3011,7 +2951,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "SearchRouter"]
 - ["So18UITraitEnvironmentP", "SearchRoutingLogic"]
 - ["So18UITraitEnvironmentP", "SearchViewModel"]
-- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "Timer"]
 - !private ["So18UITraitEnvironmentP", "TrackCell"]
 - !private ["So18UITraitEnvironmentP", "UIApplication"]
@@ -3022,7 +2961,6 @@ depends-member:
 - ["So18UITraitEnvironmentP", "UISearchController"]
 - ["So18UITraitEnvironmentP", "UITableView"]
 - ["So18UITraitEnvironmentP", "UITableViewCell"]
-- ["So18UITraitEnvironmentP", "UIView"]
 - !private ["So18UITraitEnvironmentP", "UIWindowScene"]
 - ["So18UITraitEnvironmentP", ""]
 - ["So18UITraitEnvironmentP", "__lazy_storage_$_footerView"]
@@ -3051,7 +2989,6 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "obscuresBackgroundDuringPresentation"]
 - ["So18UITraitEnvironmentP", "position"]
 - ["So18UITraitEnvironmentP", "positionForBar"]
-- !private ["So18UITraitEnvironmentP", "print"]
 - !private ["So18UITraitEnvironmentP", "register"]
 - !private ["So18UITraitEnvironmentP", "registerClass"]
 - !private ["So18UITraitEnvironmentP", "registerNib"]
@@ -3093,6 +3030,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "setupTableView"]
 - !private ["So18UITraitEnvironmentP", "showLoader"]
 - ["So18UITraitEnvironmentP", "tabBarDelegate"]
+- ["So18UITraitEnvironmentP", "tabBarVC"]
 - ["So18UITraitEnvironmentP", "table"]
 - !private ["So18UITraitEnvironmentP", "tableFooterView"]
 - ["So18UITraitEnvironmentP", "tableView"]
@@ -3105,14 +3043,13 @@ depends-member:
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
-- ["So18UITraitEnvironmentP", "viewWillAppear"]
 - ["So23UIUserActivityRestoringP", "$__lazy_storage_$_footerView"]
 - ["So23UIUserActivityRestoringP", "Bool"]
 - ["So23UIUserActivityRestoringP", "CGFloat"]
 - ["So23UIUserActivityRestoringP", "FooterView"]
 - ["So23UIUserActivityRestoringP", "IndexPath"]
 - ["So23UIUserActivityRestoringP", "Int"]
-- !private ["So23UIUserActivityRestoringP", "MainTabBarController"]
+- ["So23UIUserActivityRestoringP", "MainTabBarController"]
 - ["So23UIUserActivityRestoringP", "MainTabBarControllerDelegate"]
 - ["So23UIUserActivityRestoringP", "NSObjectProtocol"]
 - ["So23UIUserActivityRestoringP", "Search"]
@@ -3122,7 +3059,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "SearchRouter"]
 - ["So23UIUserActivityRestoringP", "SearchRoutingLogic"]
 - ["So23UIUserActivityRestoringP", "SearchViewModel"]
-- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "Timer"]
 - !private ["So23UIUserActivityRestoringP", "TrackCell"]
 - !private ["So23UIUserActivityRestoringP", "UIApplication"]
@@ -3133,7 +3069,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "UISearchController"]
 - ["So23UIUserActivityRestoringP", "UITableView"]
 - ["So23UIUserActivityRestoringP", "UITableViewCell"]
-- ["So23UIUserActivityRestoringP", "UIView"]
 - !private ["So23UIUserActivityRestoringP", "UIWindowScene"]
 - ["So23UIUserActivityRestoringP", ""]
 - ["So23UIUserActivityRestoringP", "__lazy_storage_$_footerView"]
@@ -3164,7 +3099,6 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "obscuresBackgroundDuringPresentation"]
 - ["So23UIUserActivityRestoringP", "position"]
 - ["So23UIUserActivityRestoringP", "positionForBar"]
-- !private ["So23UIUserActivityRestoringP", "print"]
 - !private ["So23UIUserActivityRestoringP", "register"]
 - !private ["So23UIUserActivityRestoringP", "registerClass"]
 - !private ["So23UIUserActivityRestoringP", "registerNib"]
@@ -3207,6 +3141,7 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "shared"]
 - !private ["So23UIUserActivityRestoringP", "showLoader"]
 - ["So23UIUserActivityRestoringP", "tabBarDelegate"]
+- ["So23UIUserActivityRestoringP", "tabBarVC"]
 - ["So23UIUserActivityRestoringP", "table"]
 - !private ["So23UIUserActivityRestoringP", "tableFooterView"]
 - ["So23UIUserActivityRestoringP", "tableView"]
@@ -3219,7 +3154,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "viewForZooming"]
 - ["So23UIUserActivityRestoringP", "viewForZoomingInScrollView"]
-- ["So23UIUserActivityRestoringP", "viewWillAppear"]
 - !private ["So23UIUserActivityRestoringP", "windows"]
 - ["So6UIViewC", ""]
 - !private ["So6UIViewC", "backgroundColor"]
@@ -3253,7 +3187,7 @@ depends-member:
 - ["So16UIViewControllerC", "FooterView"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
-- !private ["So16UIViewControllerC", "MainTabBarController"]
+- ["So16UIViewControllerC", "MainTabBarController"]
 - ["So16UIViewControllerC", "MainTabBarControllerDelegate"]
 - ["So16UIViewControllerC", "NSObjectProtocol"]
 - ["So16UIViewControllerC", "Search"]
@@ -3293,7 +3227,6 @@ depends-member:
 - !private ["So16UIViewControllerC", "obscuresBackgroundDuringPresentation"]
 - ["So16UIViewControllerC", "position"]
 - ["So16UIViewControllerC", "positionForBar"]
-- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "router"]
 - ["So16UIViewControllerC", "scrollViewDidChangeAdjustedContentInset"]
 - ["So16UIViewControllerC", "scrollViewDidEndDecelerating"]
@@ -3325,6 +3258,7 @@ depends-member:
 - ["So16UIViewControllerC", "setupSearchBar"]
 - ["So16UIViewControllerC", "setupTableView"]
 - ["So16UIViewControllerC", "tabBarDelegate"]
+- ["So16UIViewControllerC", "tabBarVC"]
 - ["So16UIViewControllerC", "table"]
 - ["So16UIViewControllerC", "tableView"]
 - ["So16UIViewControllerC", "tableViewDidEndMultipleSelectionInteraction"]
@@ -3333,7 +3267,6 @@ depends-member:
 - ["So16UIViewControllerC", "viewDidLoad"]
 - ["So16UIViewControllerC", "viewForZooming"]
 - ["So16UIViewControllerC", "viewForZoomingInScrollView"]
-- ["So16UIViewControllerC", "viewWillAppear"]
 - ["So37UIViewControllerAnimatedTransitioningP", "init"]
 - !private ["So37UIViewControllerAnimatedTransitioningP", "obscuresBackgroundDuringPresentation"]
 - !private ["So37UIViewControllerAnimatedTransitioningP", "searchBar"]
@@ -3370,11 +3303,11 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "map"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "red"]
 - !private ["s19_HasContiguousBytesP", "compactMap"]
 - !private ["s19_HasContiguousBytesP", "count"]
@@ -3405,7 +3338,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UILabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UINib"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UISearchController"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UITableViewCell"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "activationState"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
@@ -3435,7 +3367,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "obscuresBackgroundDuringPresentation"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "position"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "positionForBar"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "red"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "register"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
@@ -3478,6 +3409,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showLoader"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFont"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBarDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tabBarVC"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "table"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "tableFooterView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
@@ -3491,7 +3423,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewWillAppear"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "windows"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Cell"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FooterView"]
@@ -3508,7 +3439,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UILabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UINib"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UISearchController"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UITableViewCell"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activationState"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
@@ -3538,7 +3468,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "obscuresBackgroundDuringPresentation"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "position"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "positionForBar"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "red"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reloadData"]
@@ -3581,6 +3510,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showLoader"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "systemFont"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tabBarVC"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "table"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableFooterView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
@@ -3594,7 +3524,6 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewWillAppear"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "windows"]
 - !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
@@ -3643,12 +3572,12 @@ depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "9Alamofire0A8ExtendedP"
 - !private "Sa"
-- "SK"
+- !private "SK"
 - "So15CALayerDelegateP"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
-- "Sl"
-- "SL"
+- !private "Sl"
+- !private "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -3658,19 +3587,19 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
-- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- "s32ExpressibleByStringInterpolationP"
-- "s26ExpressibleByStringLiteralP"
-- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "6IMusic10FooterViewC"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "10Foundation9IndexPathV"
-- "s25LosslessStringConvertibleP"
+- !private "s25LosslessStringConvertibleP"
 - !private "6IMusic20MainTabBarControllerC"
 - !private "6IMusic28MainTabBarControllerDelegateP"
 - "6IMusic6SearchO5ModelO"
@@ -3704,13 +3633,13 @@ depends-nominal:
 - !private "6IMusic18SearchRoutingLogicP"
 - "6IMusic20SearchViewControllerC"
 - "6IMusic15SearchViewModelC"
-- "ST"
+- !private "ST"
 - !private "Sh"
 - !private "s10SetAlgebraP"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- "s16TextOutputStreamP"
-- "s20TextOutputStreamableP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
 - !private "So7NSTimerC"
 - !private "6IMusic9TrackCellC"
 - !private "6IMusic15TrackDetailViewC"
@@ -3773,11 +3702,11 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
@@ -3795,10 +3724,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -3816,74 +3745,74 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -3909,4 +3838,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "b56d48ebc31b0222d4099b1c88b29594"
+interface-hash: "cf0478e668c977d0f869bb7cdb8e6199"

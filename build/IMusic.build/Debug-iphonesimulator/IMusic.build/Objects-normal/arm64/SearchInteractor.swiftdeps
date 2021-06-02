@@ -22,10 +22,8 @@ depends-top-level:
 - "SearchInteractor"
 - "SearchPresentationLogic"
 - "SearchService"
-- !private "StringLiteralType"
 - !private "networkService"
 - !private "presenter"
-- !private "print"
 - !private "service"
 depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "init"]
@@ -46,7 +44,6 @@ depends-member:
 - ["6IMusic19SearchBusinessLogicP", "makeRequest"]
 - !private ["6IMusic19SearchBusinessLogicP", "networkService"]
 - !private ["6IMusic19SearchBusinessLogicP", "presenter"]
-- !private ["6IMusic19SearchBusinessLogicP", "print"]
 - !private ["6IMusic19SearchBusinessLogicP", "service"]
 - ["6IMusic16SearchInteractorC", "NetworkService"]
 - ["6IMusic16SearchInteractorC", "Search"]
@@ -57,11 +54,9 @@ depends-member:
 - ["6IMusic16SearchInteractorC", "makeRequest"]
 - ["6IMusic16SearchInteractorC", "networkService"]
 - ["6IMusic16SearchInteractorC", "presenter"]
-- !private ["6IMusic16SearchInteractorC", "print"]
 - ["6IMusic16SearchInteractorC", "service"]
 - !private ["6IMusic23SearchPresentationLogicP", "presentData"]
 - !private ["6IMusic13SearchServiceC", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - "6IMusic6SearchO5ModelO"
@@ -75,7 +70,6 @@ depends-nominal:
 - "6IMusic16SearchInteractorC"
 - !private "6IMusic23SearchPresentationLogicP"
 - !private "6IMusic13SearchServiceC"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"

@@ -230,7 +230,68 @@ SWIFT_CLASS("_TtC6IMusic10FooterView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC6IMusic18LibraryMusicRouter")
+@interface LibraryMusicRouter : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UIButton;
 @class NSBundle;
+
+SWIFT_CLASS("_TtC6IMusic26LibraryMusicViewController")
+@interface LibraryMusicViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified refreshButton;
+- (IBAction)playButtonAction:(UIButton * _Nonnull)sender;
+- (IBAction)refreshButtonAction:(UIButton * _Nonnull)sender;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class UITableViewCell;
+
+@interface LibraryMusicViewController (SWIFT_EXTENSION(IMusic)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
+@interface LibraryMusicViewController (SWIFT_EXTENSION(IMusic)) <UITableViewDelegate>
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+SWIFT_CLASS("_TtC6IMusic9LibraryVC")
+@interface LibraryVC : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified refreshButton;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface LibraryVC (SWIFT_EXTENSION(IMusic)) <UITableViewDelegate>
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface LibraryVC (SWIFT_EXTENSION(IMusic)) <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
 
 SWIFT_CLASS("_TtC6IMusic20MainTabBarController")
 @interface MainTabBarController : UITabBarController
@@ -255,8 +316,6 @@ SWIFT_CLASS("_TtC6IMusic13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
-@class UITableViewCell;
 
 SWIFT_CLASS("_TtC6IMusic25SearchMusicViewController")
 @interface SearchMusicViewController : UITableViewController
@@ -285,7 +344,6 @@ SWIFT_CLASS("_TtC6IMusic20SearchViewController")
 @interface SearchViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
 - (void)viewDidLoad;
-- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -326,7 +384,6 @@ SWIFT_CLASS_NAMED("Cell")
 
 @class UIImageView;
 @class UILabel;
-@class UIButton;
 
 SWIFT_CLASS("_TtC6IMusic9TrackCell")
 @interface TrackCell : UITableViewCell

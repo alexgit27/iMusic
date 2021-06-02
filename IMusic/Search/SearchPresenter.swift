@@ -20,7 +20,6 @@ class SearchPresenter: SearchPresentationLogic {
     case .presentFooterView:
         viewController?.displayData(viewModel: Search.Model.ViewModel.ViewModelData.displayFooterView)
     case .pesentTracks(let searchResults):
-        print("response .presentTracks")
         
         let cells = searchResults?.results.map({ (track) in
             cellViewModel(from: track)

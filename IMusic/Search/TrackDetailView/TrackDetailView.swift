@@ -130,15 +130,13 @@ class TrackDetailView: UIView {
     @objc private func handlePan(gesture: UIPanGestureRecognizer) {
         switch gesture.state {
         case .began:
-            print("Began")
+            break
         case .changed:
-            print("Changed")
             handlePanChaneged(gesture: gesture)
         case .ended:
-            print("Ended")
             handlePanEnded(gesture: gesture)
         @unknown default:
-            print("Deafault")
+           break
         }
      }
      
@@ -181,7 +179,7 @@ class TrackDetailView: UIView {
                 }
             }, completion: nil)
         @unknown default:
-            print("@unknown default")
+            break
         }
     }
     // MARK: - Animation

@@ -11,6 +11,8 @@ provides-member:
 provides-dynamic-lookup:
 - "bottomAnchorConstraint"
 - "generateViewController"
+- "libraryMusicVC"
+- "libraryVC"
 - "maximazeTrackViewController"
 - "maximizedTopAnchorConstraints"
 - "minimazeTrackViewController"
@@ -27,6 +29,8 @@ depends-top-level:
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 - !private "Library"
+- "LibraryMusicViewController"
+- "LibraryVC"
 - "MainTabBarController"
 - "MainTabBarControllerDelegate"
 - "NSLayoutConstraint"
@@ -44,6 +48,7 @@ depends-top-level:
 - !private "_ImageLiteralType"
 - !private "bottomAnchorConstraint"
 - !private "generateViewController"
+- !private "libraryMusicVC"
 - !private "maximizedTopAnchorConstraints"
 - !private "minimizedTopAnchorConstraints"
 - !private "searchVC"
@@ -55,6 +60,7 @@ depends-top-level:
 depends-member:
 - !private ["7SwiftUI10AnimatableP", "height"]
 - !private ["So22UIViewAnimationOptionsV", "curveEaseOut"]
+- ["SK", ""]
 - !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "alpha"]
 - !private ["So15CALayerDelegateP", "animate"]
@@ -78,6 +84,8 @@ depends-member:
 - !private ["So6CGRectV", "height"]
 - ["s7CVarArgP", "Cell"]
 - !private ["s7CVarArgP", "Library"]
+- ["s7CVarArgP", "LibraryMusicViewController"]
+- ["s7CVarArgP", "LibraryVC"]
 - ["s7CVarArgP", "SearchViewController"]
 - ["s7CVarArgP", "TrackDetailView"]
 - !private ["s7CVarArgP", "UIHostingController"]
@@ -101,6 +109,7 @@ depends-member:
 - !private ["s7CVarArgP", "isActive"]
 - !private ["s7CVarArgP", "layoutIfNeeded"]
 - !private ["s7CVarArgP", "leadingAnchor"]
+- !private ["s7CVarArgP", "libraryMusicVC"]
 - ["s7CVarArgP", "loadFromNib"]
 - ["s7CVarArgP", "loadFromStoryboard"]
 - ["s7CVarArgP", "maximazeTrackViewController"]
@@ -129,8 +138,12 @@ depends-member:
 - !private ["s7CVarArgP", "viewControllers"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s7CVarArgP", "white"]
+- ["Sl", ""]
+- ["SL", ""]
 - ["s28CustomDebugStringConvertibleP", "Cell"]
 - !private ["s28CustomDebugStringConvertibleP", "Library"]
+- ["s28CustomDebugStringConvertibleP", "LibraryMusicViewController"]
+- ["s28CustomDebugStringConvertibleP", "LibraryVC"]
 - ["s28CustomDebugStringConvertibleP", "SearchViewController"]
 - ["s28CustomDebugStringConvertibleP", "TrackDetailView"]
 - !private ["s28CustomDebugStringConvertibleP", "UIHostingController"]
@@ -155,6 +168,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "isActive"]
 - !private ["s28CustomDebugStringConvertibleP", "layoutIfNeeded"]
 - !private ["s28CustomDebugStringConvertibleP", "leadingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "libraryMusicVC"]
 - ["s28CustomDebugStringConvertibleP", "loadFromNib"]
 - ["s28CustomDebugStringConvertibleP", "loadFromStoryboard"]
 - ["s28CustomDebugStringConvertibleP", "maximazeTrackViewController"]
@@ -201,6 +215,8 @@ depends-member:
 - !private ["s17CustomReflectableP", "white"]
 - ["s23CustomStringConvertibleP", "Cell"]
 - !private ["s23CustomStringConvertibleP", "Library"]
+- ["s23CustomStringConvertibleP", "LibraryMusicViewController"]
+- ["s23CustomStringConvertibleP", "LibraryVC"]
 - ["s23CustomStringConvertibleP", "SearchViewController"]
 - ["s23CustomStringConvertibleP", "TrackDetailView"]
 - !private ["s23CustomStringConvertibleP", "UIHostingController"]
@@ -224,6 +240,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "isActive"]
 - !private ["s23CustomStringConvertibleP", "layoutIfNeeded"]
 - !private ["s23CustomStringConvertibleP", "leadingAnchor"]
+- !private ["s23CustomStringConvertibleP", "libraryMusicVC"]
 - ["s23CustomStringConvertibleP", "loadFromNib"]
 - ["s23CustomStringConvertibleP", "loadFromStoryboard"]
 - ["s23CustomStringConvertibleP", "maximazeTrackViewController"]
@@ -286,6 +303,8 @@ depends-member:
 - !private ["SE", "white"]
 - ["SQ", "Cell"]
 - !private ["SQ", "Library"]
+- ["SQ", "LibraryMusicViewController"]
+- ["SQ", "LibraryVC"]
 - ["SQ", "SearchViewController"]
 - ["SQ", "TrackDetailView"]
 - !private ["SQ", "UIHostingController"]
@@ -311,6 +330,7 @@ depends-member:
 - !private ["SQ", "isActive"]
 - !private ["SQ", "layoutIfNeeded"]
 - !private ["SQ", "leadingAnchor"]
+- !private ["SQ", "libraryMusicVC"]
 - ["SQ", "loadFromNib"]
 - ["SQ", "loadFromStoryboard"]
 - ["SQ", "maximazeTrackViewController"]
@@ -342,6 +362,7 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "curveEaseOut"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
 - !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
@@ -361,6 +382,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "topAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "trailingAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "white"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "alpha"]
 - !private ["7SwiftUI7GestureP", "backgroundColor"]
 - !private ["7SwiftUI7GestureP", "bottomAnchor"]
@@ -378,6 +402,8 @@ depends-member:
 - !private ["7SwiftUI7GestureP", "white"]
 - ["SH", "Cell"]
 - !private ["SH", "Library"]
+- ["SH", "LibraryMusicViewController"]
+- ["SH", "LibraryVC"]
 - ["SH", "SearchViewController"]
 - ["SH", "TrackDetailView"]
 - !private ["SH", "UIHostingController"]
@@ -401,6 +427,7 @@ depends-member:
 - !private ["SH", "isActive"]
 - !private ["SH", "layoutIfNeeded"]
 - !private ["SH", "leadingAnchor"]
+- !private ["SH", "libraryMusicVC"]
 - ["SH", "loadFromNib"]
 - ["SH", "loadFromStoryboard"]
 - ["SH", "maximazeTrackViewController"]
@@ -432,7 +459,15 @@ depends-member:
 - !private ["6IMusic7LibraryV", ""]
 - !private ["6IMusic7LibraryV", "init"]
 - !private ["6IMusic7LibraryV", "tabBarDelegate"]
+- ["6IMusic24LibraryMusicDisplayLogicP", "loadFromStoryboard"]
+- !private ["6IMusic24LibraryMusicDisplayLogicP", "tabBarDelegate"]
+- ["6IMusic26LibraryMusicViewControllerC", "loadFromStoryboard"]
+- !private ["6IMusic26LibraryMusicViewControllerC", "tabBarDelegate"]
+- ["6IMusic9LibraryVCC", "loadFromStoryboard"]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["6IMusic20MainTabBarControllerC", "Library"]
+- ["6IMusic20MainTabBarControllerC", "LibraryMusicViewController"]
+- ["6IMusic20MainTabBarControllerC", "LibraryVC"]
 - ["6IMusic20MainTabBarControllerC", "NSLayoutConstraint"]
 - ["6IMusic20MainTabBarControllerC", "SearchViewController"]
 - ["6IMusic20MainTabBarControllerC", "SearchViewModel"]
@@ -448,6 +483,8 @@ depends-member:
 - ["6IMusic20MainTabBarControllerC", "deinit"]
 - !private ["6IMusic20MainTabBarControllerC", "generateViewController"]
 - ["6IMusic20MainTabBarControllerC", "init"]
+- ["6IMusic20MainTabBarControllerC", "libraryMusicVC"]
+- ["6IMusic20MainTabBarControllerC", "libraryVC"]
 - ["6IMusic20MainTabBarControllerC", "maximazeTrackViewController"]
 - ["6IMusic20MainTabBarControllerC", "maximizedTopAnchorConstraints"]
 - ["6IMusic20MainTabBarControllerC", "minimazeTrackViewController"]
@@ -460,6 +497,8 @@ depends-member:
 - !private ["6IMusic20MainTabBarControllerC", "viewControllers"]
 - ["6IMusic20MainTabBarControllerC", "viewDidLoad"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "Library"]
+- ["6IMusic28MainTabBarControllerDelegateP", "LibraryMusicViewController"]
+- ["6IMusic28MainTabBarControllerDelegateP", "LibraryVC"]
 - ["6IMusic28MainTabBarControllerDelegateP", "SearchViewController"]
 - ["6IMusic28MainTabBarControllerDelegateP", "SearchViewModel"]
 - ["6IMusic28MainTabBarControllerDelegateP", "TrackDetailView"]
@@ -470,6 +509,7 @@ depends-member:
 - ["6IMusic28MainTabBarControllerDelegateP", ""]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "bottomAnchorConstraint"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "generateViewController"]
+- !private ["6IMusic28MainTabBarControllerDelegateP", "libraryMusicVC"]
 - ["6IMusic28MainTabBarControllerDelegateP", "maximazeTrackViewController"]
 - !private ["6IMusic28MainTabBarControllerDelegateP", "maximizedTopAnchorConstraints"]
 - ["6IMusic28MainTabBarControllerDelegateP", "minimazeTrackViewController"]
@@ -482,6 +522,8 @@ depends-member:
 - !private ["6IMusic28MainTabBarControllerDelegateP", "viewControllers"]
 - ["So8NSCodingP", "Cell"]
 - !private ["So8NSCodingP", "Library"]
+- ["So8NSCodingP", "LibraryMusicViewController"]
+- ["So8NSCodingP", "LibraryVC"]
 - ["So8NSCodingP", "NSLayoutConstraint"]
 - ["So8NSCodingP", "SearchViewController"]
 - ["So8NSCodingP", "SearchViewModel"]
@@ -518,6 +560,8 @@ depends-member:
 - !private ["So8NSCodingP", "insertSubview"]
 - !private ["So8NSCodingP", "layoutIfNeeded"]
 - !private ["So8NSCodingP", "leadingAnchor"]
+- ["So8NSCodingP", "libraryMusicVC"]
+- ["So8NSCodingP", "libraryVC"]
 - ["So8NSCodingP", "loadFromNib"]
 - ["So8NSCodingP", "loadFromStoryboard"]
 - ["So8NSCodingP", "maximazeTrackViewController"]
@@ -562,6 +606,8 @@ depends-member:
 - !private ["So9NSCopyingP", "systemPink"]
 - !private ["So9NSCopyingP", "white"]
 - !private ["So26NSExtensionRequestHandlingP", "Library"]
+- ["So26NSExtensionRequestHandlingP", "LibraryMusicViewController"]
+- ["So26NSExtensionRequestHandlingP", "LibraryVC"]
 - ["So26NSExtensionRequestHandlingP", "NSLayoutConstraint"]
 - ["So26NSExtensionRequestHandlingP", "SearchViewController"]
 - ["So26NSExtensionRequestHandlingP", "SearchViewModel"]
@@ -575,6 +621,8 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "bottomAnchorConstraint"]
 - ["So26NSExtensionRequestHandlingP", "generateViewController"]
 - ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "libraryMusicVC"]
+- ["So26NSExtensionRequestHandlingP", "libraryVC"]
 - ["So26NSExtensionRequestHandlingP", "loadFromStoryboard"]
 - ["So26NSExtensionRequestHandlingP", "maximazeTrackViewController"]
 - ["So26NSExtensionRequestHandlingP", "maximizedTopAnchorConstraints"]
@@ -617,6 +665,8 @@ depends-member:
 - !private ["So19NSLayoutYAxisAnchorC", "constraint"]
 - ["So8NSObjectC", "Cell"]
 - !private ["So8NSObjectC", "Library"]
+- ["So8NSObjectC", "LibraryMusicViewController"]
+- ["So8NSObjectC", "LibraryVC"]
 - ["So8NSObjectC", "NSLayoutConstraint"]
 - ["So8NSObjectC", "SearchViewController"]
 - ["So8NSObjectC", "SearchViewModel"]
@@ -667,6 +717,8 @@ depends-member:
 - !private ["So8NSObjectC", "jpegData"]
 - !private ["So8NSObjectC", "layoutIfNeeded"]
 - !private ["So8NSObjectC", "leadingAnchor"]
+- ["So8NSObjectC", "libraryMusicVC"]
+- ["So8NSObjectC", "libraryVC"]
 - ["So8NSObjectC", "loadFromNib"]
 - ["So8NSObjectC", "loadFromStoryboard"]
 - ["So8NSObjectC", "maximazeTrackViewController"]
@@ -699,9 +751,12 @@ depends-member:
 - !private ["So8NSObjectC", "white"]
 - ["So8NSObjectP", "Cell"]
 - !private ["So8NSObjectP", "Library"]
+- ["So8NSObjectP", "LibraryMusicViewController"]
+- ["So8NSObjectP", "LibraryVC"]
 - ["So8NSObjectP", "NSLayoutConstraint"]
 - ["So8NSObjectP", "SearchViewController"]
 - ["So8NSObjectP", "SearchViewModel"]
+- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "TrackDetailView"]
 - !private ["So8NSObjectP", "UIHostingController"]
 - ["So8NSObjectP", "UIImage"]
@@ -747,6 +802,8 @@ depends-member:
 - !private ["So8NSObjectP", "jpegData"]
 - !private ["So8NSObjectP", "layoutIfNeeded"]
 - !private ["So8NSObjectP", "leadingAnchor"]
+- ["So8NSObjectP", "libraryMusicVC"]
+- ["So8NSObjectP", "libraryVC"]
 - ["So8NSObjectP", "loadFromNib"]
 - ["So8NSObjectP", "loadFromStoryboard"]
 - ["So8NSObjectP", "maximazeTrackViewController"]
@@ -804,12 +861,15 @@ depends-member:
 - ["6IMusic20SearchViewControllerC", "loadFromStoryboard"]
 - !private ["6IMusic20SearchViewControllerC", "tabBarDelegate"]
 - ["6IMusic15SearchViewModelC", "Cell"]
+- ["ST", ""]
 - !private ["s10SetAlgebraP", ""]
 - !private ["s10SetAlgebraP", "curveEaseOut"]
 - !private ["7SwiftUI5StateV", "init"]
 - !private ["7SwiftUI5StateV", "projectedValue"]
 - !private ["7SwiftUI5StateV", "subscript"]
 - !private ["7SwiftUI5StateV", "wrappedValue"]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["6IMusic15TrackDetailViewC", "backgroundColor"]
 - !private ["6IMusic15TrackDetailViewC", "bottomAnchor"]
 - !private ["6IMusic15TrackDetailViewC", "delegate"]
@@ -871,6 +931,8 @@ depends-member:
 - !private ["So12UIAppearanceP", "trailingAnchor"]
 - !private ["So12UIAppearanceP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So21UIAppearanceContainerP", "Library"]
+- ["So21UIAppearanceContainerP", "LibraryMusicViewController"]
+- ["So21UIAppearanceContainerP", "LibraryVC"]
 - ["So21UIAppearanceContainerP", "NSLayoutConstraint"]
 - ["So21UIAppearanceContainerP", "SearchViewController"]
 - ["So21UIAppearanceContainerP", "SearchViewModel"]
@@ -893,6 +955,8 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "insertSubview"]
 - !private ["So21UIAppearanceContainerP", "layoutIfNeeded"]
 - !private ["So21UIAppearanceContainerP", "leadingAnchor"]
+- ["So21UIAppearanceContainerP", "libraryMusicVC"]
+- ["So21UIAppearanceContainerP", "libraryVC"]
 - ["So21UIAppearanceContainerP", "loadFromNib"]
 - ["So21UIAppearanceContainerP", "loadFromStoryboard"]
 - ["So21UIAppearanceContainerP", "maximazeTrackViewController"]
@@ -928,6 +992,8 @@ depends-member:
 - !private ["So7UIColorC", "systemPink"]
 - !private ["So7UIColorC", "white"]
 - !private ["So18UIContentContainerP", "Library"]
+- ["So18UIContentContainerP", "LibraryMusicViewController"]
+- ["So18UIContentContainerP", "LibraryVC"]
 - ["So18UIContentContainerP", "NSLayoutConstraint"]
 - ["So18UIContentContainerP", "SearchViewController"]
 - ["So18UIContentContainerP", "SearchViewModel"]
@@ -941,6 +1007,8 @@ depends-member:
 - ["So18UIContentContainerP", "bottomAnchorConstraint"]
 - ["So18UIContentContainerP", "generateViewController"]
 - ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "libraryMusicVC"]
+- ["So18UIContentContainerP", "libraryVC"]
 - ["So18UIContentContainerP", "loadFromStoryboard"]
 - ["So18UIContentContainerP", "maximazeTrackViewController"]
 - ["So18UIContentContainerP", "maximizedTopAnchorConstraints"]
@@ -998,6 +1066,8 @@ depends-member:
 - !private ["So13UIDynamicItemP", "trailingAnchor"]
 - !private ["So13UIDynamicItemP", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So18UIFocusEnvironmentP", "Library"]
+- ["So18UIFocusEnvironmentP", "LibraryMusicViewController"]
+- ["So18UIFocusEnvironmentP", "LibraryVC"]
 - ["So18UIFocusEnvironmentP", "NSLayoutConstraint"]
 - ["So18UIFocusEnvironmentP", "SearchViewController"]
 - ["So18UIFocusEnvironmentP", "SearchViewModel"]
@@ -1020,6 +1090,8 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "insertSubview"]
 - !private ["So18UIFocusEnvironmentP", "layoutIfNeeded"]
 - !private ["So18UIFocusEnvironmentP", "leadingAnchor"]
+- ["So18UIFocusEnvironmentP", "libraryMusicVC"]
+- ["So18UIFocusEnvironmentP", "libraryVC"]
 - ["So18UIFocusEnvironmentP", "loadFromNib"]
 - ["So18UIFocusEnvironmentP", "loadFromStoryboard"]
 - ["So18UIFocusEnvironmentP", "maximazeTrackViewController"]
@@ -1115,9 +1187,12 @@ depends-member:
 - !private ["So22UINavigationControllerC", "tabBarItem"]
 - !private ["So16UINavigationItemC", "title"]
 - !private ["So30UIPasteConfigurationSupportingP", "Library"]
+- ["So30UIPasteConfigurationSupportingP", "LibraryMusicViewController"]
+- ["So30UIPasteConfigurationSupportingP", "LibraryVC"]
 - ["So30UIPasteConfigurationSupportingP", "NSLayoutConstraint"]
 - ["So30UIPasteConfigurationSupportingP", "SearchViewController"]
 - ["So30UIPasteConfigurationSupportingP", "SearchViewModel"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "TrackDetailView"]
 - !private ["So30UIPasteConfigurationSupportingP", "UIHostingController"]
 - ["So30UIPasteConfigurationSupportingP", "UIImage"]
@@ -1138,6 +1213,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "insertSubview"]
 - !private ["So30UIPasteConfigurationSupportingP", "layoutIfNeeded"]
 - !private ["So30UIPasteConfigurationSupportingP", "leadingAnchor"]
+- ["So30UIPasteConfigurationSupportingP", "libraryMusicVC"]
+- ["So30UIPasteConfigurationSupportingP", "libraryVC"]
 - ["So30UIPasteConfigurationSupportingP", "loadFromNib"]
 - ["So30UIPasteConfigurationSupportingP", "loadFromStoryboard"]
 - ["So30UIPasteConfigurationSupportingP", "maximazeTrackViewController"]
@@ -1164,6 +1241,8 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "viewControllers"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "Library"]
+- ["So11UIResponderC", "LibraryMusicViewController"]
+- ["So11UIResponderC", "LibraryVC"]
 - ["So11UIResponderC", "NSLayoutConstraint"]
 - ["So11UIResponderC", "SearchViewController"]
 - ["So11UIResponderC", "SearchViewModel"]
@@ -1189,6 +1268,8 @@ depends-member:
 - !private ["So11UIResponderC", "insertSubview"]
 - !private ["So11UIResponderC", "layoutIfNeeded"]
 - !private ["So11UIResponderC", "leadingAnchor"]
+- ["So11UIResponderC", "libraryMusicVC"]
+- ["So11UIResponderC", "libraryVC"]
 - ["So11UIResponderC", "loadFromNib"]
 - ["So11UIResponderC", "loadFromStoryboard"]
 - ["So11UIResponderC", "maximazeTrackViewController"]
@@ -1215,9 +1296,12 @@ depends-member:
 - !private ["So11UIResponderC", "viewControllers"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "Library"]
+- ["So30UIResponderStandardEditActionsP", "LibraryMusicViewController"]
+- ["So30UIResponderStandardEditActionsP", "LibraryVC"]
 - ["So30UIResponderStandardEditActionsP", "NSLayoutConstraint"]
 - ["So30UIResponderStandardEditActionsP", "SearchViewController"]
 - ["So30UIResponderStandardEditActionsP", "SearchViewModel"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "TrackDetailView"]
 - !private ["So30UIResponderStandardEditActionsP", "UIHostingController"]
 - ["So30UIResponderStandardEditActionsP", "UIImage"]
@@ -1238,6 +1322,8 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "insertSubview"]
 - !private ["So30UIResponderStandardEditActionsP", "layoutIfNeeded"]
 - !private ["So30UIResponderStandardEditActionsP", "leadingAnchor"]
+- ["So30UIResponderStandardEditActionsP", "libraryMusicVC"]
+- ["So30UIResponderStandardEditActionsP", "libraryVC"]
 - ["So30UIResponderStandardEditActionsP", "loadFromNib"]
 - ["So30UIResponderStandardEditActionsP", "loadFromStoryboard"]
 - ["So30UIResponderStandardEditActionsP", "maximazeTrackViewController"]
@@ -1275,6 +1361,8 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "topAnchor"]
 - !private ["So11UIStackViewC", "alpha"]
 - !private ["So16UIStateRestoringP", "Library"]
+- ["So16UIStateRestoringP", "LibraryMusicViewController"]
+- ["So16UIStateRestoringP", "LibraryVC"]
 - ["So16UIStateRestoringP", "NSLayoutConstraint"]
 - ["So16UIStateRestoringP", "SearchViewController"]
 - ["So16UIStateRestoringP", "SearchViewModel"]
@@ -1288,6 +1376,8 @@ depends-member:
 - ["So16UIStateRestoringP", "bottomAnchorConstraint"]
 - ["So16UIStateRestoringP", "generateViewController"]
 - ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "libraryMusicVC"]
+- ["So16UIStateRestoringP", "libraryVC"]
 - ["So16UIStateRestoringP", "loadFromStoryboard"]
 - ["So16UIStateRestoringP", "maximazeTrackViewController"]
 - ["So16UIStateRestoringP", "maximizedTopAnchorConstraints"]
@@ -1308,6 +1398,8 @@ depends-member:
 - !private ["So8UITabBarC", "tintColor"]
 - !private ["So8UITabBarC", "topAnchor"]
 - !private ["So18UITabBarControllerC", "Library"]
+- ["So18UITabBarControllerC", "LibraryMusicViewController"]
+- ["So18UITabBarControllerC", "LibraryVC"]
 - ["So18UITabBarControllerC", "NSLayoutConstraint"]
 - ["So18UITabBarControllerC", "SearchViewController"]
 - ["So18UITabBarControllerC", "SearchViewModel"]
@@ -1322,6 +1414,8 @@ depends-member:
 - ["So18UITabBarControllerC", "bottomAnchorConstraint"]
 - ["So18UITabBarControllerC", "generateViewController"]
 - ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "libraryMusicVC"]
+- ["So18UITabBarControllerC", "libraryVC"]
 - ["So18UITabBarControllerC", "maximazeTrackViewController"]
 - ["So18UITabBarControllerC", "maximizedTopAnchorConstraints"]
 - ["So18UITabBarControllerC", "minimazeTrackViewController"]
@@ -1334,6 +1428,8 @@ depends-member:
 - !private ["So18UITabBarControllerC", "viewControllers"]
 - ["So18UITabBarControllerC", "viewDidLoad"]
 - !private ["So16UITabBarDelegateP", "Library"]
+- ["So16UITabBarDelegateP", "LibraryMusicViewController"]
+- ["So16UITabBarDelegateP", "LibraryVC"]
 - ["So16UITabBarDelegateP", "NSLayoutConstraint"]
 - ["So16UITabBarDelegateP", "SearchViewController"]
 - ["So16UITabBarDelegateP", "SearchViewModel"]
@@ -1348,6 +1444,8 @@ depends-member:
 - ["So16UITabBarDelegateP", "bottomAnchorConstraint"]
 - ["So16UITabBarDelegateP", "generateViewController"]
 - ["So16UITabBarDelegateP", "init"]
+- ["So16UITabBarDelegateP", "libraryMusicVC"]
+- ["So16UITabBarDelegateP", "libraryVC"]
 - ["So16UITabBarDelegateP", "maximazeTrackViewController"]
 - ["So16UITabBarDelegateP", "maximizedTopAnchorConstraints"]
 - ["So16UITabBarDelegateP", "minimazeTrackViewController"]
@@ -1366,6 +1464,8 @@ depends-member:
 - ["So19UITableViewDelegateP", "loadFromStoryboard"]
 - !private ["So19UITableViewDelegateP", "tabBarDelegate"]
 - !private ["So18UITraitEnvironmentP", "Library"]
+- ["So18UITraitEnvironmentP", "LibraryMusicViewController"]
+- ["So18UITraitEnvironmentP", "LibraryVC"]
 - ["So18UITraitEnvironmentP", "NSLayoutConstraint"]
 - ["So18UITraitEnvironmentP", "SearchViewController"]
 - ["So18UITraitEnvironmentP", "SearchViewModel"]
@@ -1388,6 +1488,8 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "insertSubview"]
 - !private ["So18UITraitEnvironmentP", "layoutIfNeeded"]
 - !private ["So18UITraitEnvironmentP", "leadingAnchor"]
+- ["So18UITraitEnvironmentP", "libraryMusicVC"]
+- ["So18UITraitEnvironmentP", "libraryVC"]
 - ["So18UITraitEnvironmentP", "loadFromNib"]
 - ["So18UITraitEnvironmentP", "loadFromStoryboard"]
 - ["So18UITraitEnvironmentP", "maximazeTrackViewController"]
@@ -1414,9 +1516,12 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "viewControllers"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - !private ["So23UIUserActivityRestoringP", "Library"]
+- ["So23UIUserActivityRestoringP", "LibraryMusicViewController"]
+- ["So23UIUserActivityRestoringP", "LibraryVC"]
 - ["So23UIUserActivityRestoringP", "NSLayoutConstraint"]
 - ["So23UIUserActivityRestoringP", "SearchViewController"]
 - ["So23UIUserActivityRestoringP", "SearchViewModel"]
+- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "TrackDetailView"]
 - !private ["So23UIUserActivityRestoringP", "UIHostingController"]
 - ["So23UIUserActivityRestoringP", "UIImage"]
@@ -1437,6 +1542,8 @@ depends-member:
 - !private ["So23UIUserActivityRestoringP", "insertSubview"]
 - !private ["So23UIUserActivityRestoringP", "layoutIfNeeded"]
 - !private ["So23UIUserActivityRestoringP", "leadingAnchor"]
+- ["So23UIUserActivityRestoringP", "libraryMusicVC"]
+- ["So23UIUserActivityRestoringP", "libraryVC"]
 - ["So23UIUserActivityRestoringP", "loadFromNib"]
 - ["So23UIUserActivityRestoringP", "loadFromStoryboard"]
 - ["So23UIUserActivityRestoringP", "maximazeTrackViewController"]
@@ -1483,6 +1590,8 @@ depends-member:
 - !private ["So6UIViewC", "trailingAnchor"]
 - !private ["So6UIViewC", "translatesAutoresizingMaskIntoConstraints"]
 - !private ["So16UIViewControllerC", "Library"]
+- ["So16UIViewControllerC", "LibraryMusicViewController"]
+- ["So16UIViewControllerC", "LibraryVC"]
 - ["So16UIViewControllerC", "NSLayoutConstraint"]
 - ["So16UIViewControllerC", "SearchViewController"]
 - ["So16UIViewControllerC", "SearchViewModel"]
@@ -1497,6 +1606,8 @@ depends-member:
 - ["So16UIViewControllerC", "bottomAnchorConstraint"]
 - ["So16UIViewControllerC", "generateViewController"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "libraryMusicVC"]
+- ["So16UIViewControllerC", "libraryVC"]
 - ["So16UIViewControllerC", "loadFromStoryboard"]
 - ["So16UIViewControllerC", "maximazeTrackViewController"]
 - ["So16UIViewControllerC", "maximizedTopAnchorConstraints"]
@@ -1532,14 +1643,18 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "white"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "height"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s26_ExpressibleByColorLiteralP", "systemPink"]
 - !private ["s26_ExpressibleByColorLiteralP", "white"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "Cell"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Library"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LibraryMusicViewController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "LibraryVC"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "SearchViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "TrackDetailView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIHostingController"]
@@ -1563,6 +1678,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isActive"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layoutIfNeeded"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "libraryMusicVC"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "loadFromNib"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "loadFromStoryboard"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "maximazeTrackViewController"]
@@ -1593,6 +1709,8 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "white"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Cell"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Library"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LibraryMusicViewController"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LibraryVC"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "SearchViewController"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "TrackDetailView"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIHostingController"]
@@ -1616,6 +1734,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isActive"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "layoutIfNeeded"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "leadingAnchor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "libraryMusicVC"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadFromNib"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadFromStoryboard"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "maximazeTrackViewController"]
@@ -1684,9 +1803,12 @@ depends-member:
 depends-nominal:
 - !private "7SwiftUI10AnimatableP"
 - !private "So22UIViewAnimationOptionsV"
+- "SK"
 - "So15CALayerDelegateP"
 - !private "So6CGRectV"
 - "s7CVarArgP"
+- "Sl"
+- "SL"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -1694,12 +1816,20 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "6IMusic7LibraryV"
+- "6IMusic24LibraryMusicDisplayLogicP"
+- "6IMusic26LibraryMusicViewControllerC"
+- "6IMusic9LibraryVCC"
+- "s25LosslessStringConvertibleP"
 - "6IMusic20MainTabBarControllerC"
 - "6IMusic28MainTabBarControllerDelegateP"
 - "So8NSCodingP"
@@ -1720,8 +1850,11 @@ depends-nominal:
 - "6IMusic18SearchDisplayLogicP"
 - "6IMusic20SearchViewControllerC"
 - "6IMusic15SearchViewModelC"
+- "ST"
 - !private "s10SetAlgebraP"
 - !private "7SwiftUI5StateV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "6IMusic15TrackDetailViewC"
 - "6IMusic20TrackMmovingDelegateP"
 - "So29UIAccessibilityIdentificationP"
@@ -1765,9 +1898,11 @@ depends-nominal:
 - !private "7SwiftUI4ViewP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
@@ -1783,10 +1918,10 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/URLImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
@@ -1804,74 +1939,74 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CloudKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/DeveloperToolsSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Headers/URLImage-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/dyld.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
-- "/Users/alexandr/Desktop/Swifbook/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/URLImage/URLImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/alexandr/Desktop/IMusic/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -1897,4 +2032,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.4.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5a58a227032d8fd190f30f12e68fae66"
+interface-hash: "5d49437975eada9be5c5280a6267bcf4"

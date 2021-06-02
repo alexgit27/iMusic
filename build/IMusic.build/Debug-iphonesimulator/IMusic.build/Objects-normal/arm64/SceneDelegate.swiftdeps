@@ -370,6 +370,7 @@ depends-member:
 - ["So21UIWindowSceneDelegateP", "window"]
 - ["So21UIWindowSceneDelegateP", "windowScene"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - ["10Foundation27_KeyValueCodingAndObservingP", "ConnectionOptions"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "MainTabBarController"]
@@ -465,6 +466,7 @@ depends-nominal:
 - !private "So8UIWindowC"
 - "So21UIWindowSceneDelegateP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"

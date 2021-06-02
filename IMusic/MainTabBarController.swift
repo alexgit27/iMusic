@@ -16,6 +16,8 @@ protocol MainTabBarControllerDelegate: class {
 class MainTabBarController: UITabBarController {
     let searchVC: SearchViewController = SearchViewController.loadFromStoryboard()
     let trackDetailView: TrackDetailView = TrackDetailView.loadFromNib()
+    let libraryVC: LibraryVC = LibraryVC.loadFromStoryboard()
+    let libraryMusicVC: LibraryMusicViewController = LibraryMusicViewController.loadFromStoryboard()
     
     var minimizedTopAnchorConstraints: NSLayoutConstraint!
     var maximizedTopAnchorConstraints: NSLayoutConstraint!
@@ -25,6 +27,8 @@ class MainTabBarController: UITabBarController {
         super.viewDidLoad()
         
         searchVC.tabBarDelegate = self
+        libraryMusicVC.tabBarDelegate = self
+        
         setupTrackDetailView()
         
         view.backgroundColor = .white
@@ -36,9 +40,19 @@ class MainTabBarController: UITabBarController {
         hostingVC.tabBarItem.image = #imageLiteral(resourceName: "library")
         hostingVC.tabBarItem.title = "Library"
         
+//        viewControllers = [
+//            generateViewController(rootViewController: searchVC, image: UIImage(named: "search")!, title: "Search"),
+//            hostingVC
+//        ]
+        
+//        viewControllers = [
+//            generateViewController(rootViewController: searchVC, image: UIImage(named: "search")!, title: "Search"),
+//           generateViewController(rootViewController: libraryVC, image: UIImage(named: "library")!, title: "Library")
+//        ]
+        
         viewControllers = [
             generateViewController(rootViewController: searchVC, image: UIImage(named: "search")!, title: "Search"),
-            hostingVC
+           generateViewController(rootViewController: libraryMusicVC, image: UIImage(named: "library")!, title: "Library")
         ]
     }
 

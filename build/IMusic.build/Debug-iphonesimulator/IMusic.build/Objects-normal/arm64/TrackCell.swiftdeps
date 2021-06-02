@@ -50,13 +50,14 @@ depends-member:
 - !private ["9Alamofire0A8ExtendedP", "firstIndex"]
 - !private ["Sa", "append"]
 - !private ["Sa", "firstIndex"]
-- !private ["SK", ""]
+- ["SK", ""]
 - !private ["SK", "append"]
 - !private ["SK", "firstIndex"]
 - !private ["So15CALayerDelegateP", "NSKeyedArchiver"]
 - ["So15CALayerDelegateP", "SearchViewModel"]
 - ["So15CALayerDelegateP", "UIButton"]
 - ["So15CALayerDelegateP", "UIImageView"]
+- ["So15CALayerDelegateP", "UILabel"]
 - !private ["So15CALayerDelegateP", "URL"]
 - !private ["So15CALayerDelegateP", "UserDefaults"]
 - ["So15CALayerDelegateP", ""]
@@ -112,10 +113,10 @@ depends-member:
 - !private ["6IMusic15SearchViewModelC4CellC", "collectionName"]
 - !private ["6IMusic15SearchViewModelC4CellC", "iconUrlString"]
 - !private ["6IMusic15SearchViewModelC4CellC", "trackName"]
-- !private ["Sl", ""]
+- ["Sl", ""]
 - !private ["Sl", "append"]
 - !private ["Sl", "firstIndex"]
-- !private ["SL", ""]
+- ["SL", ""]
 - !private ["10Foundation15ContiguousBytesP", "append"]
 - !private ["10Foundation15ContiguousBytesP", "firstIndex"]
 - ["s28CustomDebugStringConvertibleP", "Cell"]
@@ -231,15 +232,15 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", ""]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "firstIndex"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "image"]
 - !private ["s23ExpressibleByNilLiteralP", "init"]
 - !private ["s23ExpressibleByNilLiteralP", "isHidden"]
 - !private ["s23ExpressibleByNilLiteralP", "sd_setImage"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["7SwiftUI7GestureP", "image"]
 - !private ["7SwiftUI7GestureP", "isHidden"]
 - !private ["7SwiftUI7GestureP", "sd_setImage"]
@@ -277,7 +278,7 @@ depends-member:
 - !private ["s12IdentifiableP", "collectionName"]
 - !private ["s12IdentifiableP", "iconUrlString"]
 - !private ["s12IdentifiableP", "trackName"]
-- !private ["s25LosslessStringConvertibleP", ""]
+- ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "append"]
 - !private ["SM", "firstIndex"]
@@ -291,6 +292,7 @@ depends-member:
 - ["So8NSCodingP", "SearchViewModel"]
 - ["So8NSCodingP", "UIButton"]
 - ["So8NSCodingP", "UIImageView"]
+- ["So8NSCodingP", "UILabel"]
 - !private ["So8NSCodingP", "URL"]
 - !private ["So8NSCodingP", "UserDefaults"]
 - ["So8NSCodingP", ""]
@@ -366,6 +368,7 @@ depends-member:
 - ["So8NSObjectP", "SearchViewModel"]
 - ["So8NSObjectP", "UIButton"]
 - ["So8NSObjectP", "UIImageView"]
+- ["So8NSObjectP", "UILabel"]
 - !private ["So8NSObjectP", "URL"]
 - !private ["So8NSObjectP", "UserDefaults"]
 - ["So8NSObjectP", ""]
@@ -417,11 +420,11 @@ depends-member:
 - !private ["Sm", "firstIndex"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - ["6IMusic15SearchViewModelC", "Cell"]
-- !private ["ST", ""]
+- ["ST", ""]
 - !private ["ST", "append"]
 - !private ["ST", "firstIndex"]
-- !private ["s16TextOutputStreamP", ""]
-- !private ["s20TextOutputStreamableP", ""]
+- ["s16TextOutputStreamP", ""]
+- ["s20TextOutputStreamableP", ""]
 - !private ["6IMusic9TrackCellC", "NSKeyedArchiver"]
 - ["6IMusic9TrackCellC", "SearchViewModel"]
 - ["6IMusic9TrackCellC", "UIButton"]
@@ -455,6 +458,7 @@ depends-member:
 - ["So29UIAccessibilityIdentificationP", "SearchViewModel"]
 - ["So29UIAccessibilityIdentificationP", "UIButton"]
 - ["So29UIAccessibilityIdentificationP", "UIImageView"]
+- ["So29UIAccessibilityIdentificationP", "UILabel"]
 - !private ["So29UIAccessibilityIdentificationP", "URL"]
 - !private ["So29UIAccessibilityIdentificationP", "UserDefaults"]
 - ["So29UIAccessibilityIdentificationP", ""]
@@ -479,6 +483,7 @@ depends-member:
 - ["So12UIAppearanceP", "SearchViewModel"]
 - ["So12UIAppearanceP", "UIButton"]
 - ["So12UIAppearanceP", "UIImageView"]
+- ["So12UIAppearanceP", "UILabel"]
 - !private ["So12UIAppearanceP", "URL"]
 - !private ["So12UIAppearanceP", "UserDefaults"]
 - ["So12UIAppearanceP", ""]
@@ -503,6 +508,7 @@ depends-member:
 - ["So21UIAppearanceContainerP", "SearchViewModel"]
 - ["So21UIAppearanceContainerP", "UIButton"]
 - ["So21UIAppearanceContainerP", "UIImageView"]
+- ["So21UIAppearanceContainerP", "UILabel"]
 - !private ["So21UIAppearanceContainerP", "URL"]
 - !private ["So21UIAppearanceContainerP", "UserDefaults"]
 - ["So21UIAppearanceContainerP", ""]
@@ -532,6 +538,7 @@ depends-member:
 - ["So17UICoordinateSpaceP", "SearchViewModel"]
 - ["So17UICoordinateSpaceP", "UIButton"]
 - ["So17UICoordinateSpaceP", "UIImageView"]
+- ["So17UICoordinateSpaceP", "UILabel"]
 - !private ["So17UICoordinateSpaceP", "URL"]
 - !private ["So17UICoordinateSpaceP", "UserDefaults"]
 - ["So17UICoordinateSpaceP", ""]
@@ -556,6 +563,7 @@ depends-member:
 - ["So13UIDynamicItemP", "SearchViewModel"]
 - ["So13UIDynamicItemP", "UIButton"]
 - ["So13UIDynamicItemP", "UIImageView"]
+- ["So13UIDynamicItemP", "UILabel"]
 - !private ["So13UIDynamicItemP", "URL"]
 - !private ["So13UIDynamicItemP", "UserDefaults"]
 - ["So13UIDynamicItemP", ""]
@@ -580,6 +588,7 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "SearchViewModel"]
 - ["So18UIFocusEnvironmentP", "UIButton"]
 - ["So18UIFocusEnvironmentP", "UIImageView"]
+- ["So18UIFocusEnvironmentP", "UILabel"]
 - !private ["So18UIFocusEnvironmentP", "URL"]
 - !private ["So18UIFocusEnvironmentP", "UserDefaults"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -604,6 +613,7 @@ depends-member:
 - ["So11UIFocusItemP", "SearchViewModel"]
 - ["So11UIFocusItemP", "UIButton"]
 - ["So11UIFocusItemP", "UIImageView"]
+- ["So11UIFocusItemP", "UILabel"]
 - !private ["So11UIFocusItemP", "URL"]
 - !private ["So11UIFocusItemP", "UserDefaults"]
 - ["So11UIFocusItemP", ""]
@@ -628,6 +638,7 @@ depends-member:
 - ["So20UIFocusItemContainerP", "SearchViewModel"]
 - ["So20UIFocusItemContainerP", "UIButton"]
 - ["So20UIFocusItemContainerP", "UIImageView"]
+- ["So20UIFocusItemContainerP", "UILabel"]
 - !private ["So20UIFocusItemContainerP", "URL"]
 - !private ["So20UIFocusItemContainerP", "UserDefaults"]
 - ["So20UIFocusItemContainerP", ""]
@@ -675,6 +686,7 @@ depends-member:
 - ["So24UILargeContentViewerItemP", "SearchViewModel"]
 - ["So24UILargeContentViewerItemP", "UIButton"]
 - ["So24UILargeContentViewerItemP", "UIImageView"]
+- ["So24UILargeContentViewerItemP", "UILabel"]
 - !private ["So24UILargeContentViewerItemP", "URL"]
 - !private ["So24UILargeContentViewerItemP", "UserDefaults"]
 - ["So24UILargeContentViewerItemP", ""]
@@ -699,6 +711,7 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "SearchViewModel"]
 - ["So30UIPasteConfigurationSupportingP", "UIButton"]
 - ["So30UIPasteConfigurationSupportingP", "UIImageView"]
+- ["So30UIPasteConfigurationSupportingP", "UILabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "URL"]
 - !private ["So30UIPasteConfigurationSupportingP", "UserDefaults"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -748,6 +761,7 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "SearchViewModel"]
 - ["So30UIResponderStandardEditActionsP", "UIButton"]
 - ["So30UIResponderStandardEditActionsP", "UIImageView"]
+- ["So30UIResponderStandardEditActionsP", "UILabel"]
 - !private ["So30UIResponderStandardEditActionsP", "URL"]
 - !private ["So30UIResponderStandardEditActionsP", "UserDefaults"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -793,6 +807,7 @@ depends-member:
 - ["So18UITraitEnvironmentP", "SearchViewModel"]
 - ["So18UITraitEnvironmentP", "UIButton"]
 - ["So18UITraitEnvironmentP", "UIImageView"]
+- ["So18UITraitEnvironmentP", "UILabel"]
 - !private ["So18UITraitEnvironmentP", "URL"]
 - !private ["So18UITraitEnvironmentP", "UserDefaults"]
 - ["So18UITraitEnvironmentP", ""]
@@ -817,6 +832,7 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "SearchViewModel"]
 - ["So23UIUserActivityRestoringP", "UIButton"]
 - ["So23UIUserActivityRestoringP", "UIImageView"]
+- ["So23UIUserActivityRestoringP", "UILabel"]
 - !private ["So23UIUserActivityRestoringP", "URL"]
 - !private ["So23UIUserActivityRestoringP", "UserDefaults"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -878,9 +894,10 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "append"]
 - !private ["s24_DestructorSafeContainerP", "firstIndex"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - !private ["s19_HasContiguousBytesP", "append"]
 - !private ["s19_HasContiguousBytesP", "firstIndex"]
@@ -965,13 +982,13 @@ depends-member:
 depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
 - !private "Sa"
-- !private "SK"
+- "SK"
 - "So15CALayerDelegateP"
 - !private "8CloudKit21CKRecordValueProtocolP"
 - "s7CVarArgP"
 - !private "6IMusic15SearchViewModelC4CellC"
-- !private "Sl"
-- !private "SL"
+- "Sl"
+- "SL"
 - !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
@@ -981,15 +998,15 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "7SwiftUI7GestureP"
 - "SH"
 - !private "s12IdentifiableP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So7NSCoderC"
@@ -1002,9 +1019,9 @@ depends-nominal:
 - !private "Sm"
 - !private "10Foundation20ReferenceConvertibleP"
 - "6IMusic15SearchViewModelC"
-- !private "ST"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "ST"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "6IMusic9TrackCellC"
 - "6IMusic18TrackCellViewModelP"
 - !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
@@ -1040,9 +1057,10 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
