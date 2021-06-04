@@ -47,7 +47,7 @@ class MainTabBarController: UITabBarController {
     private func setupTrackDetailView() {
 
         trackDetailView.tabBarDelegate = self
-        trackDetailView.trackMovingDelegate = searchVC
+//        trackDetailView.trackMovingDelegate = searchVC
         view.insertSubview(trackDetailView, belowSubview: tabBar)
         trackDetailView.translatesAutoresizingMaskIntoConstraints = false
 

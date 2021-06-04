@@ -11,6 +11,7 @@
 		A862B8142611F36500AC6F9F /* TrackDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A862B8132611F36500AC6F9F /* TrackDetailView.xib */; };
 		A862B8172611F37300AC6F9F /* TrackDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A862B8162611F37300AC6F9F /* TrackDetailView.swift */; };
 		A862B828261226F100AC6F9F /* CMTime + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A862B827261226F000AC6F9F /* CMTime + Extension.swift */; };
+		A867968B266ACE22000DD459 /* .gitigmore in Resources */ = {isa = PBXBuildFile; fileRef = A867968A266ACE22000DD459 /* .gitigmore */; };
 		A871085D260F9625003B5651 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8710856260F9625003B5651 /* SearchPresenter.swift */; };
 		A871085E260F9625003B5651 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8710857260F9625003B5651 /* SearchWorker.swift */; };
 		A871085F260F9625003B5651 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8710858260F9625003B5651 /* SearchRouter.swift */; };
@@ -51,6 +52,7 @@
 		A862B8132611F36500AC6F9F /* TrackDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TrackDetailView.xib; sourceTree = "<group>"; };
 		A862B8162611F37300AC6F9F /* TrackDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailView.swift; sourceTree = "<group>"; };
 		A862B827261226F000AC6F9F /* CMTime + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CMTime + Extension.swift"; sourceTree = "<group>"; };
+		A867968A266ACE22000DD459 /* .gitigmore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitigmore; sourceTree = "<group>"; };
 		A8710856260F9625003B5651 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		A8710857260F9625003B5651 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
 		A8710858260F9625003B5651 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
@@ -192,6 +194,7 @@
 		A88C03A4260F40BA002E64B5 = {
 			isa = PBXGroup;
 			children = (
+				A867968A266ACE22000DD459 /* .gitigmore */,
 				A88C03AF260F40BA002E64B5 /* IMusic */,
 				A88C03AE260F40BA002E64B5 /* Products */,
 				3E9C68CEE2A6FB49487A6BE9 /* Pods */,
@@ -329,6 +332,7 @@
 				A862B8142611F36500AC6F9F /* TrackDetailView.xib in Resources */,
 				A899DB9826665350004DC450 /* LibraryMusicViewController.storyboard in Resources */,
 				A88C03B8260F40BA002E64B5 /* Main.storyboard in Resources */,
+				A867968B266ACE22000DD459 /* .gitigmore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "ce13edae059e3bb59879a4f6bd683b4f"
-build_time: [1622648097, 588548000]
+build_time: [1622840996, 362126000]
 inputs:
   "/Users/alexandr/Desktop/IMusic/Pods/URLImage/Dependencies/Sources/RemoteContentView/Auxiliary/ActivityIndicator.swift": [1617208616, 251809599]
   "/Users/alexandr/Desktop/IMusic/Pods/URLImage/Dependencies/Sources/FileIndex/Common/Bundle+Extensions.swift": [1617208616, 248361533]

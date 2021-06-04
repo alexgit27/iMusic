@@ -60,6 +60,12 @@ class SearchViewController: UIViewController, SearchDisplayLogic {
     }).map({$0 as? UIWindowScene}).compactMap({$0}).first?.windows.filter({$0.isKeyWindow}).first
      tabBarVC = keyWindow?.rootViewController as? MainTabBarController
   }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        tabBarVC.trackDetailView.trackMovingDelegate = self
+    }
 
     private func setupSearchBar() {
         navigationItem.searchController = searchController
@@ -99,7 +105,6 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = table.dequeueReusableCell(withIdentifier: TrackCell.reuseId, for: indexPath) as! TrackCell
         let cellViewModel = searchViewModel.cells[indexPath.row]
         
-        cell.trackImageView.backgroundColor = .red
         cell.set(viewModel: cellViewModel)
         
         return cell
@@ -122,6 +127,12 @@ extension SearchViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        print(#function)
+//        table.deselectRow(at: indexPath, animated: true)
+//        tabBarVC.trackDetailView.trackMovingDelegate = self
+//        let cellViewModel = searchViewModel.cells[indexPath.row]
+//
+//        tabBarDelegate?.maximazeTrackViewController(viewModel: cellViewModel)
         tabBarVC?.trackDetailView.trackMovingDelegate = self
         let cellViewModel = searchViewModel.cells[indexPath.row]
         
@@ -141,36 +152,128 @@ extension SearchViewController: UISearchBarDelegate {
 }
 
 // MARK: -TrackMmovingDelegate
+//extension SearchViewController: TrackMmovingDelegate {
+//    private func getTrack(isForwardTrack: Bool) -> SearchViewModel.Cell? {
+//        guard let indexPath = table.indexPathForSelectedRow else { return nil }
+//        table.deselectRow(at: indexPath, animated: true)
+//        var nextIndexPath: IndexPath!
+//
+//        if isForwardTrack {
+//            nextIndexPath = IndexPath(row: indexPath.row + 1, section: indexPath.section)
+//            if nextIndexPath.row == searchViewModel.cells.count {
+//                nextIndexPath.row = 0
+//            }
+//        } else {
+//            nextIndexPath = IndexPath(row: indexPath.row - 1, section: indexPath.section)
+//            if nextIndexPath.row == -1  {
+//                if nextIndexPath.row == -1 {
+//                    nextIndexPath.row = searchViewModel.cells.count - 1
+//                }
+//            }
+//        }
+//
+//        table.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
+//        let cellViewModel = searchViewModel.cells[nextIndexPath.row]
+//        return cellViewModel
+//    }
+//
+//    func moveBackTrack() -> SearchViewModel.Cell? {
+//        return getTrack(isForwardTrack: false)
+//    }
+//
+//    func moveForwardTrack() -> SearchViewModel.Cell? {
+//        print(#function)
+//        return getTrack(isForwardTrack: true)
+//    }
+//}
+
+//extension SearchViewController: TrackMmovingDelegate {
+//    private func getTrack(isForwardTrack: Bool) -> SearchViewModel.Cell? {
+//        guard let indexPath = table.indexPathForSelectedRow else { return nil }
+//        table.deselectRow(at: indexPath, animated: true)
+//        var nextIndexPath: IndexPath!
+//
+//        if isForwardTrack {
+//            nextIndexPath = IndexPath(row: indexPath.row + 1, section: indexPath.section)
+//            if nextIndexPath.row == searchViewModel.cells.count {
+//                nextIndexPath.row = 0
+//            }
+//        } else {
+//        nextIndexPath = IndexPath(row: indexPath.row - 1, section: indexPath.section)
+//        if nextIndexPath.row == -1  {
+//         if nextIndexPath.row == -1 {
+//                nextIndexPath.row = searchViewModel.cells.count - 1
+//            }
+//        }
+//        }
+//        table.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
+//        let cellViewModel = searchViewModel.cells[nextIndexPath.row]
+//        return cellViewModel
+//    }
+//
+//    func moveBackTrack() -> SearchViewModel.Cell? {
+//        return getTrack(isForwardTrack: false)
+//    }
+//
+//    func moveForwardTrack() -> SearchViewModel.Cell? {
+//        return getTrack(isForwardTrack: true)
+//    }
+//}
 extension SearchViewController: TrackMmovingDelegate {
     private func getTrack(isForwardTrack: Bool) -> SearchViewModel.Cell? {
-        guard let indexPath = table.indexPathForSelectedRow else { return nil }
+        guard let indexPath = table.indexPathForSelectedRow else {
+            print(#function)
+            return nil }
         table.deselectRow(at: indexPath, animated: true)
         var nextIndexPath: IndexPath!
-        
+
         if isForwardTrack {
             nextIndexPath = IndexPath(row: indexPath.row + 1, section: indexPath.section)
             if nextIndexPath.row == searchViewModel.cells.count {
                 nextIndexPath.row = 0
             }
         } else {
-            nextIndexPath = IndexPath(row: indexPath.row - 1, section: indexPath.section)
-            if nextIndexPath.row == -1  {
-                if nextIndexPath.row == -1 {
-                    nextIndexPath.row = searchViewModel.cells.count - 1
-                }
+        nextIndexPath = IndexPath(row: indexPath.row - 1, section: indexPath.section)
+        if nextIndexPath.row == -1  {
+         if nextIndexPath.row == -1 {
+                nextIndexPath.row = searchViewModel.cells.count - 1
             }
         }
-        
+        }
         table.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
         let cellViewModel = searchViewModel.cells[nextIndexPath.row]
         return cellViewModel
     }
+//    private func getTrack(isForwardTrack: Bool) -> SearchViewModel.Cell? {
+//        guard let indexPath = table.indexPathForSelectedRow else { return nil }
+//        table.deselectRow(at: indexPath, animated: true)
+//        var nextIndexPath: IndexPath!
+//
+//        if isForwardTrack {
+//            nextIndexPath = IndexPath(row: indexPath.row + 1, section: indexPath.section)
+//            if nextIndexPath.row == searchViewModel.cells.count {
+//                nextIndexPath.row = 0
+//            }
+//        } else {
+//        nextIndexPath = IndexPath(row: indexPath.row - 1, section: indexPath.section)
+//        if nextIndexPath.row == -1  {
+//         if nextIndexPath.row == -1 {
+//                nextIndexPath.row = searchViewModel.cells.count - 1
+//            }
+//        }
+//        }
+//        table.selectRow(at: nextIndexPath, animated: true, scrollPosition: .none)
+//        let cellViewModel = searchViewModel.cells[nextIndexPath.row]
+//        return cellViewModel
+//    }
     
     func moveBackTrack() -> SearchViewModel.Cell? {
+        print(#function)
         return getTrack(isForwardTrack: false)
     }
     
     func moveForwardTrack() -> SearchViewModel.Cell? {
+        print(#function)
         return getTrack(isForwardTrack: true)
-    }    
+    }
 }

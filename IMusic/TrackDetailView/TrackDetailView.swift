@@ -9,8 +9,6 @@ import UIKit
 import SDWebImage
 import AVKit
 
-
-
 class TrackDetailView: UIView {
     @IBOutlet weak var trackImageView: UIImageView!
     @IBOutlet weak var currentTimeSlider: UISlider!
@@ -28,9 +26,6 @@ class TrackDetailView: UIView {
     @IBOutlet weak var miniTrackTitleLabel: UILabel!
     @IBOutlet weak var miniPlayPauseButton: UIButton!
     
-    
-
-    
     let player: AVPlayer = {
         let avPlayer = AVPlayer()
         avPlayer.automaticallyWaitsToMinimizeStalling = false
@@ -47,9 +42,6 @@ class TrackDetailView: UIView {
         trackImageView.layer.cornerRadius = 5
         miniPlayPauseButton.imageEdgeInsets = .init(top: 11, left: 11, bottom: 11, right: 11)
         setupGetures()
-        
-        print(#function)
-        backgroundColor = .orange
     }
     
     // Delegates
@@ -59,6 +51,8 @@ class TrackDetailView: UIView {
     // MARK:  Setup
     
     func set(viewModel: SearchViewModel.Cell) {
+        print(#function)
+        
         trackTitleLabel.text = viewModel.trackName
         authorTitleLAbel.text = viewModel.artistName
         
@@ -76,6 +70,26 @@ class TrackDetailView: UIView {
         miniPlayPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
         
     }
+    
+//    func set(viewModel: SearchViewModel.Cell) {
+//        print(#function)
+//        trackTitleLabel.text = viewModel.trackName
+//        authorTitleLAbel.text = viewModel.artistName
+//
+//        miniTrackTitleLabel.text = viewModel.trackName
+//
+//        let string600 = viewModel.iconUrlString?.replacingOccurrences(of: "100x100", with: "600x600")
+//        guard let url = URL(string: string600 ?? "") else {return}
+//        trackImageView.sd_setImage(with: url, completed: nil)
+//        miniTrackImageView.sd_setImage(with: url, completed: nil)
+//
+//        playTrack(previewUrl: viewModel.previewUrl)
+//        monitorStartTime()
+//        obeservePlayerCurrentTime()
+//        playPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+//        miniPlayPauseButton.setImage(#imageLiteral(resourceName: "pause"), for: .normal)
+//
+//    }
     
     // MARK: Setup Gestures
     
@@ -178,8 +192,6 @@ class TrackDetailView: UIView {
             let translation = gesture.translation(in: self.superview)
             maximizedStackView.transform = CGAffineTransform(translationX: 0, y: translation.y)
         case .ended:
-            
-            print(#function)
             let translation = gesture.translation(in: self.superview)
             UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.7, initialSpringVelocity: 1, options: .curveEaseInOut, animations: {
                 self.maximizedStackView.transform = .identity
@@ -225,14 +237,22 @@ class TrackDetailView: UIView {
         player.volume = voluemSlider.value
     }
     @IBAction func previousTrack(_ sender: Any) {
+        print(#function)
+//        let cellViewModel = trackMovingDelegate?.moveBackTrack()
+//        guard let viewModel = cellViewModel else { return }
+//        self.set(viewModel: viewModel)
         let cellViewModel = trackMovingDelegate?.moveBackTrack()
         guard let viewModel = cellViewModel else { return }
         self.set(viewModel: viewModel)
     }
     @IBAction func nextTrack(_ sender: Any) {
+//        let cellViewModel = trackMovingDelegate?.moveForwardTrack()
+//        guard let viewModel = cellViewModel else { return }
+//        self.set(viewModel: viewModel)
         let cellViewModel = trackMovingDelegate?.moveForwardTrack()
         guard let viewModel = cellViewModel else { return }
         self.set(viewModel: viewModel)
+
     }
     
     @IBAction func playPauseAction(_ sender: Any) {

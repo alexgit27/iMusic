@@ -245,9 +245,9 @@ SWIFT_CLASS("_TtC6IMusic26LibraryMusicViewController")
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified playButton;
 @property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified refreshButton;
+- (void)viewDidLoad;
 - (IBAction)playButtonAction:(UIButton * _Nonnull)sender;
 - (IBAction)refreshButtonAction:(UIButton * _Nonnull)sender;
-- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -265,8 +265,8 @@ SWIFT_CLASS("_TtC6IMusic26LibraryMusicViewController")
 @interface LibraryMusicViewController (SWIFT_EXTENSION(IMusic)) <UITableViewDelegate>
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (BOOL)tableView:(UITableView * _Nonnull)tableView canEditRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
 
@@ -304,6 +304,7 @@ SWIFT_CLASS("_TtC6IMusic20SearchViewController")
 @interface SearchViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified table;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
