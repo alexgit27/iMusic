@@ -80,7 +80,6 @@ depends-member:
 - !private ["So8NSCodingP", "init"]
 - ["So8NSObjectC", "Cell"]
 - ["So8NSObjectC", ""]
-- !private ["So8NSObjectC", "init"]
 - ["So8NSObjectP", "Cell"]
 - !private ["So8NSObjectP", "init"]
 - !private ["Sk", ""]

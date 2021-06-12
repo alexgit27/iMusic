@@ -106,7 +106,6 @@ depends-top-level:
 - !private "player"
 - !private "print"
 - !private "reduceTarckImageView"
-- !private "set"
 - !private "setupGetures"
 - !private "trackImageView"
 - !private "trackMovingDelegate"
